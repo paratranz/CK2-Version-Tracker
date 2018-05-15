@@ -333,3 +333,7 @@ string_DE_FB_DWSettlement_diedas;;;die/das [This.GetDWSettlement];;;;;;;;;;;x
 string_DE_town_jedejedes;;;jede Stadt;;;;;;;;;;;x
 string_DE_camp_jedejedes;;;jedes Lager;;;;;;;;;;;x
 string_DE_FB_DWSettlement_jedejedes;;;jede(s) [This.GetDWSettlement];;;;;;;;;;;x
+
+string_DE_WeaponAdjEnding_male;;;er;;;;;;;;;;;x
+string_DE_WeaponAdjEnding_female;;;e;;;;;;;;;;;x
+string_DE_WeaponAdjEnding_neutral;;;es;;;;;;;;;;;x

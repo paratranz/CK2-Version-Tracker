@@ -111,6 +111,8 @@
 
 188912 = {
 	name="Yelü-Zhilugu"
+	dna = eboqtsnbtbn
+	properties = fm00gd000000000000
 	dynasty=214009
 	religion=buddhist
 	culture=khitan

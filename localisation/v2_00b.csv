@@ -46,8 +46,8 @@ REQUEST_ANSWER_YES;§GThis Request would be Accepted§!;§GCette demande serait acc
 REQUEST_ANSWER_MAYBE;§YThis Request might be Accepted§!;§YCette demande pourrait être acceptée§!;Dieser Anspruch wird vielleicht akzeptiert werden.;;Esta solicitud podría ser aceptada;;;;;;;;;x
 REQUEST_ANSWER_NO;§RThis Request would be Denied§!;§RCette demande serait refusée§!;Dieser Anspruch wird abgelehnt werden.;;Esta solicitud será denegada;;;;;;;;;x
 HymnsOfAbrahamDLC;Hymns of Abraham;Hymnes d'Abraham;Hymns of Abraham;;Himnos de Abraham;;;;;;;;;x
-WoFUPDLC;Warriors of Faith Unit Pack;Pack d'Unités «Guerriers de la Foi»;Warriors of Faith Unit Pack;;Pack de Unidades Guerreros de la Fe;;;;;;;;;x
-MOUPDLC;Military Orders Unit Pack;Pack d'Unités «Ordres Militaires»;Military Orders Unit Pack;;Pack de Unidades Ordenes Militares;;;;;;;;;x
+WoFUPDLC;Warriors of Faith Unit Pack;Pack d'unités des Guerriers de la foi;Warriors of Faith Unit Pack;;Pack de Unidades Guerreros de la Fe;;;;;;;;;x
+MOUPDLC;Military Orders Unit Pack;Pack d'unités des ordres militaires;Military Orders Unit Pack;;Pack de Unidades Ordenes Militares;;;;;;;;;x
 REVOKE_TITLE_TOOLTIP;Revoke the title of §Y$TITLE$§! from §Y$HOLDER$§!;Révoquer le titre de §Y$TITLE$§! de §Y$HOLDER$§!;§Y$HOLDER$§! den Titel §Y$TITLE$§! entziehen;;Revocar el título de §Y$TITLE$§! de §Y$HOLDER$§!;;;;;;;;;x
 #DESTROY_TITLE_TOOPTIP;Destroy the title of §Y$TITLE$§!.;;Den Titel §Y$TITLE$§! vernichten;;Destruir el título de §Y$TITLE$§!.;;;;;;;;;x
 TITLE_DESTROY_TOOLTIP_IS_NOT_PRIMARY;Title is not the Primary Title;N'est pas votre titre principal;Der Titel ist nicht der Haupttitel;;El título no es el título principal;;;;;;;;;x

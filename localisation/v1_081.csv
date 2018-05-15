@@ -4,6 +4,6 @@ FACTION_LEADERSHIP_CHANGE_LOG;§Y$CHARNAME$§! has become the new leader of the '$
 BUILDING_PREREQ_FAIL;(§RX§!)Has §G$BUILDING$§!;(§RX§!) §Y$BUILDING$§! est déjà construit;(§RX§!) §G$BUILDING$§! wurde gebaut;;(§RX§!)Necesita §G$BUILDING$§!;;;;;;;;;x
 IS_NOT_AT_SEA;Is NOT at Sea;N'est pas en mer;Befindet sich NICHT auf See;;NO está en navegando;;;;;;;;;x
 IS_AT_SEA;Is at Sea;Est en mer;Befindet sich auf See;;Está navegando;;;;;;;;;x
-SongsOfTheRusDLC;Songs of the Rus;Chansons de Russie;Songs of the Rus;;Canciones de Rus;;;;;;;;;x
+SongsOfTheRusDLC;Songs of the Rus;Musiques de Rus';Songs of the Rus;;Canciones de Rus;;;;;;;;;x
 RussianUnitPackDLC;Russian Unit Pack;Pack d'unités russes;Russian Unit Pack;;Pack de Unidades Rusas;;;;;;;;;x
 RussianPortraitsDLC;Russian Portraits;Portraits russes;Russian Portraits;;Retratos Rusos;;;;;;;;;x

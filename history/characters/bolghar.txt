@@ -29,6 +29,8 @@
 3504 = {
 	name="Akhad Moskha"
 	# AKA: Akhad Moskha
+	dna = fqurnyvswdp
+	properties = fjm0ad000000000000
 	dynasty=591
 	religion="sunni"
 	culture="bolghar"
@@ -109,7 +111,7 @@
 
 20923 = {
 	name="Okhotur"
-	dynasty=100615
+	dynasty=5062094
 	martial=7
 	diplomacy=8
 	intrigue=8
@@ -126,7 +128,7 @@
 }
 194394 = {
 	name="Okors"
-	dynasty=100615
+	dynasty=5062094
 	religion="tengri_pagan"
 	culture=bolghar
 	father=20923
@@ -140,7 +142,7 @@
 194395 = {
 	name="Sarä"
 	female=yes
-	dynasty=100615
+	dynasty=5062094
 	religion="tengri_pagan"
 	culture=bolghar
 	father=20923
@@ -1917,11 +1919,9 @@
 	}
 }
 
-
-
 229002 = {
 	name="Bugra"
-	dynasty=100401
+	dynasty=5062096
 	martial=5
 	diplomacy=6
 	intrigue=4

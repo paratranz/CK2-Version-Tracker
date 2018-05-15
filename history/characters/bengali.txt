@@ -48,6 +48,8 @@
 }
 190028 = {
 	name="Dharmapala"
+	dna = pdnpyfnsiad
+	properties = ac0acb000000000000
 	dynasty=1043000
 	religion="buddhist"
 	culture="bengali"
@@ -1581,7 +1583,7 @@
 
 191075 = {
 	name="Laksmsurra"
-	dynasty=1044316 #Aparamandara
+	dynasty=5061093 #Aparamandara
 	religion="buddhist"
 	culture="bengali"
 	trait="kshatriya"

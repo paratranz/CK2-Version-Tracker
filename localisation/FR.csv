@@ -61,6 +61,8 @@ String_FR_GetSSse_male;_;s;;;;;;;;;;;;x
 String_FR_GetSSse_female;_;sse;;;;;;;;;;;;x
 String_FR_GetEEsse_male;_;e;;;;;;;;;;;;x
 String_FR_GetEEsse_female;_;esse;;;;;;;;;;;;x
+String_FR_GetIeuxIeille_male;_;ieux;;;;;;;;;;;;x
+String_FR_GetIeuxIeille_female;_;ieille;;;;;;;;;;;;x
 String_FR_GetEteEtesse_male;_;ète;;;;;;;;;;;;x
 String_FR_GetEteEtesse_female;_;étesse;;;;;;;;;;;;x
 String_FR_GetXSse_male;_;x;;;;;;;;;;;;x
@@ -87,6 +89,12 @@ String_FR_GetAuAlaCap_male;_;Au;;;;;;;;;;;;x
 String_FR_GetAuAlaCap_female;_;À la;;;;;;;;;;;;x
 String_FR_GetDuDela_male;_;du;;;;;;;;;;;;x
 String_FR_GetDuDela_female;_;de la;;;;;;;;;;;;x
+String_FR_GetParrainMarraine_male;_;parrain;;;;;;;;;;;;x
+String_FR_GetParrainMarraine_female;_;marraine;;;;;;;;;;;;x
+String_FR_GetNoneE_female;_;e;;;;;;;;;;;;x
+String_FR_GetNoneEresse_female;_;eresse;;;;;;;;;;;;x
+String_FR_GetSeigneurDameCap_male;_;Seigneur;;;;;;;;;;;;x
+String_FR_GetSeigneurDameCap_female;_;Dame;;;;;;;;;;;;x
 ## MOT DEVANT UNE COMMANDE (PAS D'ESPACE ENTRE LES DEUX COMMANDES)
 String_FR_APOSTROPHE;_;';;;;;;;;;;;;x
 String_FR_e_;_;e ;;;;;;;;;;;;x
@@ -973,7 +981,7 @@ String_FR_GovernmentLeLaCap_republic_government;_;La république;;;;;;;;;;;;x
 String_FR_GovernmentLeLaCap_theocracy_government;_;La théocratie;;;;;;;;;;;;x
 String_FR_GovernmentLeLaCap_theocratic_feudal_government;_;La féodalité monastique;;;;;;;;;;;;x
 String_FR_GovernmentLeLaCap_tribal_government;_;Le tribalisme;;;;;;;;;;;;x
-# GetDWReasonToJoin
+# GetDWReasonToJoinVariante
 String_FR_GetDWReasonToJoinVariante_ill_lover;_;Soigneriez-vous la personne que j'aime;;;;;;;;;;;;x
 String_FR_GetDWReasonToJoinVariante_ill_spouse;_;Soigneriez-vous la personne que j'ai épousée;;;;;;;;;;;;x
 String_FR_GetDWReasonToJoinVariante_ill_child;_;Soigneriez-vous mon enfant;;;;;;;;;;;;x
@@ -982,6 +990,13 @@ String_FR_GetDWReasonToJoinVariante_has_a_rival;_;M'aideriez-vous à terrasser mo
 String_FR_GetDWReasonToJoinVariante_illness;_;Me débarrasseriez-vous de cette maladie;;;;;;;;;;;;x
 String_FR_GetDWReasonToJoinVariante_battle_luck;_;M'aideriez-vous à remporter des batailles;;;;;;;;;;;;x
 String_FR_GetDWReasonToJoinVariante_GetDWReasonToJoin_fallback;_;M'aideriez-vous à terrasser mes ennemis;;;;;;;;;;;;x
+# GetHouse LeLa DuDela
+String_FR_longhouse_lela;_;la maison longue;;;;;;;;;;;x
+String_FR_pavillion_lela;_;le pavillon;;;;;;;;;;;x
+String_FR_palace_lela;_;le palais;;;;;;;;;;;x
+String_FR_longhouse_dudela;_;de la maison longue;;;;;;;;;;;x
+String_FR_pavillion_dudela;_;du pavillon;;;;;;;;;;;x
+String_FR_palace_dudela;_;du palais;;;;;;;;;;;x
 # GetRealmDuDela
 String_FR_GetRealmDuDela_Empire;_;de l'Empire;;;;;;;;;;;;x
 String_FR_GetRealmDuDela_Kingdom;_;du Royaume;;;;;;;;;;;;x

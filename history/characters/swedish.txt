@@ -7997,6 +7997,8 @@
 }
 194282 = {
 	name="Gunnar"
+	dna = fmgzgkqogem
+	properties = 0ggdgd000000000000
 	dynasty=9520
 	religion="catholic"
 	culture="swedish"

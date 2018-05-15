@@ -20,11 +20,11 @@ job_spiritual_tengri_pagan_reformed;Diviner;Devin;Wahrsager;;Augur;;;;;;;;;x
 job_spiritual_zoroastrian;Mobad;Mobad;Mobed;;Mobad;;;;;;;;;x
 nick_hardeknud;Hardeknud;Hardeknud;Hardiknut;;Harthacnut;;;;;;;;;x
 steppe;Steppe;Steppe;Steppe;;Estepa;;;;;;;;;x
-TOGGLE_LOOTER_FAIL_CHARALLOWED; Owner Allowed to Loot; Le propriétaire peut piller; Besitzer kann plündern;; Señor puede saquear;;;;;;;;;x
-TOGGLE_LOOTER_FAIL_INOWNLAND; Unit is in friendly lands; L'unité est en territoire ami; Einheit ist in befreundetem Gebiet;;La unidad se encuentra en tierras amigas;;;;;;;;;x
-TOGGLE_LOOTER_FAIL_MERC; Unit has no Mercenary subunits; L'unité n'inclut pas de compagnie de mercenaires; Einheit enthält keine Söldner;;En la unidad no pueden paraticipar Mercenarios;;;;;;;;;x
-TOGGLE_LOOTER_FAIL_ISATTACHED; Unit is not attached to another Unit; L'unité n'est pas attachée à une autre unité; Einheit ist keiner anderen Einheit angeschlossen;;Esta unidad no forma parte de otra unidad;;;;;;;;;x
-TOGGLE_LOOTER_FAIL_HASATTACHED; Unit does not have any attached Units; L'unité n'a aucune unité attachée; Einheit hat keine anderen angeschlossenen Einheiten;;Esta unidad no está constituida por más unidades.;;;;;;;;;x
+TOGGLE_LOOTER_FAIL_CHARALLOWED;Owner Allowed to Loot;Le propriétaire peut piller; Besitzer kann plündern;; Señor puede saquear;;;;;;;;;x
+TOGGLE_LOOTER_FAIL_INOWNLAND;Unit is in friendly lands;L'unité est en territoire ami; Einheit ist in befreundetem Gebiet;;La unidad se encuentra en tierras amigas;;;;;;;;;x
+TOGGLE_LOOTER_FAIL_MERC;Unit does NOT have any Mercenary subunits;L'unité n'inclut pas de compagnie de mercenaires; Einheit enthält keine Söldner;;En la unidad no pueden paraticipar Mercenarios;;;;;;;;;x
+TOGGLE_LOOTER_FAIL_ISATTACHED;Unit is NOT attached to another Unit;L'unité n'est pas attachée à une autre unité; Einheit ist keiner anderen Einheit angeschlossen;;Esta unidad no forma parte de otra unidad;;;;;;;;;x
+TOGGLE_LOOTER_FAIL_HASATTACHED;Unit does NOT have any attached Units;L'unité n'a aucune unité attachée; Einheit hat keine anderen angeschlossenen Einheiten;;Esta unidad no está constituida por más unidades.;;;;;;;;;x
 INTERACTION_GRANT_GAVELKIND_EXPLOIT;As your primary heir under Gavelkind, §Y$NAME$§! cannot be granted §Y$TITLE$§!;En tant que votre premier héritier en partage salique, §Y$NAME$§! ne peut pas recevoir §Y$TITLE$§!;Als direkter Erbe unter Erbteilung kann §Y$NAME$§! §Y$TITLE$§! nicht erhalten;;Como tu principal heredero bajo la Ley de Sucesión por División, §Y$NAME$§! no puede recibir el §Y$TITLE$§!;;;;;;;;;x
 ca_steppe_barracks_1;Steppe Warrior Lodge;Hutte de guerriers des steppes;Steppenkriegerhütte;;Campamento de Guerreros de la Estepa;;;;;;;;;x
 ca_steppe_barracks_2;Steppe Warrior Lodge;Hutte de guerriers des steppes;Steppenkriegerhütte;;Campamento de Guerreros de la Estepa;;;;;;;;;x
@@ -38,7 +38,7 @@ ca_steppe_stable_3;Steppe Riding Grounds;Terrain équestre des steppes;Steppenrei
 ca_steppe_stable_4;Steppe Riding Grounds;Terrain équestre des steppes;Steppenreiterkoppel;;Zona de Equitación de la Estepa;;;;;;;;;x
 ca_steppe_stable_5;Steppe Riding Grounds;Terrain équestre des steppes;Steppenreiterkoppel;;Zona de Equitación de la Estepa;;;;;;;;;x
 ca_steppe_stable_6;Steppe Riding Grounds;Terrain équestre des steppes;Steppenreiterkoppel;;Zona de Equitación de la Estepa;;;;;;;;;x
-CK2CoA3DLC;Dynasty Coat of Arms Pack 3;Pack d'armoiries dynastiques III;Dynasty Coat of Arms Pack 3;;Pack 3 de Armas Dinásticas;;;;;;;;;x
+CK2CoA3DLC;Dynasty Coat of Arms Pack 3;Pack d'armoiries 3;Dynasty Coat of Arms Pack 3;;Pack 3 de Armas Dinásticas;;;;;;;;;x
 NorseUnitPackDLC;Norse Unit Pack;Pack d'unités nordiques;Norse Unit Pack;;Pack de Unidades Nórdicas;;;;;;;;;x
 NorsePortraitsDLC;Norse Portraits;Portraits nordiques;Norse Portraits;;Perfiles Nórdicos;;;;;;;;;x
 ca_steppe_barracks_desc;The people of the steppes focus on horse warfare at the expense of foot soldiers, but the fighting men trained at this warrior lodge are more than capable of holding their own in battle.;Les peuples des steppes se focalisent sur la guerre montée au détriment des fantassins, mais les combattants entraînés dans cette hutte de guerriers sont plus que capables de bien se tenir au combat.;Die Steppenvölker ziehen den Kampf zu Pferde vor, aber die hier ausgebildeten unberittenen Krieger können sich durchaus im Krieg behaupten.;;Los pueblos de las estepas se valieron principalmente de la lucha a caballo infravalorando a los guerreros a pie, pero los guerreros entrenados en este campamento son perfectamente capaces de batallar por si mismos.;;;;;;;;;x

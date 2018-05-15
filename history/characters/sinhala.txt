@@ -489,6 +489,8 @@
 	}
 	1056.1.1={
 		name="Vijayabahu"
+		dna = tbtehvfriwg
+		properties = fagjej000000000000
 		trait="brilliant_strategist" 
 		trait="just" 
 		trait="zealous"

@@ -3141,6 +3141,8 @@
 
 247105 = {
 	name="Song Detsen"
+	dna = dwiuwqvmgyh
+	properties = aaebc0000000000000
 	dynasty=105800 #Purgyal
 	religion="buddhist"
 	trait = vajrayana_buddhist
@@ -4684,6 +4686,8 @@
 
 247204 = {
 	name="Lha Taramo"
+	dna = ggdhwzognbu
+	properties = dh0ahc0000000000c0
 	female=yes
 	dynasty=105800 #Purgyal
 	religion="buddhist"
@@ -4991,6 +4995,8 @@
 
 247224 = {
 	name="Sherab Tsultrim"
+	dna = hvlrphnybna
+	properties = cj0ick000000000000
 	dynasty=105802 #Khön
 	religion="buddhist"
 	trait="vajrayana_buddhist"
