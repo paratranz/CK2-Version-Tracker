@@ -507,7 +507,7 @@ tribal_king_female_old_saxon;Grand Chieftess;Grande cheffesse;Großherrscherin;;G
 tribal_kingdom_of_old_saxon;Grand Chiefdom of;Grande chefferie de;Großhäuptlingstum von;;Gran Cacicazgo de;;;;;;;;;x
 tribal_duke_norse;Jarl;Jarl;Jarl;;Jarl;;;;;;;;;x
 k_saxony;Saxony;Saxe;Sachsen;;Sajonia;;;;;;;;;x
-#RETTYPE_CUL_PICTISH;Pictish Raiders;Pillards pictes;Piktische Reiter;;Jinetes Pictos;;;;;;;;;x
+RETTYPE_CUL_PICTISH;Pictish Raiders;Pillards pictes;Piktische Reiter;;Jinetes Pictos;;;;;;;;;x
 ca_culture_pictish_1;Hall of War;Salle des guerriers;Kriegerhalle;;Antesala de la Guerra;;;;;;;;;x
 ca_culture_pictish_2;Hall of War;Salle des guerriers;Kriegerhalle;;Antesala de la Guerra;;;;;;;;;x
 ca_culture_pictish_3;Hall of War;Salle des guerriers;Kriegerhalle;;Antesala de la Guerra;;;;;;;;;x
@@ -1011,7 +1011,7 @@ EVTOPTA_CM_63199;Curses!;Malédiction !;Verflucht!;;¡Maldición!;;;;;;;;;x
 EVTDESC_63103;On the death of my [GetNewRelation], my [GetFromRelation] [From.GetFirstName] may have been elected [From.PrimaryTitle.GetRulerTitle] of [From.PrimaryTitle.GetName], but I am under no obligation to accept [From.GetObjectPronoun] as my liege!;À la mort de m[New.GetOnA] [GetNewRelation], m[From.GetOnA] [GetFromRelation] [From.GetFirstName] pourrait accéder au titre de [From.PrimaryTitle.GetRulerTitle] de [From.PrimaryTitle.GetName], mais je n'ai en aucun cas l'obligation de l'accepter en tant que [From.GetLordLady] lige !;Nach dem Tode meines [GetNewRelation] könnte mein [GetFromRelation] [From.GetFirstName] zum [From.PrimaryTitle.GetRulerTitle] von [From.PrimaryTitle.GetName] gewählt werden, aber ich bin in keiner Weise verpflichtet, [From.GetObjectPronoun] als Lehnsherrn anzunehmen!;;En la muerte de mi [GetNewRelation], mi [GetFromRelation] [From.GetFirstName] debe haber sido elegido [From.PrimaryTitle.GetRulerTitle] de [From.PrimaryTitle.GetName], ¡pero yo no estoy obligado a aceptar[From.GetObjectPronoun] como mi señor feudal!;;;;;;;;;x
 EVTOPTA_63103;The realm should stay one.;Le royaume doit rester uni.;Das Reich sollte ungeteilt bleiben.;;El reino debería estar unido.;;;;;;;;;x
 EVTOPTB_63103;Time to split the realm!;Il est temps de diviser le royaume !;Zeit, das Reich zu teilen!;;¡Es el momento de escindir el reino!;;;;;;;;;x
-EVTDESC_63104;My [GetFromRelation] [From.GetFirstName] has chosen independence from my rule.;M[From.GetOnA] [GetFromRelation] [From.GetFirstName] a préféré l'indépendance à autorité.;Mein [GetFromRelation] [From.GetFirstName] hat sich für die Unabhängigkeit von meiner Herrschaft entschieden.;;Mi [GetFromRelation] [From.GetFirstName] ha escogido independizarse de mi gobierno.;;;;;;;;;x
+EVTDESC_63104;My [GetFromRelation] [From.GetFirstName] has chosen independence from my rule.;M[From.GetOnA] [GetFromRelation] [From.GetFirstName] a préféré l'indépendance à mon autorité.;Mein [GetFromRelation] [From.GetFirstName] hat sich für die Unabhängigkeit von meiner Herrschaft entschieden.;;Mi [GetFromRelation] [From.GetFirstName] ha escogido independizarse de mi gobierno.;;;;;;;;;x
 EVTOPTA_63104;Such is [From.GetPossPronoun] right...;Tel est son droit...;Das ist [From.GetPossPronoun] Recht ...;;Está en [From.GetPossPronoun] derecho...;;;;;;;;;x
 IS_MULTIPLAYER;Is a multiplayer game;Est une partie multijoueur;Ist ein Multiplayer-Spiel;;Es una partida multi-jugador;;;;;;;;;x
 IS_NOT_MULTIPLAYER;Is not a multiplayer game;N'est pas une partie multijoueur;Ist kein Multiplayer-Spiel;;No es una partida multi-jugador;;;;;;;;;x

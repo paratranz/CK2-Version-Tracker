@@ -1,8 +1,8 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 WIKIPEDIA_LINK;§YWikipedia Link§W;§YLien Wikipédia§W;§YWikipedia Link§W;;§YEnlace a Wikipedia§W;;;;;;;;;x
-WIKIPEDIA_LINK_DESC;Opens a browser to the Wikipedia page for this character;Ouvre un navigateur vers la page Wikipedia du personnage;Öffnet den Browser und zeigt die Wikipediaseite für diesen Charakter an;;Abre un enlace en el explorador a la página de Wikipedia de este personaje;;;;;;;;;x
+WIKIPEDIA_LINK_DESC;Opens a browser to the Wikipedia page for this character;Ouvre un navigateur vers la page Wikipédia du personnage;Öffnet den Browser und zeigt die Wikipediaseite für diesen Charakter an;;Abre un enlace en el explorador a la página de Wikipedia de este personaje;;;;;;;;;x
 WIKIPEDIA_LINK_MISSING;§YThis character has no Wikipedia link§W;§YCe personnage n'a pas de page wikipédia§!;§YDieser Charakter besitzt keinen Wikipedia-Link§!;;§YEste personaje no tiene enlace en Wikipedia§W;;;;;;;;;x
-WIKIPEDIA_LINK_DISABLED;Wikipedia Links are disabled;Les liens wikipedia sont désactivés;Wikipedia-Links sind deaktiviert;;Los enlaces a la Wikipedia están desactivados;;;;;;;;;x
+WIKIPEDIA_LINK_DISABLED;Wikipedia Links are disabled;Les liens wikipédia sont désactivés;Wikipedia-Links sind deaktiviert;;Los enlaces a la Wikipedia están desactivados;;;;;;;;;x
 AIREASON_TARGET_HAS_REPENTED_SINS;§Y[GetBestName]§! has recently repented [GetPossPronoun] sins;§Y[GetBestName]§! s'est récemment repenti de ses péchés;§Y[GetBestName]§! hat jüngst für [GetPossPronoun]e Sünden Buße getan;;§Y[GetBestName]§! se ha arrepentido recientemente de sus [GetPossPronoun] pecados;;;;;;;;;x
 OL_DISABLED_ALERTS;Disabled Alerts;Alertes déactivées;Alarme sind deaktiviert;;Desactivar Avisos;;;;;;;;;x
 alert_deficits_name;Deficits;Déficits;Defizite;;Déficits;;;;;;;;;x

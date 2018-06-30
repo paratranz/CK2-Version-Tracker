@@ -1,7 +1,7 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 MENU_BAR_GAME_CONVERT;Export Game;Exporter une partie;Spiel exportieren;;Exportar Partida;;;;;;;;;x
 MENU_BAR_GAME_CONVERT_DEL;Export game to EU4;Exporter une partie vers EU4;Spiel nach EU4 exportieren;;Exportar partuda a EU4;;;;;;;;;x
-BARBER_TOOLTIP;Go to the Barber;Aller chez le barbier;Zum Barbier gehen;;Ir al Peluquero;;;;;;;;;x
+BARBER_TOOLTIP;§YGo to the Barber§!;§YAller chez le barbier§!;§YZum Barbier gehen§!;;§YIr al Peluquero§!;;;;;;;;;x
 RENAME_TITLE_TOOLTIP;Rename Title;Renommer titre;Titel umbenennen;;Renombrar Título;;;;;;;;;x
 CUSTOMIZE_HOUSE_TOOLTIP;Customize House;Personnaliser dynastie;Haus anpassen;;Personaliza tu Dinastía;;;;;;;;;x
 CUSTOMIZE_HOUSE_TOOLTIP_DISABLED;You can't customize this dynasty as you have to be top liege of all its members.;Vous ne pouvez pas personnaliser cette dynastie car vous devez être le plus haut seigneur de tous ses membres.;Du kannst diese Dynastie nicht anpassen, da du der oberste Lehnsherr all ihrer Mitglieder sein musst.;;No puedes personalizar esta dinastía porque tienes que ser el Señor de todos sus miembros.;;;;;;;;;x

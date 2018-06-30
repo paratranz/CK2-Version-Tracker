@@ -24,6 +24,7 @@
 # GetOnA (mon, ma, Mon, Ma, son, sa, Son, Sa)
 # GetOnAOpp
 # GetErEre
+# GetErEreOpp
 # GetEEtte
 # GetEEtteOpp
 # GetEtEtte
@@ -39,11 +40,11 @@
 # GetOuOlle (fou\folle)
 # GetOuOlleOpp
 # GetEauElle
-# GetSSse (gros\grosse las\lasse)
+# GetSSse (gros\grosse, las\lasse)
 # GetEEsse (traître\traîtresse)
 # GetIeuxIeille (vieux\vieille)
-# GetNoneE (Not there - harcoded)
-# GetNoneEOpp (Not there - harcoded)
+# GetNoneE (Pas dans ce fichier - codé en dur)
+# GetNoneEOpp (Pas dans ce fichier - codé en dur)
 # GetNoneEPreference
 # GetNNnePreference
 # GetEteEtesse (poète\poétesse)
@@ -64,19 +65,19 @@
 # GetSeigneurDame
 
 ## MOT DEVANT UNE COMMANDE (PAS D'ESPACE ENTRE LES DEUX COMMANDES)
-# Get_du_RealmFull (du\de la\de l'\des devant GetFullName dans un scope de titre) *TITLE
-# Get_dans_RealmFull (dans le\dans la\dans l'\chez les devant GetFullNamedans un scope de titre) *TITLE
-# Get_le_RealmFull (le\la\l'\les devant GetFullNamedans un scope de titre) *TITLE
-# Get_au_RealmFull (AuAlaAux devant GetFullNamedans un scope de titre) *TITLE
+# Get_du_RealmFull (du\de la\de l'\des devant GetFullName dans un scope de titre ou GetFullBaseName) *TITLE
+# Get_dans_RealmFull (dans le\dans la\dans l'\chez les devant GetFullName dans un scope de titre ou GetFullBaseName) *TITLE
+# Get_le_RealmFull (le\la\l'\les devant GetFullName dans un scope de titre ou GetFullBaseName) *TITLE
+# Get_au_RealmFull (AuAlaAux devant GetFullName dans un scope de titre ou GetFullBaseName) *TITLE
 # Get_le_PrimaryTitleName (le\la\l'\les devant PrimaryTitle.GetName) *TITLE
 # Get_du_PrimaryTitleName (du\de la\de l'\des devant PrimaryTitle.GetName...) *TITLE
 # Get_dans_PrimaryTitleName (dans le\dans la\dans l'\dans les\chez les devant PrimaryTitle.GetName...) *TITLE
-# Get_du_Title (du\de la\de l' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer) *TITLE
-# Get_le_Title (le\la\l' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer) *TITLE
-# Get_Le_Title (Le\La\L' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer) *TITLE
-# Get_au_Title (au\à la\à l' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer) *TITLE
-# Get_Au_Title (Au\À la\À l' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer) *TITLE
-# Get_e_Title (e\' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer) *TITLE
+# Get_du_Title (du\de la\de l' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer|GetRulerTitle) *TITLE
+# Get_le_Title (le\la\l' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer|GetRulerTitle) *TITLE
+# Get_Le_Title (Le\La\L' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer|GetRulerTitle) *TITLE
+# Get_au_Title (au\à la\à l' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer|GetRulerTitle) *TITLE
+# Get_Au_Title (Au\À la\À l' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer|GetRulerTitle) *TITLE
+# Get_e_Title (e\' devant GetTitledFirstNameNoRegnal|GetTitledFirstName|GetTitledFirstNameWithNick|GetTitledName|GetTitle|GetBestName|GetTitledNameWithNick|GetLawProposer|GetRulerTitle) *TITLE
 # Get_du_Society (du\de la\de l'\des devant Society.GetName) *SOCIETY
 # Get_le_Society (le\la\l'\les devant Society.GetName) *SOCIETY
 # Get_Le_Society (Le\La\L'\Les devant Society.GetName) *SOCIETY
@@ -102,8 +103,14 @@
 # Get_au_HighGod (au\à la\à l' devant Religion.GetHighGodName) *RELIGION
 # Get_le_HighGod (le\la\l' devant Religion.GetHighGodName) *RELIGION
 # Get_Le_HighGod (Le\La\L' devant Religion.GetHighGodName) *RELIGION
+# Get_du_HighGodTrue (du\de la\de l' devant TrueReligion.GetHighGodName) *RELIGION
+# Get_au_HighGodTrue (au\à la\à l' devant TrueReligion.GetHighGodName) *RELIGION
+# Get_le_HighGodTrue (le\la\l' devant TrueReligion.GetHighGodName) *RELIGION
+# Get_du_HighGodSecret (du\de la\de l' devant SecretReligion.GetHighGodName) *RELIGION
 # Get_le_Scripture (le\la\l'\les devant Religion.GetScriptureName) *RELIGION
 # Get_du_Scripture (du\de la\de l'\des devant Religion.GetScriptureName) *RELIGION
+# Get_du_ScriptureSecret (du\de la\de l'\des devant SecretReligion.GetScriptureName) *RELIGION
+# Get_le_ScriptureSecret (le\la\l'\les devant SecretReligion.GetScriptureName) *RELIGION
 
 ## REMPLACEMENT DE COMMANDES CODEES EN DUR
 # GetReligiousGroupMascFem (Religion.GetGroupName + MascFem) *RELIGION GROUP
@@ -111,6 +118,7 @@
 # GetReligionMascFem (Religion.GetName + MascFem) *RELIGION
 # GetReligionMascPl (Religion.GetName + MascPl) *RELIGION
 # GetReligionMasc (Religion.GetName + Masc) *RELIGION
+# GetEvilGodLeLaLes (Religion.GetRandomEvilGodName + LeLaLes) *RELIGION
 # GetEvilGodDuDelaDes (Religion.GetRandomEvilGodName + DuDelaDes) *RELIGION
 # GetCultureMasc (Culture.GetName + Masc) *CULTURE
 # GetCultureMascFem (Culture.GetName + MascFem) *CULTURE
@@ -125,8 +133,6 @@
 # GetHouseOfWorshipDuDela (GetHouseOfWorship + DuDela)
 # GetHouseOfWorshipUnUne (GetHouseOfWorship + UnUne)
 # GetReligiousPersonMascFem (GetReligiousPerson + MascFem)
-# GetTrueReligionScriptureNameDuDelaDes (GetTrueReligionScriptureName + DuDelaDes)
-# GetTrueReligionHighGodDuDelaDes (GetTrueReligionHighGod + DuDelaDes)
 # GetDWSettlementAuAla (GetDWSettlement + AuAla)
 # GetDWDevilDuDela (GetDWDevil + DuDela)
 # GetMatterOfImportanceOnA (GetMatterOfImportance + OnA)
@@ -136,7 +142,6 @@
 # GetHouseDuDela (GetHouse + DuDela)
 
 ## NOUVELLES COMMANDES PERSONNALISEES
-# GetRealmDuDela (de l'Empire\du Royaume\du Duché\des terres comtales)
 # GetLegumeIncapable (légume/incapable)
 # GetLarveVermisseau (vermisseau/larve)
 
@@ -394,6 +399,22 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_GetErEre_female
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetErEreOpp
+	text = {
+		localisation_key = String_FR_GetErEreOpp_male
+		trigger = {
+			is_female = no
+		}
+	}
+	text = {
+		localisation_key = String_FR_GetErEreOpp_female
 		trigger = {
 			is_female = yes
 		}
@@ -12150,9 +12171,7 @@ defined_text = {
 
 defined_text = {
 	name = Get_du_Society
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_Get_du_Society
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_des_
 		trigger = { 
@@ -12163,14 +12182,12 @@ defined_text = {
 				society_member_of = secret_religious_society_baltic_pagan_reformed # Enfants de Dievas
 				society_member_of = secret_religious_society_bogomilist # Fidèles bogomiles
 				society_member_of = secret_religious_society_bon # Fidèles bön
-				society_member_of = secret_religious_society_bon_reformed # Fidèles bön
 				society_member_of = secret_religious_society_cathar # Bons Chrétiens
 				society_member_of = secret_religious_society_druze # Sages
 				society_member_of = secret_religious_society_finnish_pagan # Haches d'Ukko
 				society_member_of = secret_religious_society_finnish_pagan_reformed # Messagers d'Ukko
 				society_member_of = secret_religious_society_fraticelli # Fidèles fraticelles
 				society_member_of = secret_religious_society_hellenic_pagan # Hellènes
-				society_member_of = secret_religious_society_hellenic_pagan_reformed # Hellènes
 				society_member_of = secret_religious_society_hurufi # Fidèles hurufites
 				society_member_of = secret_religious_society_ibadi # Fidèles ibadites
 				society_member_of = secret_religious_society_iconoclast # Briseurs d'icônes
@@ -12204,19 +12221,10 @@ defined_text = {
 				society_member_of = secret_religious_society_zoroastrian # Mages loyaux
 				society_member_of = secret_religious_society_zun_pagan # Flammes de Zun
 				society_member_of = the_assassins # Assassins
-				society_member_of = the_bacchants # Mystères de Bacchus
 				society_member_of = the_cold_ones # Sangs Froids
 				society_member_of = the_cult_of_kali # Adeptes de Kâli Purusha
 				society_member_of = the_plaguebringers # Porteurs de la Peste
 				society_member_of = the_satanists # Adeptes de Lucifer
-				society_member_of = warrior_lodge_bon # Guerriers Inspirés
-				society_member_of = warrior_lodge_finnish # Fidèles d'Otso
-				society_member_of = warrior_lodge_hellenic # Champions de l'Olympe
-				society_member_of = warrior_lodge_norse # Guerriers loups
-				society_member_of = warrior_lodge_slavic # Champions de Péroun
-				society_member_of = warrior_lodge_tengri # Guerriers aigles
-				society_member_of = warrior_lodge_west_african # Guerriers du Fleuve
-				society_member_of = warrior_lodge_zun # Guerriers du Feu
 			}
 		}
 	}
@@ -12232,7 +12240,6 @@ defined_text = {
 				society_member_of = secret_religious_society_slavic_pagan_reformed # Vérité de Péroun
 				society_member_of = secret_religious_society_sunni # Confrérie islamique
 				society_member_of = the_trollcrafters # Confrérie de Hel
-				society_member_of = warrior_lodge_baltic # Bande de Medeina
 			}
 		}
 	}
@@ -12256,17 +12263,17 @@ defined_text = {
 				society_member_of = monastic_order_benedictine # Ordre des Bénédictins
 				society_member_of = monastic_order_dominican # Ordre des Dominicains
 				society_member_of = monastic_order_hindu # Advaita Matha
-				society_member_of = monastic_order_stoics # Intelligentsia stoïcienne
 			}
 		}
+	}
+	fallback_text = {
+		localisation_key = String_FR_de_
 	}
 }
 
 defined_text = {
 	name = Get_le_Society
-	fallback_text = {
-		localisation_key = ""
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_les_
 		trigger = { 
@@ -12277,14 +12284,12 @@ defined_text = {
 				society_member_of = secret_religious_society_baltic_pagan_reformed # Enfants de Dievas
 				society_member_of = secret_religious_society_bogomilist # Fidèles bogomiles
 				society_member_of = secret_religious_society_bon # Fidèles bön
-				society_member_of = secret_religious_society_bon_reformed # Fidèles bön
 				society_member_of = secret_religious_society_cathar # Bons Chrétiens
 				society_member_of = secret_religious_society_druze # Sages
 				society_member_of = secret_religious_society_finnish_pagan # Haches d'Ukko
 				society_member_of = secret_religious_society_finnish_pagan_reformed # Messagers d'Ukko
 				society_member_of = secret_religious_society_fraticelli # Fidèles fraticelles
 				society_member_of = secret_religious_society_hellenic_pagan # Hellènes
-				society_member_of = secret_religious_society_hellenic_pagan_reformed # Hellènes
 				society_member_of = secret_religious_society_hurufi # Fidèles hurufites
 				society_member_of = secret_religious_society_ibadi # Fidèles ibadites
 				society_member_of = secret_religious_society_iconoclast # Briseurs d'icônes
@@ -12318,19 +12323,10 @@ defined_text = {
 				society_member_of = secret_religious_society_zoroastrian # Mages loyaux
 				society_member_of = secret_religious_society_zun_pagan # Flammes de Zun
 				society_member_of = the_assassins # Assassins
-				society_member_of = the_bacchants # Mystères de Bacchus
 				society_member_of = the_cold_ones # Sangs Froids
 				society_member_of = the_cult_of_kali # Adeptes de Kâli Purusha
 				society_member_of = the_plaguebringers # Porteurs de la Peste
 				society_member_of = the_satanists # Adeptes de Lucifer
-				society_member_of = warrior_lodge_bon # Guerriers Inspirés
-				society_member_of = warrior_lodge_finnish # Fidèles d'Otso
-				society_member_of = warrior_lodge_hellenic # Champions de l'Olympe
-				society_member_of = warrior_lodge_norse # Guerriers loups
-				society_member_of = warrior_lodge_slavic # Champions de Péroun
-				society_member_of = warrior_lodge_tengri # Guerriers aigles
-				society_member_of = warrior_lodge_west_african # Guerriers du Fleuve
-				society_member_of = warrior_lodge_zun # Guerriers du Feu
 			}
 		}
 	}
@@ -12346,7 +12342,6 @@ defined_text = {
 				society_member_of = secret_religious_society_slavic_pagan_reformed # Vérité de Péroun
 				society_member_of = secret_religious_society_sunni # Confrérie islamique
 				society_member_of = the_trollcrafters # Confrérie de Hel
-				society_member_of = warrior_lodge_baltic # Bande de Medeina
 			}
 		}
 	}
@@ -12370,17 +12365,17 @@ defined_text = {
 				society_member_of = monastic_order_benedictine # Ordre des Bénédictins
 				society_member_of = monastic_order_dominican # Ordre des Dominicains
 				society_member_of = monastic_order_hindu # Advaita Matha
-				society_member_of = monastic_order_stoics # Intelligentsia stoïcienne
 			}
 		}
+	}
+	fallback_text = {
+		localisation_key = ""
 	}
 }
 
 defined_text = {
 	name = Get_Le_Society
-	fallback_text = {
-		localisation_key = ""
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_Les_
 		trigger = { 
@@ -12391,14 +12386,12 @@ defined_text = {
 				society_member_of = secret_religious_society_baltic_pagan_reformed # Enfants de Dievas
 				society_member_of = secret_religious_society_bogomilist # Fidèles bogomiles
 				society_member_of = secret_religious_society_bon # Fidèles bön
-				society_member_of = secret_religious_society_bon_reformed # Fidèles bön
 				society_member_of = secret_religious_society_cathar # Bons Chrétiens
 				society_member_of = secret_religious_society_druze # Sages
 				society_member_of = secret_religious_society_finnish_pagan # Haches d'Ukko
 				society_member_of = secret_religious_society_finnish_pagan_reformed # Messagers d'Ukko
 				society_member_of = secret_religious_society_fraticelli # Fidèles fraticelles
 				society_member_of = secret_religious_society_hellenic_pagan # Hellènes
-				society_member_of = secret_religious_society_hellenic_pagan_reformed # Hellènes
 				society_member_of = secret_religious_society_hurufi # Fidèles hurufites
 				society_member_of = secret_religious_society_ibadi # Fidèles ibadites
 				society_member_of = secret_religious_society_iconoclast # Briseurs d'icônes
@@ -12432,19 +12425,10 @@ defined_text = {
 				society_member_of = secret_religious_society_zoroastrian # Mages loyaux
 				society_member_of = secret_religious_society_zun_pagan # Flammes de Zun
 				society_member_of = the_assassins # Assassins
-				society_member_of = the_bacchants # Mystères de Bacchus
 				society_member_of = the_cold_ones # Sangs Froids
 				society_member_of = the_cult_of_kali # Adeptes de Kâli Purusha
 				society_member_of = the_plaguebringers # Porteurs de la Peste
 				society_member_of = the_satanists # Adeptes de Lucifer
-				society_member_of = warrior_lodge_bon # Guerriers Inspirés
-				society_member_of = warrior_lodge_finnish # Fidèles d'Otso
-				society_member_of = warrior_lodge_hellenic # Champions de l'Olympe
-				society_member_of = warrior_lodge_norse # Guerriers loups
-				society_member_of = warrior_lodge_slavic # Champions de Péroun
-				society_member_of = warrior_lodge_tengri # Guerriers aigles
-				society_member_of = warrior_lodge_west_african # Guerriers du Fleuve
-				society_member_of = warrior_lodge_zun # Guerriers du Feu
 			}
 		}
 	}
@@ -12460,7 +12444,6 @@ defined_text = {
 				society_member_of = secret_religious_society_slavic_pagan_reformed # Vérité de Péroun
 				society_member_of = secret_religious_society_sunni # Confrérie islamique
 				society_member_of = the_trollcrafters # Confrérie de Hel
-				society_member_of = warrior_lodge_baltic # Bande de Medeina
 			}
 		}
 	}
@@ -12484,17 +12467,17 @@ defined_text = {
 				society_member_of = monastic_order_benedictine # Ordre des Bénédictins
 				society_member_of = monastic_order_dominican # Ordre des Dominicains
 				society_member_of = monastic_order_hindu # Advaita Matha
-				society_member_of = monastic_order_stoics # Intelligentsia stoïcienne
 			}
 		}
+	}
+	fallback_text = {
+		localisation_key = ""
 	}
 }
 
 defined_text = {
 	name = Get_au_Society
-	fallback_text = {
-		localisation_key = String_FR_a_ACCENT
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_aux_
 		trigger = { 
@@ -12505,14 +12488,12 @@ defined_text = {
 				society_member_of = secret_religious_society_baltic_pagan_reformed # Enfants de Dievas
 				society_member_of = secret_religious_society_bogomilist # Fidèles bogomiles
 				society_member_of = secret_religious_society_bon # Fidèles bön
-				society_member_of = secret_religious_society_bon_reformed # Fidèles bön
 				society_member_of = secret_religious_society_cathar # Bons Chrétiens
 				society_member_of = secret_religious_society_druze # Sages
 				society_member_of = secret_religious_society_finnish_pagan # Haches d'Ukko
 				society_member_of = secret_religious_society_finnish_pagan_reformed # Messagers d'Ukko
 				society_member_of = secret_religious_society_fraticelli # Fidèles fraticelles
 				society_member_of = secret_religious_society_hellenic_pagan # Hellènes
-				society_member_of = secret_religious_society_hellenic_pagan_reformed # Hellènes
 				society_member_of = secret_religious_society_hurufi # Fidèles hurufites
 				society_member_of = secret_religious_society_ibadi # Fidèles ibadites
 				society_member_of = secret_religious_society_iconoclast # Briseurs d'icônes
@@ -12546,19 +12527,10 @@ defined_text = {
 				society_member_of = secret_religious_society_zoroastrian # Mages loyaux
 				society_member_of = secret_religious_society_zun_pagan # Flammes de Zun
 				society_member_of = the_assassins # Assassins
-				society_member_of = the_bacchants # Mystères de Bacchus
 				society_member_of = the_cold_ones # Sangs Froids
 				society_member_of = the_cult_of_kali # Adeptes de Kâli Purusha
 				society_member_of = the_plaguebringers # Porteurs de la Peste
 				society_member_of = the_satanists # Adeptes de Lucifer
-				society_member_of = warrior_lodge_bon # Guerriers Inspirés
-				society_member_of = warrior_lodge_finnish # Fidèles d'Otso
-				society_member_of = warrior_lodge_hellenic # Champions de l'Olympe
-				society_member_of = warrior_lodge_norse # Guerriers loups
-				society_member_of = warrior_lodge_slavic # Champions de Péroun
-				society_member_of = warrior_lodge_tengri # Guerriers aigles
-				society_member_of = warrior_lodge_west_african # Guerriers du Fleuve
-				society_member_of = warrior_lodge_zun # Guerriers du Feu
 			}
 		}
 	}
@@ -12574,7 +12546,6 @@ defined_text = {
 				society_member_of = secret_religious_society_slavic_pagan_reformed # Vérité de Péroun
 				society_member_of = secret_religious_society_sunni # Confrérie islamique
 				society_member_of = the_trollcrafters # Confrérie de Hel
-				society_member_of = warrior_lodge_baltic # Bande de Medeina
 			}
 		}
 	}
@@ -12598,9 +12569,11 @@ defined_text = {
 				society_member_of = monastic_order_benedictine # Ordre des Bénédictins
 				society_member_of = monastic_order_dominican # Ordre des Dominicains
 				society_member_of = monastic_order_hindu # Advaita Matha
-				society_member_of = monastic_order_stoics # Intelligentsia stoïcienne
 			}
 		}
+	}
+	fallback_text = {
+		localisation_key = String_FR_a_ACCENT
 	}
 }
 
@@ -12732,38 +12705,6 @@ defined_text = {
 						}
 					}
 					society_member_of = the_trollcrafters
-					society_member_of = the_bacchants
-					AND = {
-						OR = {
-							society_member_of = warrior_lodge_norse
-							society_member_of = warrior_lodge_tengri
-							society_member_of = warrior_lodge_baltic
-							society_member_of = warrior_lodge_finnish
-							society_member_of = warrior_lodge_slavic
-							society_member_of = warrior_lodge_west_african
-							society_member_of = warrior_lodge_zun
-							society_member_of = warrior_lodge_bon
-							society_member_of = warrior_lodge_hellenic
-						}
-					}
-					AND = {
-						society_member_of = monastic_order_stoics
-						OR = {
-							society_rank == 2
-							society_rank == 3
-							society_rank == 4
-						}
-					}
-				}
-			}
-			AND = {
-				is_female = yes
-				AND = {
-					society_member_of = the_bacchants
-					OR = {
-						society_rank == 3
-						society_rank == 4
-					}
 				}
 			}
 		}
@@ -12890,39 +12831,6 @@ defined_text = {
 					}
 				}
 				society_member_of = the_trollcrafters
-				AND = {
-					society_member_of = the_bacchants
-					OR = {
-						society_rank == 1
-						society_rank == 2
-					}
-				}
-				AND = {
-					OR = {
-						society_member_of = warrior_lodge_norse
-						society_member_of = warrior_lodge_tengri
-						society_member_of = warrior_lodge_baltic
-						society_member_of = warrior_lodge_finnish
-						society_member_of = warrior_lodge_slavic
-						society_member_of = warrior_lodge_west_african
-						society_member_of = warrior_lodge_zun
-						society_member_of = warrior_lodge_bon
-						society_member_of = warrior_lodge_hellenic
-					}
-					OR = {
-						society_rank == 1
-						society_rank == 2
-						society_rank == 3
-					}
-				}
-				AND = {
-					society_member_of = monastic_order_stoics
-					OR = {
-						society_rank == 2
-						society_rank == 3
-						society_rank == 4
-					}
-				}
 			}
 		}
 	}
@@ -13022,27 +12930,6 @@ defined_text = {
 					society_member_of = the_satanists
 					OR = {
 						society_rank == 1
-					}
-				}
-				AND = { # Héroïne
-					OR = {
-						society_member_of = warrior_lodge_norse
-						society_member_of = warrior_lodge_tengri
-						society_member_of = warrior_lodge_baltic
-						society_member_of = warrior_lodge_finnish
-						society_member_of = warrior_lodge_slavic
-						society_member_of = warrior_lodge_west_african
-						society_member_of = warrior_lodge_zun
-						society_member_of = warrior_lodge_bon
-						society_member_of = warrior_lodge_hellenic
-					}
-					society_rank == 4
-					is_female = yes
-				}
-				AND = {
-					society_member_of = monastic_order_stoics
-					OR = {
-						society_rank == 1 # Étudiant, Étudiante
 					}
 				}
 			}
@@ -13178,38 +13065,6 @@ defined_text = {
 						}
 					}
 					society_member_of = the_trollcrafters
-					society_member_of = the_bacchants
-					AND = {
-						OR = {
-							society_member_of = warrior_lodge_norse
-							society_member_of = warrior_lodge_tengri
-							society_member_of = warrior_lodge_baltic
-							society_member_of = warrior_lodge_finnish
-							society_member_of = warrior_lodge_slavic
-							society_member_of = warrior_lodge_west_african
-							society_member_of = warrior_lodge_zun
-							society_member_of = warrior_lodge_bon
-							society_member_of = warrior_lodge_hellenic
-						}
-					}
-					AND = {
-						society_member_of = monastic_order_stoics
-						OR = {
-							society_rank == 2
-							society_rank == 3
-							society_rank == 4
-						}
-					}
-				}
-			}
-			AND = {
-				is_female = yes
-				AND = {
-					society_member_of = the_bacchants
-					OR = {
-						society_rank == 3
-						society_rank == 4
-					}
 				}
 			}
 		}
@@ -13336,39 +13191,6 @@ defined_text = {
 					}
 				}
 				society_member_of = the_trollcrafters
-				AND = {
-					society_member_of = the_bacchants
-					OR = {
-						society_rank == 1
-						society_rank == 2
-					}
-				}
-				AND = {
-					OR = {
-						society_member_of = warrior_lodge_norse
-						society_member_of = warrior_lodge_tengri
-						society_member_of = warrior_lodge_baltic
-						society_member_of = warrior_lodge_finnish
-						society_member_of = warrior_lodge_slavic
-						society_member_of = warrior_lodge_west_african
-						society_member_of = warrior_lodge_zun
-						society_member_of = warrior_lodge_bon
-						society_member_of = warrior_lodge_hellenic
-					}
-					OR = {
-						society_rank == 1
-						society_rank == 2
-						society_rank == 3
-					}
-				}
-				AND = {
-					society_member_of = monastic_order_stoics
-					OR = {
-						society_rank == 2
-						society_rank == 3
-						society_rank == 4
-					}
-				}
 			}
 		}
 	}
@@ -13462,33 +13284,6 @@ defined_text = {
 					OR = {
 						society_rank == 1
 						society_rank == 3
-					}
-				}
-				AND = {
-					society_member_of = the_satanists
-					OR = {
-						society_rank == 1
-					}
-				}
-				AND = { # Héroïne
-					OR = {
-						society_member_of = warrior_lodge_norse
-						society_member_of = warrior_lodge_tengri
-						society_member_of = warrior_lodge_baltic
-						society_member_of = warrior_lodge_finnish
-						society_member_of = warrior_lodge_slavic
-						society_member_of = warrior_lodge_west_african
-						society_member_of = warrior_lodge_zun
-						society_member_of = warrior_lodge_bon
-						society_member_of = warrior_lodge_hellenic
-					}
-					society_rank == 4
-					is_female = yes
-				}
-				AND = {
-					society_member_of = monastic_order_stoics
-					OR = {
-						society_rank == 1 # Étudiant, Étudiante
 					}
 				}
 			}
@@ -13624,38 +13419,6 @@ defined_text = {
 						}
 					}
 					society_member_of = the_trollcrafters
-					society_member_of = the_bacchants
-					AND = {
-						OR = {
-							society_member_of = warrior_lodge_norse
-							society_member_of = warrior_lodge_tengri
-							society_member_of = warrior_lodge_baltic
-							society_member_of = warrior_lodge_finnish
-							society_member_of = warrior_lodge_slavic
-							society_member_of = warrior_lodge_west_african
-							society_member_of = warrior_lodge_zun
-							society_member_of = warrior_lodge_bon
-							society_member_of = warrior_lodge_hellenic
-						}
-					}
-					AND = {
-						society_member_of = monastic_order_stoics
-						OR = {
-							society_rank == 2
-							society_rank == 3
-							society_rank == 4
-						}
-					}
-				}
-			}
-			AND = {
-				is_female = yes
-				AND = {
-					society_member_of = the_bacchants
-					OR = {
-						society_rank == 3
-						society_rank == 4
-					}
 				}
 			}
 		}
@@ -13782,39 +13545,6 @@ defined_text = {
 					}
 				}
 				society_member_of = the_trollcrafters
-				AND = {
-					society_member_of = the_bacchants
-					OR = {
-						society_rank == 1
-						society_rank == 2
-					}
-				}
-				AND = {
-					OR = {
-						society_member_of = warrior_lodge_norse
-						society_member_of = warrior_lodge_tengri
-						society_member_of = warrior_lodge_baltic
-						society_member_of = warrior_lodge_finnish
-						society_member_of = warrior_lodge_slavic
-						society_member_of = warrior_lodge_west_african
-						society_member_of = warrior_lodge_zun
-						society_member_of = warrior_lodge_bon
-						society_member_of = warrior_lodge_hellenic
-					}
-					OR = {
-						society_rank == 1
-						society_rank == 2
-						society_rank == 3
-					}
-				}
-				AND = {
-					society_member_of = monastic_order_stoics
-					OR = {
-						society_rank == 2
-						society_rank == 3
-						society_rank == 4
-					}
-				}
 			}
 		}
 	}
@@ -13914,27 +13644,6 @@ defined_text = {
 					society_member_of = the_satanists
 					OR = {
 						society_rank == 1
-					}
-				}
-				AND = { # Héroïne
-					OR = {
-						society_member_of = warrior_lodge_norse
-						society_member_of = warrior_lodge_tengri
-						society_member_of = warrior_lodge_baltic
-						society_member_of = warrior_lodge_finnish
-						society_member_of = warrior_lodge_slavic
-						society_member_of = warrior_lodge_west_african
-						society_member_of = warrior_lodge_zun
-						society_member_of = warrior_lodge_bon
-						society_member_of = warrior_lodge_hellenic
-					}
-					society_rank == 4
-					is_female = yes
-				}
-				AND = {
-					society_member_of = monastic_order_stoics
-					OR = {
-						society_rank == 1 # Étudiant, Étudiante
 					}
 				}
 			}
@@ -14070,38 +13779,6 @@ defined_text = {
 						}
 					}
 					society_member_of = the_trollcrafters
-					society_member_of = the_bacchants
-					AND = {
-						OR = {
-							society_member_of = warrior_lodge_norse
-							society_member_of = warrior_lodge_tengri
-							society_member_of = warrior_lodge_baltic
-							society_member_of = warrior_lodge_finnish
-							society_member_of = warrior_lodge_slavic
-							society_member_of = warrior_lodge_west_african
-							society_member_of = warrior_lodge_zun
-							society_member_of = warrior_lodge_bon
-							society_member_of = warrior_lodge_hellenic
-						}
-					}
-					AND = {
-						society_member_of = monastic_order_stoics
-						OR = {
-							society_rank == 2
-							society_rank == 3
-							society_rank == 4
-						}
-					}
-				}
-			}
-			AND = {
-				is_female = yes
-				AND = {
-					society_member_of = the_bacchants
-					OR = {
-						society_rank == 3
-						society_rank == 4
-					}
 				}
 			}
 		}
@@ -14228,39 +13905,6 @@ defined_text = {
 					}
 				}
 				society_member_of = the_trollcrafters
-				AND = {
-					society_member_of = the_bacchants
-					OR = {
-						society_rank == 1
-						society_rank == 2
-					}
-				}
-				AND = {
-					OR = {
-						society_member_of = warrior_lodge_norse
-						society_member_of = warrior_lodge_tengri
-						society_member_of = warrior_lodge_baltic
-						society_member_of = warrior_lodge_finnish
-						society_member_of = warrior_lodge_slavic
-						society_member_of = warrior_lodge_west_african
-						society_member_of = warrior_lodge_zun
-						society_member_of = warrior_lodge_bon
-						society_member_of = warrior_lodge_hellenic
-					}
-					OR = {
-						society_rank == 1
-						society_rank == 2
-						society_rank == 3
-					}
-				}
-				AND = {
-					society_member_of = monastic_order_stoics
-					OR = {
-						society_rank == 2
-						society_rank == 3
-						society_rank == 4
-					}
-				}
 			}
 		}
 	}
@@ -14360,27 +14004,6 @@ defined_text = {
 					society_member_of = the_satanists
 					OR = {
 						society_rank == 1
-					}
-				}
-				AND = { # Héroïne
-					OR = {
-						society_member_of = warrior_lodge_norse
-						society_member_of = warrior_lodge_tengri
-						society_member_of = warrior_lodge_baltic
-						society_member_of = warrior_lodge_finnish
-						society_member_of = warrior_lodge_slavic
-						society_member_of = warrior_lodge_west_african
-						society_member_of = warrior_lodge_zun
-						society_member_of = warrior_lodge_bon
-						society_member_of = warrior_lodge_hellenic
-					}
-					society_rank == 4
-					is_female = yes
-				}
-				AND = {
-					society_member_of = monastic_order_stoics
-					OR = {
-						society_rank == 1 # Étudiant, Étudiante
 					}
 				}
 			}
@@ -14516,38 +14139,6 @@ defined_text = {
 						}
 					}
 					society_member_of = the_trollcrafters
-					society_member_of = the_bacchants
-					AND = {
-						OR = {
-							society_member_of = warrior_lodge_norse
-							society_member_of = warrior_lodge_tengri
-							society_member_of = warrior_lodge_baltic
-							society_member_of = warrior_lodge_finnish
-							society_member_of = warrior_lodge_slavic
-							society_member_of = warrior_lodge_west_african
-							society_member_of = warrior_lodge_zun
-							society_member_of = warrior_lodge_bon
-							society_member_of = warrior_lodge_hellenic
-						}
-					}
-					AND = {
-						society_member_of = monastic_order_stoics
-						OR = {
-							society_rank == 2
-							society_rank == 3
-							society_rank == 4
-						}
-					}
-				}
-			}
-			AND = {
-				is_female = yes
-				AND = {
-					society_member_of = the_bacchants
-					OR = {
-						society_rank == 3
-						society_rank == 4
-					}
 				}
 			}
 		}
@@ -14674,39 +14265,6 @@ defined_text = {
 					}
 				}
 				society_member_of = the_trollcrafters
-				AND = {
-					society_member_of = the_bacchants
-					OR = {
-						society_rank == 1
-						society_rank == 2
-					}
-				}
-				AND = {
-					OR = {
-						society_member_of = warrior_lodge_norse
-						society_member_of = warrior_lodge_tengri
-						society_member_of = warrior_lodge_baltic
-						society_member_of = warrior_lodge_finnish
-						society_member_of = warrior_lodge_slavic
-						society_member_of = warrior_lodge_west_african
-						society_member_of = warrior_lodge_zun
-						society_member_of = warrior_lodge_bon
-						society_member_of = warrior_lodge_hellenic
-					}
-					OR = {
-						society_rank == 1
-						society_rank == 2
-						society_rank == 3
-					}
-				}
-				AND = {
-					society_member_of = monastic_order_stoics
-					OR = {
-						society_rank == 2
-						society_rank == 3
-						society_rank == 4
-					}
-				}
 			}
 		}
 	}
@@ -14806,27 +14364,6 @@ defined_text = {
 					society_member_of = the_satanists
 					OR = {
 						society_rank == 1
-					}
-				}
-				AND = { # Héroïne
-					OR = {
-						society_member_of = warrior_lodge_norse
-						society_member_of = warrior_lodge_tengri
-						society_member_of = warrior_lodge_baltic
-						society_member_of = warrior_lodge_finnish
-						society_member_of = warrior_lodge_slavic
-						society_member_of = warrior_lodge_west_african
-						society_member_of = warrior_lodge_zun
-						society_member_of = warrior_lodge_bon
-						society_member_of = warrior_lodge_hellenic
-					}
-					society_rank == 4
-					is_female = yes
-				}
-				AND = {
-					society_member_of = monastic_order_stoics
-					OR = {
-						society_rank == 1 # Étudiant, Étudiante
 					}
 				}
 			}
@@ -15407,7 +14944,7 @@ defined_text = {
 		}
 	}
 	text = {
-		localisation_key = String_FR_al
+		localisation_key = String_FR_a_l
 		trigger = {
 			OR = {
 				AND = { # femmes
@@ -17290,9 +16827,7 @@ defined_text = {
 
 defined_text = {
 	name = Get_du_HighGod
-	fallback_text = {
-		localisation_key = String_FR_de_
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_de_
 		trigger = {
@@ -17358,13 +16893,10 @@ defined_text = {
 		localisation_key = String_FR_de_l
 		trigger = { religion = taoist } # Ordre Céleste
 	}
-
 	text = {
 		localisation_key = String_FR_des_
 		trigger = { religion = jain }  # Tîrthankaras
 	}
-
-
 	text = {
 		localisation_key = String_FR_du_
 		trigger = {
@@ -17375,13 +16907,14 @@ defined_text = {
 			}
 		}
 	}
+	fallback_text = {
+		localisation_key = String_FR_de_
+	}
 }
 
 defined_text = {
 	name = Get_au_HighGod
-	fallback_text = {
-		localisation_key = String_FR_a_ACCENT
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_a_ACCENT
 		trigger = {
@@ -17447,13 +16980,10 @@ defined_text = {
 		localisation_key = String_FR_a_l
 		trigger = { religion = taoist } # Ordre Céleste
 	}
-
 	text = {
 		localisation_key = String_FR_aux_
 		trigger = { religion = jain }  # Tîrthankaras
 	}
-
-
 	text = {
 		localisation_key = String_FR_au_
 		trigger = {
@@ -17464,13 +16994,14 @@ defined_text = {
 			}
 		}
 	}
+	fallback_text = {
+		localisation_key = String_FR_a_ACCENT
+	}
 }
 
 defined_text = {
 	name = Get_le_HighGod
-	fallback_text = {
-		localisation_key = ""
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = ""
 		trigger = {
@@ -17536,13 +17067,10 @@ defined_text = {
 		localisation_key = String_FR_l
 		trigger = { religion = taoist } # Ordre Céleste
 	}
-
 	text = {
 		localisation_key = String_FR_les_
 		trigger = { religion = jain }  # Tîrthankaras
 	}
-
-
 	text = {
 		localisation_key = String_FR_le_
 		trigger = {
@@ -17553,13 +17081,14 @@ defined_text = {
 			}
 		}
 	}
+	fallback_text = {
+		localisation_key = ""
+	}
 }
 
 defined_text = {
 	name = Get_Le_HighGod
-	fallback_text = {
-		localisation_key = ""
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = ""
 		trigger = {
@@ -17625,13 +17154,10 @@ defined_text = {
 		localisation_key = String_FR_L
 		trigger = { religion = taoist } # Ordre Céleste
 	}
-
 	text = {
 		localisation_key = String_FR_Les_
 		trigger = { religion = jain }  # Tîrthankaras
 	}
-
-
 	text = {
 		localisation_key = String_FR_Le_
 		trigger = {
@@ -17642,13 +17168,362 @@ defined_text = {
 			}
 		}
 	}
+	fallback_text = {
+		localisation_key = ""
+	}
+}
+
+defined_text = {
+	name = Get_du_HighGodTrue
+	use_first_valid = yes
+	text = {
+		localisation_key = String_FR_de_
+		trigger = {
+			OR = {
+				true_religion = buddhist # Brahma
+				true_religion = hindu # Brahma
+				true_religion = bogomilist # Dieu
+				true_religion = cathar # Dieu
+				true_religion = catholic # Dieu
+				true_religion = fraticelli # Dieu
+				true_religion = iconoclast # Dieu
+				true_religion = jewish # Dieu
+				true_religion = karaite # Dieu
+				true_religion = lollard # Dieu
+				true_religion = messalian # Dieu
+				true_religion = miaphysite # Dieu
+				true_religion = monophysite # Dieu
+				true_religion = monothelite # Dieu
+				true_religion = nestorian # Dieu
+				true_religion = orthodox # Dieu
+				true_religion = paulician # Dieu
+				true_religion = samaritan # Dieu
+				true_religion = waldensian # Dieu
+				true_religion = baltic_pagan # Dievas
+				true_religion = baltic_pagan_reformed # Dievas
+				true_religion = aztec # Huitzilopochtli
+				true_religion = aztec_reformed # Huitzilopochtli
+				true_religion = slavic_pagan # Péroun
+				true_religion = slavic_pagan_reformed # Péroun
+				true_religion = bon # Sangpo Bumtri
+				true_religion = hellenic_pagan # Saturne
+				true_religion = yazidi # Shaytan
+				true_religion = tengri_pagan # Tengri
+				true_religion = tengri_pagan_reformed # Tengri
+				true_religion = khurmazta # Zarvana
+				true_religion = zun_pagan # Zun
+				true_religion = zun_pagan_reformed # Zun
+				true_religion = manichean # Zurvan
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_d
+		trigger = {
+			OR = {
+				true_religion = mazdaki # Ahura Mazda
+				true_religion = zoroastrian # Ahura Mazda
+				true_religion = druze # Allah
+				true_religion = hurufi # Allah
+				true_religion = ibadi # Allah
+				true_religion = kharijite # Allah
+				true_religion = shiite # Allah
+				true_religion = sunni # Allah
+				true_religion = zikri # Allah
+				true_religion = norse_pagan # Odin
+				true_religion = norse_pagan_reformed # Odin
+				true_religion = finnish_pagan # Ukko
+				true_religion = finnish_pagan_reformed # Ukko
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_de_l
+		trigger = { true_religion = taoist } # Ordre Céleste
+	}
+	text = {
+		localisation_key = String_FR_des_
+		trigger = { true_religion = jain }  # Tîrthankaras
+	}
+	text = {
+		localisation_key = String_FR_du_
+		trigger = {
+			OR = {
+				true_religion = pagan # Créateur
+				true_religion = west_african_pagan # Créateur
+				true_religion = west_african_pagan_reformed # Créateur
+			}
+		}
+	}
+	fallback_text = {
+		localisation_key = String_FR_de_
+	}
+}
+
+defined_text = {
+	name = Get_au_HighGodTrue
+	use_first_valid = yes
+	text = {
+		localisation_key = String_FR_a_ACCENT
+		trigger = {
+			OR = {
+				true_religion = buddhist # Brahma
+				true_religion = hindu # Brahma
+				true_religion = bogomilist # Dieu
+				true_religion = cathar # Dieu
+				true_religion = catholic # Dieu
+				true_religion = fraticelli # Dieu
+				true_religion = iconoclast # Dieu
+				true_religion = jewish # Dieu
+				true_religion = karaite # Dieu
+				true_religion = lollard # Dieu
+				true_religion = messalian # Dieu
+				true_religion = miaphysite # Dieu
+				true_religion = monophysite # Dieu
+				true_religion = monothelite # Dieu
+				true_religion = nestorian # Dieu
+				true_religion = orthodox # Dieu
+				true_religion = paulician # Dieu
+				true_religion = samaritan # Dieu
+				true_religion = waldensian # Dieu
+				true_religion = baltic_pagan # Dievas
+				true_religion = baltic_pagan_reformed # Dievas
+				true_religion = aztec # Huitzilopochtli
+				true_religion = aztec_reformed # Huitzilopochtli
+				true_religion = slavic_pagan # Péroun
+				true_religion = slavic_pagan_reformed # Péroun
+				true_religion = bon # Sangpo Bumtri
+				true_religion = hellenic_pagan # Saturne
+				true_religion = yazidi # Shaytan
+				true_religion = tengri_pagan # Tengri
+				true_religion = tengri_pagan_reformed # Tengri
+				true_religion = khurmazta # Zarvana
+				true_religion = zun_pagan # Zun
+				true_religion = zun_pagan_reformed # Zun
+				true_religion = manichean # Zurvan
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_a_ACCENT
+		trigger = {
+			OR = {
+				true_religion = mazdaki # Ahura Mazda
+				true_religion = zoroastrian # Ahura Mazda
+				true_religion = druze # Allah
+				true_religion = hurufi # Allah
+				true_religion = ibadi # Allah
+				true_religion = kharijite # Allah
+				true_religion = shiite # Allah
+				true_religion = sunni # Allah
+				true_religion = zikri # Allah
+				true_religion = norse_pagan # Odin
+				true_religion = norse_pagan_reformed # Odin
+				true_religion = finnish_pagan # Ukko
+				true_religion = finnish_pagan_reformed # Ukko
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_a_l
+		trigger = { true_religion = taoist } # Ordre Céleste
+	}
+	text = {
+		localisation_key = String_FR_aux_
+		trigger = { true_religion = jain }  # Tîrthankaras
+	}
+	text = {
+		localisation_key = String_FR_au_
+		trigger = {
+			OR = {
+				true_religion = pagan # Créateur
+				true_religion = west_african_pagan # Créateur
+				true_religion = west_african_pagan_reformed # Créateur
+			}
+		}
+	}
+	fallback_text = {
+		localisation_key = String_FR_a_ACCENT
+	}
+}
+
+defined_text = {
+	name = Get_le_HighGodTrue
+	use_first_valid = yes
+	text = {
+		localisation_key = ""
+		trigger = {
+			OR = {
+				true_religion = buddhist # Brahma
+				true_religion = hindu # Brahma
+				true_religion = bogomilist # Dieu
+				true_religion = cathar # Dieu
+				true_religion = catholic # Dieu
+				true_religion = fraticelli # Dieu
+				true_religion = iconoclast # Dieu
+				true_religion = jewish # Dieu
+				true_religion = karaite # Dieu
+				true_religion = lollard # Dieu
+				true_religion = messalian # Dieu
+				true_religion = miaphysite # Dieu
+				true_religion = monophysite # Dieu
+				true_religion = monothelite # Dieu
+				true_religion = nestorian # Dieu
+				true_religion = orthodox # Dieu
+				true_religion = paulician # Dieu
+				true_religion = samaritan # Dieu
+				true_religion = waldensian # Dieu
+				true_religion = baltic_pagan # Dievas
+				true_religion = baltic_pagan_reformed # Dievas
+				true_religion = aztec # Huitzilopochtli
+				true_religion = aztec_reformed # Huitzilopochtli
+				true_religion = slavic_pagan # Péroun
+				true_religion = slavic_pagan_reformed # Péroun
+				true_religion = bon # Sangpo Bumtri
+				true_religion = hellenic_pagan # Saturne
+				true_religion = yazidi # Shaytan
+				true_religion = tengri_pagan # Tengri
+				true_religion = tengri_pagan_reformed # Tengri
+				true_religion = khurmazta # Zarvana
+				true_religion = zun_pagan # Zun
+				true_religion = zun_pagan_reformed # Zun
+				true_religion = manichean # Zurvan
+			}
+		}
+	}
+	text = {
+		localisation_key = ""
+		trigger = {
+			OR = {
+				true_religion = mazdaki # Ahura Mazda
+				true_religion = zoroastrian # Ahura Mazda
+				true_religion = druze # Allah
+				true_religion = hurufi # Allah
+				true_religion = ibadi # Allah
+				true_religion = kharijite # Allah
+				true_religion = shiite # Allah
+				true_religion = sunni # Allah
+				true_religion = zikri # Allah
+				true_religion = norse_pagan # Odin
+				true_religion = norse_pagan_reformed # Odin
+				true_religion = finnish_pagan # Ukko
+				true_religion = finnish_pagan_reformed # Ukko
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_l
+		trigger = { true_religion = taoist } # Ordre Céleste
+	}
+	text = {
+		localisation_key = String_FR_les_
+		trigger = { true_religion = jain }  # Tîrthankaras
+	}
+	text = {
+		localisation_key = String_FR_le_
+		trigger = {
+			OR = {
+				true_religion = pagan # Créateur
+				true_religion = west_african_pagan # Créateur
+				true_religion = west_african_pagan_reformed # Créateur
+			}
+		}
+	}
+	fallback_text = {
+		localisation_key = ""
+	}
+}
+
+defined_text = {
+	name = Get_du_HighGodSecret
+	use_first_valid = yes
+	text = {
+		localisation_key = String_FR_de_
+		trigger = {
+			OR = {
+				secret_religion = buddhist # Brahma
+				secret_religion = hindu # Brahma
+				secret_religion = bogomilist # Dieu
+				secret_religion = cathar # Dieu
+				secret_religion = catholic # Dieu
+				secret_religion = fraticelli # Dieu
+				secret_religion = iconoclast # Dieu
+				secret_religion = jewish # Dieu
+				secret_religion = karaite # Dieu
+				secret_religion = lollard # Dieu
+				secret_religion = messalian # Dieu
+				secret_religion = miaphysite # Dieu
+				secret_religion = monophysite # Dieu
+				secret_religion = monothelite # Dieu
+				secret_religion = nestorian # Dieu
+				secret_religion = orthodox # Dieu
+				secret_religion = paulician # Dieu
+				secret_religion = samaritan # Dieu
+				secret_religion = waldensian # Dieu
+				secret_religion = baltic_pagan # Dievas
+				secret_religion = baltic_pagan_reformed # Dievas
+				secret_religion = aztec # Huitzilopochtli
+				secret_religion = aztec_reformed # Huitzilopochtli
+				secret_religion = slavic_pagan # Péroun
+				secret_religion = slavic_pagan_reformed # Péroun
+				secret_religion = bon # Sangpo Bumtri
+				secret_religion = hellenic_pagan # Saturne
+				secret_religion = yazidi # Shaytan
+				secret_religion = tengri_pagan # Tengri
+				secret_religion = tengri_pagan_reformed # Tengri
+				secret_religion = khurmazta # Zarvana
+				secret_religion = zun_pagan # Zun
+				secret_religion = zun_pagan_reformed # Zun
+				secret_religion = manichean # Zurvan
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_d
+		trigger = {
+			OR = {
+				secret_religion = mazdaki # Ahura Mazda
+				secret_religion = zoroastrian # Ahura Mazda
+				secret_religion = druze # Allah
+				secret_religion = hurufi # Allah
+				secret_religion = ibadi # Allah
+				secret_religion = kharijite # Allah
+				secret_religion = shiite # Allah
+				secret_religion = sunni # Allah
+				secret_religion = zikri # Allah
+				secret_religion = norse_pagan # Odin
+				secret_religion = norse_pagan_reformed # Odin
+				secret_religion = finnish_pagan # Ukko
+				secret_religion = finnish_pagan_reformed # Ukko
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_de_l
+		trigger = { secret_religion = taoist } # Ordre Céleste
+	}
+	text = {
+		localisation_key = String_FR_des_
+		trigger = { secret_religion = jain }  # Tîrthankaras
+	}
+	text = {
+		localisation_key = String_FR_du_
+		trigger = {
+			OR = {
+				secret_religion = pagan # Créateur
+				secret_religion = west_african_pagan # Créateur
+				secret_religion = west_african_pagan_reformed # Créateur
+			}
+		}
+	}
+	fallback_text = {
+		localisation_key = String_FR_de_
+	}
 }
 
 defined_text = {
 	name = Get_le_Scripture
-	fallback_text = {
-		localisation_key = String_FR_le_
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_le_
 		trigger = {
@@ -17666,7 +17541,7 @@ defined_text = {
 				religion = yazidi # Livre de l'Illumination
 				religion = zikri # Coran
 			}
-		 }
+		}
 	}
 	text = {
 		localisation_key = String_FR_la_
@@ -17689,7 +17564,7 @@ defined_text = {
 				religion = samaritan # Torah
 				religion = waldensian # Bible
 			}
-		 }
+		}
 	}
 	text = {
 		localisation_key = String_FR_les_
@@ -17719,21 +17594,22 @@ defined_text = {
 				religion = zun_pagan # Légendes
 				religion = zun_pagan_reformed # Légendes
 			}
-		 }
+		}
 	}
 	text = {
 		localisation_key = String_FR_l
 		trigger = {
 			religion = manichean # Évangile de Mani
-		 }
+		}
+	}
+	fallback_text = {
+		localisation_key = String_FR_le_
 	}
 }
 
 defined_text = {
 	name = Get_du_Scripture
-	fallback_text = {
-		localisation_key = String_FR_de_
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_du_
 		trigger = {
@@ -17751,7 +17627,7 @@ defined_text = {
 				religion = yazidi # Livre de l'Illumination
 				religion = zikri # Coran
 			}
-		 }
+		}
 	}
 	text = {
 		localisation_key = String_FR_de_la_
@@ -17774,7 +17650,7 @@ defined_text = {
 				religion = samaritan # Torah
 				religion = waldensian # Bible
 			}
-		 }
+		}
 	}
 	text = {
 		localisation_key = String_FR_des_
@@ -17804,13 +17680,188 @@ defined_text = {
 				religion = zun_pagan # Légendes
 				religion = zun_pagan_reformed # Légendes
 			}
-		 }
+		}
 	}
 	text = {
 		localisation_key = String_FR_d
 		trigger = {
 			religion = manichean # Évangile de Mani
-		 }
+		}
+	}
+	fallback_text = {
+		localisation_key = String_FR_de_
+	}
+}
+
+defined_text = {
+	name = Get_du_ScriptureSecret
+	use_first_valid = yes
+	text = {
+		localisation_key = String_FR_du_
+		trigger = {
+			OR = {
+				secret_religion = bon # Dodus
+				secret_religion = buddhist # Buddhacavana
+				secret_religion = hindu # Mahabharata
+				secret_religion = hurufi # Coran
+				secret_religion = ibadi # Coran
+				secret_religion = kharijite # Coran
+				secret_religion = mazdaki # Grand Secret
+				secret_religion = shiite # Coran
+				secret_religion = sunni # Coran
+				secret_religion = taoist # Dao de jing
+				secret_religion = yazidi # Livre de l'Illumination
+				secret_religion = zikri # Coran
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_de_la_
+		trigger = {
+			OR = {
+				secret_religion = bogomilist # Bible
+				secret_religion = cathar # Bible
+				secret_religion = catholic # Bible
+				secret_religion = fraticelli # Bible
+				secret_religion = iconoclast # Bible
+				secret_religion = jewish # Torah
+				secret_religion = karaite # Torah
+				secret_religion = lollard # Bible
+				secret_religion = miaphysite # Bible
+				secret_religion = monophysite # Bible
+				secret_religion = monothelite # Bible
+				secret_religion = nestorian # Bible
+				secret_religion = orthodox # Bible
+				secret_religion = paulician # Bible
+				secret_religion = samaritan # Torah
+				secret_religion = waldensian # Bible
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_des_
+		trigger = {
+			OR = {
+				secret_religion = aztec # Légendes
+				secret_religion = aztec_reformed # Légendes
+				secret_religion = baltic_pagan # Légendes
+				secret_religion = baltic_pagan_reformed # Légendes
+				secret_religion = druze # Épîtres de la Sagesse
+				secret_religion = finnish_pagan # Légendes
+				secret_religion = finnish_pagan_reformed # Légendes
+				secret_religion = hellenic_pagan # Légendes
+				secret_religion = jain # Angas Sutras
+				secret_religion = khurmazta # Gathas
+				secret_religion = messalian # Ascètes
+				secret_religion = norse_pagan # Sagas
+				secret_religion = norse_pagan_reformed # Sagas
+				secret_religion = pagan # Légendes
+				secret_religion = slavic_pagan # Légendes
+				secret_religion = slavic_pagan_reformed # Légendes
+				secret_religion = tengri_pagan # Légendes
+				secret_religion = tengri_pagan_reformed # Légendes
+				secret_religion = west_african_pagan # Légendes
+				secret_religion = west_african_pagan_reformed # Légendes
+				secret_religion = zoroastrian # Gathas
+				secret_religion = zun_pagan # Légendes
+				secret_religion = zun_pagan_reformed # Légendes
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_d
+		trigger = {
+			secret_religion = manichean # Évangile de Mani
+		}
+	}
+	fallback_text = {
+		localisation_key = String_FR_de_
+	}
+}
+
+defined_text = {
+	name = Get_le_ScriptureSecret
+	use_first_valid = yes
+	text = {
+		localisation_key = String_FR_le_
+		trigger = {
+			OR = {
+				secret_religion = bon # Dodus
+				secret_religion = buddhist # Buddhacavana
+				secret_religion = hindu # Mahabharata
+				secret_religion = hurufi # Coran
+				secret_religion = ibadi # Coran
+				secret_religion = kharijite # Coran
+				secret_religion = mazdaki # Grand Secret
+				secret_religion = shiite # Coran
+				secret_religion = sunni # Coran
+				secret_religion = taoist # Dao de jing
+				secret_religion = yazidi # Livre de l'Illumination
+				secret_religion = zikri # Coran
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_la_
+		trigger = {
+			OR = {
+				secret_religion = bogomilist # Bible
+				secret_religion = cathar # Bible
+				secret_religion = catholic # Bible
+				secret_religion = fraticelli # Bible
+				secret_religion = iconoclast # Bible
+				secret_religion = jewish # Torah
+				secret_religion = karaite # Torah
+				secret_religion = lollard # Bible
+				secret_religion = miaphysite # Bible
+				secret_religion = monophysite # Bible
+				secret_religion = monothelite # Bible
+				secret_religion = nestorian # Bible
+				secret_religion = orthodox # Bible
+				secret_religion = paulician # Bible
+				secret_religion = samaritan # Torah
+				secret_religion = waldensian # Bible
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_les_
+		trigger = {
+			OR = {
+				secret_religion = aztec # Légendes
+				secret_religion = aztec_reformed # Légendes
+				secret_religion = baltic_pagan # Légendes
+				secret_religion = baltic_pagan_reformed # Légendes
+				secret_religion = druze # Épîtres de la Sagesse
+				secret_religion = finnish_pagan # Légendes
+				secret_religion = finnish_pagan_reformed # Légendes
+				secret_religion = hellenic_pagan # Légendes
+				secret_religion = jain # Angas Sutras
+				secret_religion = khurmazta # Gathas
+				secret_religion = messalian # Ascètes
+				secret_religion = norse_pagan # Sagas
+				secret_religion = norse_pagan_reformed # Sagas
+				secret_religion = pagan # Légendes
+				secret_religion = slavic_pagan # Légendes
+				secret_religion = slavic_pagan_reformed # Légendes
+				secret_religion = tengri_pagan # Légendes
+				secret_religion = tengri_pagan_reformed # Légendes
+				secret_religion = west_african_pagan # Légendes
+				secret_religion = west_african_pagan_reformed # Légendes
+				secret_religion = zoroastrian # Gathas
+				secret_religion = zun_pagan # Légendes
+				secret_religion = zun_pagan_reformed # Légendes
+			}
+		}
+	}
+	text = {
+		localisation_key = String_FR_l
+		trigger = {
+			secret_religion = manichean # Évangile de Mani
+		}
+	}
+	fallback_text = {
+		localisation_key = String_FR_le_
 	}
 }
 
@@ -17818,9 +17869,7 @@ defined_text = {
 
 defined_text = {
 	name = GetReligiousGroupMascFem
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetReligiousGroupMascFem
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_ReligionGroups_christian_Masc
 		trigger = { religion_group = christian is_female = no }
@@ -17869,13 +17918,14 @@ defined_text = {
 		localisation_key = String_FR_ReligionGroups_zoroastrian_group_Fem
 		trigger = { religion_group = zoroastrian_group is_female = yes }
 	}
+	fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetReligiousGroupMascFem
+	}
 }
 
 defined_text = {
 	name = GetReligiousGroupFem
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetReligiousGroupFem
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_ReligionGroups_christian_Fem
 		trigger = { religion_group = christian }
@@ -17900,13 +17950,14 @@ defined_text = {
 		localisation_key = String_FR_ReligionGroups_zoroastrian_group_Fem
 		trigger = { religion_group = zoroastrian_group }
 	}
+	fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetReligiousGroupFem
+	}
 }
 
 defined_text = {
 	name = GetReligionMascFem
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetReligionMascFem
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_Religion_aztec_Masc
 		trigger = { is_female = no religion = aztec }
@@ -18323,13 +18374,14 @@ defined_text = {
 		localisation_key = String_FR_Religion_zun_pagan_reformed_Fem
 		trigger = { is_female = yes religion = zun_pagan_reformed }
 	}
+	fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetReligionMascFem
+	}
 }
 
 defined_text = {
 	name = GetReligionMascPl
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetReligionMascPl
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_Religion_aztec_PlMasc
 		trigger = { religion = aztec }
@@ -18538,13 +18590,14 @@ defined_text = {
 		localisation_key = String_FR_Religion_zun_pagan_reformed_PlMasc
 		trigger = { religion = zun_pagan_reformed }
 	}
+	fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetReligionMascPl
+	}
 }
 
 defined_text = {
 	name = GetReligionMasc
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetReligionMasc
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_Religion_aztec_Masc
 		trigger = { religion = aztec }
@@ -18753,13 +18806,230 @@ defined_text = {
 		localisation_key = String_FR_Religion_zun_pagan_reformed_Masc
 		trigger = { religion = zun_pagan_reformed }
 	}
+	fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetReligionMasc
+	}
+}
+
+defined_text = {
+	name = GetEvilGodLeLaLes
+	use_first_valid = yes
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_TLAZOLTEOTL
+		trigger = { religion = aztec }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_TLAZOLTEOTL
+		trigger = { religion = aztec_reformed }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_VELNIAS
+		trigger = { religion = baltic_pagan }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_VELNIAS
+		trigger = { religion = baltic_pagan_reformed }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = bogomilist }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_GOD_THE_EVIL_ONES
+		trigger = { religion = bon }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_MARA
+		trigger = { religion = buddhist }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = cathar }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = catholic }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_IBLIS
+		trigger = { religion = druze }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_TUONI
+		trigger = { religion = finnish_pagan }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_TUONI
+		trigger = { religion = finnish_pagan_reformed }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = fraticelli }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_SATURN
+		trigger = { religion = hellenic_pagan }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_VINAYAKAS
+		trigger = { religion = hindu }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_IBLIS
+		trigger = { religion = hurufi }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_IBLIS
+		trigger = { religion = ibadi }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = iconoclast }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_PUNISHERS
+		trigger = { religion = jain }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_SATAN
+		trigger = { religion = jewish }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_SATAN
+		trigger = { religion = karaite }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_IBLIS
+		trigger = { religion = kharijite }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_AHRIMAN
+		trigger = { religion = khurmazta }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = lollard }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_AHRIMAN
+		trigger = { religion = manichean }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_AHRIMAN
+		trigger = { religion = mazdaki }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEMIURGE
+		trigger = { religion = messalian }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = miaphysite }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = monophysite }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = monothelite }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = nestorian }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_LOKI
+		trigger = { religion = norse_pagan }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_LOKI
+		trigger = { religion = norse_pagan_reformed }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = orthodox }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DARK_SPIRITS
+		trigger = { religion = pagan }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = paulician }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_SATAN
+		trigger = { religion = samaritan }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_IBLIS
+		trigger = { religion = shiite }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_GOD_VELES
+		trigger = { religion = slavic_pagan }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_GOD_VELES
+		trigger = { religion = slavic_pagan_reformed }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_IBLIS
+		trigger = { religion = sunni }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_KING_YAN
+		trigger = { religion = taoist }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_ERLIK
+		trigger = { religion = tengri_pagan }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_ERLIK
+		trigger = { religion = tengri_pagan_reformed }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
+		trigger = { religion = waldensian }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DARK_SPIRITS
+		trigger = { religion = west_african_pagan }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DARK_SPIRITS
+		trigger = { religion = west_african_pagan_reformed }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DARK_SPIRITS
+		trigger = { religion = yazidi }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_IBLIS
+		trigger = { religion = zikri }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_AHRIMAN
+		trigger = { religion = zoroastrian }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DARKNESS
+		trigger = { religion = zun_pagan }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DARKNESS
+		trigger = { religion = zun_pagan_reformed }
+	}
+	fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetEvilGodLeLaLes
+	}
 }
 
 defined_text = {
 	name = GetEvilGodDuDelaDes
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetEvilGodDuDelaDes
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_GetEvilGodDuDelaDes_TLAZOLTEOTL
 		trigger = { religion = aztec }
@@ -18813,7 +19083,7 @@ defined_text = {
 		trigger = { religion = fraticelli }
 	}
 	text = {
-		localisation_key = String_FR_GetEvilGodDuDelaDes_PLUTO
+		localisation_key = String_FR_GetEvilGodDuDelaDes_SATURN
 		trigger = { religion = hellenic_pagan }
 	}
 	text = {
@@ -18968,13 +19238,14 @@ defined_text = {
 		localisation_key = String_FR_GetEvilGodDuDelaDes_THE_DARKNESS
 		trigger = { religion = zun_pagan_reformed }
 	}
+	fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetEvilGodDuDelaDes
+	}
 }
 
 defined_text = {
 	name = GetCultureMasc
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetCultureMasc
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_Culture_afghan_Masc
 		trigger = { culture = afghan }
@@ -19016,6 +19287,10 @@ defined_text = {
 		trigger = { culture = basque }
 	}
 	text = {
+		localisation_key = String_FR_Culture_bear_Masc
+		trigger = { culture = bear }
+	}
+	text = {
 		localisation_key = String_FR_Culture_bedouin_arabic_Masc
 		trigger = { culture = bedouin_arabic }
 	}
@@ -19046,6 +19321,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_castillan_Masc
 		trigger = { culture = castillan }
+	}
+	text = {
+		localisation_key = String_FR_Culture_cat_Masc
+		trigger = { culture = cat }
 	}
 	text = {
 		localisation_key = String_FR_Culture_catalan_Masc
@@ -19399,13 +19678,14 @@ defined_text = {
 		localisation_key = String_FR_Culture_zhangzhung_Masc
 		trigger = { culture = zhangzhung }
 	}
+	fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetCultureMasc
+	}
 }
 
 defined_text = {
 	name = GetCultureMascFem
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetCultureMascFem
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_Culture_afghan_Masc
 		trigger = { is_female = no culture = afghan }
@@ -19447,6 +19727,10 @@ defined_text = {
 		trigger = { is_female = no culture = basque }
 	}
 	text = {
+		localisation_key = String_FR_Culture_bear_Masc
+		trigger = { is_female = no culture = bear }
+	}
+	text = {
 		localisation_key = String_FR_Culture_bedouin_arabic_Masc
 		trigger = { is_female = no culture = bedouin_arabic }
 	}
@@ -19477,6 +19761,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_castillan_Masc
 		trigger = { is_female = no culture = castillan }
+	}
+	text = {
+		localisation_key = String_FR_Culture_cat_Masc
+		trigger = { is_female = no culture = cat }
 	}
 	text = {
 		localisation_key = String_FR_Culture_catalan_Masc
@@ -19871,6 +20159,10 @@ defined_text = {
 		trigger = { is_female = yes culture = basque }
 	}
 	text = {
+		localisation_key = String_FR_Culture_bear_Fem
+		trigger = { is_female = yes culture = bear }
+	}
+	text = {
 		localisation_key = String_FR_Culture_bedouin_arabic_Fem
 		trigger = { is_female = yes culture = bedouin_arabic }
 	}
@@ -19901,6 +20193,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_castillan_Fem
 		trigger = { is_female = yes culture = castillan }
+	}
+	text = {
+		localisation_key = String_FR_Culture_cat_Fem
+		trigger = { is_female = yes culture = cat }
 	}
 	text = {
 		localisation_key = String_FR_Culture_catalan_Fem
@@ -20254,13 +20550,14 @@ defined_text = {
 		localisation_key = String_FR_Culture_zhangzhung_Fem
 		trigger = { is_female = yes culture = zhangzhung }
 	}
+	fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetCultureMascFem
+	}
 }
 
 defined_text = {
 	name = GetCultureMascPl
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetCultureMascPl
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_Culture_afghan_PlMasc
 		trigger = { culture = afghan }
@@ -20302,6 +20599,10 @@ defined_text = {
 		trigger = { culture = basque }
 	}
 	text = {
+		localisation_key = String_FR_Culture_bear_PlMasc
+		trigger = { culture = bear }
+	}
+	text = {
 		localisation_key = String_FR_Culture_bedouin_arabic_PlMasc
 		trigger = { culture = bedouin_arabic }
 	}
@@ -20332,6 +20633,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_castillan_PlMasc
 		trigger = { culture = castillan }
+	}
+	text = {
+		localisation_key = String_FR_Culture_cat_PlMasc
+		trigger = { culture = cat }
 	}
 	text = {
 		localisation_key = String_FR_Culture_catalan_PlMasc
@@ -20684,6 +20989,9 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_zhangzhung_PlMasc
 		trigger = { culture = zhangzhung }
+	}
+	fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetCultureMascPl
 	}
 }
 
@@ -21186,7 +21494,7 @@ defined_text = {
 defined_text = {
 	name = GetHouseOfWorshipDuDela
 	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetHouseOfWorshipDuDela
+		localisation_key = String_FR_GetHouseOfWorshipDuDela_Pagan
 	}
 	text = {
 		localisation_key = String_FR_GetHouseOfWorshipDuDela_Christian
@@ -21229,7 +21537,7 @@ defined_text = {
 defined_text = {
 	name = GetHouseOfWorshipUnUne
 	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetHouseOfWorshipUnUne
+		localisation_key = String_FR_GetHouseOfWorshipUnUne_Pagan
 	}
 	text = {
 		localisation_key = String_FR_GetHouseOfWorshipUnUne_Christian
@@ -21271,9 +21579,7 @@ defined_text = {
 
 defined_text = {
 	name = GetReligiousPersonMascFem
-	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetReligiousPersonMascFem
-	}
+	use_first_valid = yes
 	text = {
 		localisation_key = String_FR_Religion_catholic_Masc
 		trigger = { religion = catholic is_female = no }
@@ -21494,232 +21800,8 @@ defined_text = {
 			}
 		}
 	}
-}
-
-defined_text = {
-	name = GetTrueReligionScriptureNameDuDelaDes
-    fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetTrueReligionScriptureNameDuDelaDes
-	}
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Bible
-        trigger = {
-            true_religion_group_christian_trigger = yes
-            NOT = { true_religion_messalian_trigger = yes }
-        }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Asceticus
-        trigger = { true_religion_messalian_trigger = yes }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Koran
-        trigger = {
-            true_religion_group_muslim_trigger = yes
-            NOT = { true_religion_yazidi_trigger = yes }
-            NOT = { true_religion_druze_trigger = yes }
-        }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Book_Of_Illumination
-        trigger = { true_religion_yazidi_trigger = yes }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Epistles_Of_Wisdom
-        trigger = { true_religion_druze_trigger = yes }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Torah
-        trigger = { true_religion_group_jewish_group_trigger = yes }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Gathas
-        trigger = {
-            true_religion_group_zoroastrian_group_trigger = yes
-            NOT = { true_religion_mazdaki_trigger = yes }
-        }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Great_Secret
-        trigger = { true_religion_mazdaki_trigger = yes }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Mahabharata
-        trigger = { true_religion_hindu_trigger = yes }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Buddhacavana
-        trigger = { true_religion_buddhist_trigger = yes }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Mahabharata
-        trigger = { true_religion_jain_trigger = yes }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Sagas
-        trigger = {
-            OR = {
-                true_religion_norse_pagan_trigger = yes
-                true_religion_norse_pagan_reformed_trigger = yes
-            }
-        }
-    }
-    text = {
-        localisation_key = String_FR_ScriptureDuDelaDes_Legends
-        trigger = {
-            true_religion_group_pagan_group_trigger = yes
-            NOR = {
-                true_religion_norse_pagan_trigger = yes
-                true_religion_norse_pagan_reformed_trigger = yes
-            }
-        }
-    }
-	text = { 
-		localisation_key = String_FR_ScriptureDuDelaDes_Gathas
-		trigger = { true_religion_khurmazta_trigger = yes }
-	}
-	text = { 
-		localisation_key = String_FR_ScriptureDuDelaDes_MDODUS
-		trigger = { true_religion_bon_trigger = yes }
-	}
-	text = { 
-		localisation_key = String_FR_ScriptureDuDelaDes_TAO_TE_CHING
-		trigger = { true_religion_taoist_trigger = yes }
-	}
-}
-
-defined_text = {
-	name = GetTrueReligionHighGodDuDelaDes
 	fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetTrueReligionHighGodDuDelaDes
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_GOD
-		trigger = {
-			true_religion_group_christian_trigger = yes
-		}
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_ALLAH
-		trigger = {
-			true_religion_group_muslim_trigger = yes
-			NOT = { true_religion_yazidi_trigger = yes }
-		}
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_SHAYTAN
-		trigger = { true_religion_yazidi_trigger = yes }
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_GOD
-		trigger = { true_religion_group_jewish_group_trigger = yes }
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_AHURA_MAZDA
-		trigger = {
-			true_religion_group_zoroastrian_group_trigger = yes
-			NOT = { true_religion_manichean_trigger = yes }
-		}
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_ZURVAN
-		trigger = { true_religion_manichean_trigger = yes }
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_BRAHMA
-		trigger = { true_religion_hindu_trigger = yes }
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_BRAHMA
-		trigger = { true_religion_buddhist_trigger = yes }
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_THE_TIRTHANKARAS
-		trigger = { true_religion_jain_trigger = yes }
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_ODIN
-		trigger = {
-			OR = {
-				true_religion_norse_pagan_reformed_trigger = yes
-				true_religion_norse_pagan_trigger = yes
-			}
-		}
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_PERUN
-		trigger = {
-			OR = {
-				true_religion_slavic_pagan_reformed_trigger = yes
-				true_religion_slavic_pagan_trigger = yes
-			}
-		}
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_TENGRI
-		trigger = {
-			OR = {
-				true_religion_tengri_pagan_reformed_trigger = yes
-				true_religion_tengri_pagan_trigger = yes
-			}
-		}
-	}
-	 text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_DIEVAS
-		trigger = {
-			OR = {
-				true_religion_baltic_pagan_reformed_trigger = yes
-				true_religion_baltic_pagan_trigger = yes
-			}
-		}
-	}
-	 text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_UKKO
-		trigger = {
-			OR = {
-				true_religion_finnish_pagan_reformed_trigger = yes
-				true_religion_finnish_pagan_trigger = yes
-			}
-		}
-	}
-	 text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_THE_CREATOR
-		trigger = {
-			OR = {
-				true_religion_west_african_pagan_reformed_trigger = yes
-				true_religion_west_african_pagan_trigger = yes
-			}
-		}
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_ZUN
-		trigger = {
-			OR = {
-				true_religion_zun_pagan_reformed_trigger = yes
-				true_religion_zun_pagan_trigger = yes
-			}
-		}
-	}
-	text = {
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_HUITZILOPOCHTLI
-		trigger = {
-			OR = {
-				true_religion_aztec_reformed_trigger = yes
-				true_religion_aztec_trigger = yes
-			}
-		}
-	}
-	text = { 
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_ZARVANA
-		trigger = { true_religion_khurmazta_trigger = yes }
-	}
-	text = { 
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_SANGPO_BUMTRI
-		trigger = { true_religion_bon_trigger = yes }
-	}
-	text = { 
-		localisation_key = String_FR_HighGodDuDelaDes_GOD_HEAVENLY_ORDER
-		trigger = { true_religion_taoist_trigger = yes }
+		localisation_key = String_FR_FALLBACK_GetReligiousPersonMascFem
 	}
 }
 
@@ -21743,12 +21825,10 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetDWDevilDuDela # Returns a an appropriate name for the Devil (Fellow scripters, do expand upon all of the following once you have a good one)
-    fallback_text = {
-		localisation_key = String_FR_FALLBACK_GetDWDevilDuDela
-	}
+	name = GetDWDevilDuDela
+	use_first_valid = yes
 	text = {
-		localisation_key = String_FR_DevilGodDuDela_Satan
+		localisation_key = String_FR_DevilGodDuDela_Satan #Satan
 		trigger = {
 			society_member_of = the_satanists
 			OR = {
@@ -21758,14 +21838,14 @@ defined_text = {
 		}
 	}
 	text = {
-		localisation_key = String_FR_DevilGodDuDela_Iblis
+		localisation_key = String_FR_DevilGodDuDela_Iblis #Iblis
 		trigger = {
 			society_member_of = the_satanists
 			religion_group = muslim
 		}
 	}
 	text = {
-		localisation_key = String_FR_DevilGodDuDela_Ahriman
+		localisation_key = String_FR_DevilGodDuDela_Ahriman #Ahriman
 		trigger = {
 			society_member_of = the_satanists
 			OR = {
@@ -21776,20 +21856,23 @@ defined_text = {
 		}
 	}
 	text = {
-		localisation_key = String_FR_DevilGodDuDela_Chernobog
+		localisation_key = String_FR_DevilGodDuDela_Chernobog #Chernobog
 		trigger = { society_member_of = the_cold_ones }
 	}
 	text = {
-		localisation_key = String_FR_DevilGodDuDela_Kali
+		localisation_key = String_FR_DevilGodDuDela_Kali #Kali
 		trigger = { society_member_of = the_cult_of_kali }
 	}
 	text = {
-		localisation_key = String_FR_DevilGodDuDela_Erlik
+		localisation_key = String_FR_DevilGodDuDela_Erlik #Erlik
 		trigger = { society_member_of = the_plaguebringers }
 	}
 	text = {
-		localisation_key = String_FR_DevilGodDuDela_Hel
+		localisation_key = String_FR_DevilGodDuDela_Hel #Hel
 		trigger = { society_member_of = the_trollcrafters }
+	}
+    fallback_text = {
+		localisation_key = String_FR_FALLBACK_GetDWDevilDuDela
 	}
 }
 
@@ -22076,42 +22159,6 @@ defined_text = {
 }
 
 ## ORIGINAL FRENCH CUSTOM COMMANDS
-
-defined_text = {
-	name = GetRealmDuDela
-	text = {
-		localisation_key = String_FR_GetRealmDuDela_Empire
-		trigger = {
-			primary_title = {
-				tier = EMPEROR
-			}
-		}
-	}
-	text = {
-		localisation_key = String_FR_GetRealmDuDela_Kingdom
-		trigger = {
-			primary_title = {
-				tier = KING
-			}
-		}
-	}
-	text = {
-		localisation_key = String_FR_GetRealmDuDela_Duchy
-		trigger = {
-			primary_title = {
-				tier = DUKE
-			}
-		}
-	}
-	text = {
-		localisation_key = String_FR_GetRealmDuDela_County
-		trigger = {
-			primary_title = {
-				tier = COUNT
-			}
-		}
-	}
-}
 
 defined_text = {
 	name = GetLegumeIncapable
