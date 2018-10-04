@@ -22,4 +22,4 @@ for (const file of changedFiles) {
 }
 
 execSync(`git add .`)
-execSync(`git commit -am 'Diff ${version}'`)
+execSync(`git commit -a -m "Diff ${version}"`)
