@@ -1,3 +1,4 @@
 *.sh
 *.zip
+node_modules
 

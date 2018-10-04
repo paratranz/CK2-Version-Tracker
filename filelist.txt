@@ -1,0 +1,40 @@
+localisation
+common/cultures
+common/dynasties
+common/landed_titles
+history/characters
+history/wars
+
+history/provinces/17 - Hereford.txt
+history/provinces/378 - Reval.txt
+history/provinces/381 - Nyland.txt
+history/provinces/382 - Finland.txt
+history/provinces/383 - Tavasts.txt
+history/provinces/384 - Satakunta.txt
+history/provinces/385 - Osterbotten.txt
+history/provinces/390 - Savolaks.txt
+history/provinces/392 - Kexholm.txt
+history/provinces/393 - Onega.txt
+history/provinces/65 - Powys.txt
+history/provinces/66 - Shrewsbury.txt
+history/provinces/796 - Cairo.txt
+
+decisions/jd_decisions.txt
+
+events/byzantine_events.txt
+events/cm_charlemagne_story_events.txt
+events/hashshashin_order_events.txt
+events/hippodrome_events.txt
+events/interesting_muslims.txt
+events/jd_chinese_invasion_events.txt
+events/legends_events.txt
+events/mongol_events.txt
+events/oldgods_historical_events.txt
+events/polygamy_events.txt
+events/rip_eternal_life_events.txt
+events/rip_physician_events.txt
+events/roi_guru_events.txt
+events/soa_misc_religious_events.txt
+events/soa_various_events.txt
+events/various_traits_events.txt
+events/ze_lunatic.txt
