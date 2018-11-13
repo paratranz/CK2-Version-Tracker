@@ -129,7 +129,7 @@
 
 20494 = {
 	name="Dragimir"
-	dynasty=101682
+	dynasty=15004
 	martial=4
 	diplomacy=4
 	intrigue=6
@@ -147,7 +147,7 @@
 
 20495 = {
 	name="Hvalimir"
-	dynasty=101682
+	dynasty=15004
 	martial=5
 	diplomacy=5
 	intrigue=4
@@ -164,7 +164,7 @@
 
 20496 = {
 	name="Petrislav"
-	dynasty=101682
+	dynasty=15004
 	martial=4
 	diplomacy=4
 	intrigue=6
@@ -267,7 +267,7 @@
 
 20538 = {
 	name="Vukan"
-	dynasty=101682
+	dynasty=18000
 	martial=5
 	diplomacy=7
 	intrigue=5
@@ -353,7 +353,7 @@
 40530 = {
 	name="Jovan Vladimir"
 	# AKA: Jovan Vladimir
-	dynasty=101682
+	dynasty=15004
 	martial=5
 	diplomacy=4
 	intrigue=6
@@ -375,7 +375,7 @@
 4491 = {
 	name="Neda"
 	female = yes
-	dynasty=101682
+	dynasty=15004
 	martial=4
 	diplomacy=6
 	intrigue=7
@@ -661,7 +661,7 @@
 
 70362 = {
 	name="Dobroslav"
-	dynasty=101682
+	dynasty=15004
 	martial=3
 	diplomacy=8
 	intrigue=7
@@ -708,7 +708,7 @@
 
 34070 = {
 	name="Uros"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=218510
@@ -723,7 +723,7 @@
 
 34071 = {
 	name="Desa"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=218510
@@ -738,7 +738,7 @@
 
 34072 = {
 	name="Belos"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=218510
@@ -753,7 +753,7 @@
 
 34073 = {
 	name="Tihomir"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=218505
@@ -767,7 +767,7 @@
 
 34074 = {
 	name="Stracimir"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=218505
@@ -781,7 +781,7 @@
 
 34075 = {
 	name="Miroslav"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=218505
@@ -795,7 +795,7 @@
 
 34076 = {
 	name="Stefan"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34073
@@ -809,7 +809,7 @@
 
 34077 = {
 	name="Toljen"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34075
@@ -823,7 +823,7 @@
 
 34078 = {
 	name="Toljen"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34077
@@ -837,7 +837,7 @@
 
 34079 = {
 	name="Petar"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34075
@@ -851,7 +851,7 @@
 
 34080 = {
 	name="Andrija"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34075
@@ -865,7 +865,7 @@
 
 34081 = {
 	name="Bogdan"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34080
@@ -879,7 +879,7 @@
 
 34082 = {
 	name="Djordje"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34080
@@ -893,7 +893,7 @@
 
 34083 = {
 	name="Radoslav"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34080
@@ -908,7 +908,7 @@
 34084 = {
 	name="Vukoslava"
 	female=yes
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34080
@@ -923,7 +923,7 @@
 34085 = {
 	name="Dragoslava"
 	female=yes
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34080
@@ -937,7 +937,7 @@
 
 34086 = {
 	name="Toljen"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34081
@@ -951,7 +951,7 @@
 
 34087 = {
 	name="Petar"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34086
@@ -1316,7 +1316,7 @@
 }
 
 34117 = {
-	name="Stefan"
+	name="Dragutin"
 	#AKA Stefan Dragutin
 	dynasty=184
 	religion="orthodox"
@@ -1487,7 +1487,7 @@
 34129 = {
 	name="Ana" #real name unknown
 	female=yes
-	dynasty=101682
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=20538
@@ -1671,7 +1671,7 @@
 
 34142 = {
 	name="Nikola"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34087
@@ -1688,7 +1688,7 @@
 
 34143 = {
 	name="Vladislav"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34142
@@ -1703,7 +1703,7 @@
 
 34144 = {
 	name="Bogisa"
-	dynasty=184
+	dynasty=18000
 	religion="orthodox"
 	culture="serbian"
 	father=34142
@@ -1718,7 +1718,7 @@
 
 218510 = {
 	name="Uros"
-	dynasty=184
+	dynasty=18000
 	martial=4
 	diplomacy=8
 	intrigue=5
@@ -1729,7 +1729,7 @@
 	trait="kind"
 	trait="honest"
 	trait="tough_soldier"
-	father=20533
+	father=20538
 	1087.1.1={
 		birth="1087.1.1"
 	}
@@ -1744,7 +1744,7 @@
 218511 = {
 	name="Jelena"
 	female = yes
-	dynasty=184
+	dynasty=18000
 	martial=8
 	diplomacy=7
 	intrigue=6
@@ -1767,7 +1767,7 @@
 218512 = {
 	name="Marija"
 	female = yes
-	dynasty=184
+	dynasty=18000
 	martial=7
 	diplomacy=7
 	intrigue=6
@@ -1789,7 +1789,7 @@
 
 218505 = {
 	name="Zavida"
-	dynasty=184
+	dynasty=18000
 	martial=4
 	diplomacy=5
 	intrigue=8
@@ -1811,7 +1811,7 @@
 }
 
 218500 = {
-	name="Stefan"
+	name="Nemanja"
 	dynasty=184
 	martial=7
 	diplomacy=8
@@ -1930,7 +1930,7 @@
 }
 
 468500 = {
-	name="Uros"
+	name="Uros Dusan"
 	# AKA: Stefan Uros Dusan
 	dynasty=184
 	martial=7
@@ -2023,7 +2023,7 @@
 }
 
 468505 = {
-	name="Uros"
+	name="Uros Milutin"
 	# AKA: Stefan Uros Milutin
 	dynasty=184
 	martial=7
@@ -2071,7 +2071,7 @@
 }
 
 468510 = {
-	name="Uros"
+	name="Uros Decanski"
 	# AKA: Stefan Uros III
 	dynasty=184
 	martial=4
@@ -2096,141 +2096,6 @@
 	}
 	1331.11.3={
 		death="1331.11.3"
-	}
-}
-
-215008 = {
-	name="Progon"
-	dynasty=20071
-	martial=5
-	diplomacy=4
-	intrigue=6
-	stewardship=8
-	religion="orthodox"
-	culture="serbian" #albanian
-	trait="tough_soldier"
-	1160.1.1={
-		birth="1160.1.1"
-	}
-	1200.1.1={
-		death="1200.1.1"
-	}
-}
-
-232538 = {
-	name="Gjin"
-	dynasty=20071
-	martial=4
-	diplomacy=4
-	intrigue=4
-	stewardship=4
-	religion="orthodox"
-	culture="serbian" #albanian
-	trait="humble"
-	trait="tough_soldier"
-	father=215008
-	1179.1.1={
-		birth="1179.1.1"
-	}
-	1208.1.1={
-		death="1208.1.1"
-	}
-}
-
-232539 = {
-	name="Dimitrije"
-	dynasty=20071
-	martial=4
-	diplomacy=4
-	intrigue=4
-	stewardship=4
-	religion="orthodox"
-	culture="serbian" #albanian
-	trait="honest"
-	trait="martial_cleric"
-	father=215008
-	1182.1.1={
-		birth="1182.1.1"
-	}
-	1211.1.1={
-		add_spouse=34101
-	} 
-	1215.1.1={
-		death="1215.1.1"
-	}
-}
-
-232540 = {
-	name="Grgur"
-	dynasty=20072
-	martial=4
-	diplomacy=4
-	intrigue=4
-	stewardship=4
-	religion="orthodox"
-	culture="serbian" #albanian
-	trait="greedy"
-	trait="thrifty_clerk"
-	1190.1.1={
-		birth="1190.1.1"
-	}
-	1211.1.1={
-		add_spouse=34446
-	}
-	1216.1.1={
-		add_spouse=34101
-	}
-	1234.1.1={
-		death="1234.1.1"
-	}
-}
-
-34446 = {
-	name="Anna"
-	female=yes
-	dynasty=20071
-	religion="orthodox"
-	culture="serbian"
-	father=232538
-	1195.1.1={
-		birth="1195.1.1"
-	}	
-	1216.1.1={
-		death="1216.1.1"
-	}
-}
-
-34447 = {
-	name="Irene"
-	female=yes
-	dynasty=20071
-	religion="orthodox"
-	culture="serbian"
-	father=232539
-	mother=34101
-	1212.1.1={
-		birth="1212.1.1"
-	}	
-	1262.1.1={
-		death="1262.1.1"
-	}
-}
-
-34448 = {
-	name="Goulamos"
-	dynasty=20072
-	religion="orthodox"
-	culture="serbian"
-	father=232540
-	mother=34446
-	1212.1.1={
-		birth="1212.1.1"
-	}
-	1228.1.1={
-		add_spouse=34447
-	}	
-	1262.1.1={
-		death="1262.1.1"
 	}
 }
 
@@ -2447,11 +2312,14 @@
 167869 = {
 	name="Prvoslav"
 	dynasty=100502
-	religion="orthodox"
+	religion="slavic_pagan"
 	culture="serbian"
 	father=163116
 	850.1.1={
 		birth="850.1.1"
+	}
+	870.1.1 = {
+		religion = orthodox
 	}
 	900.1.1={
 		death="900.1.1"
@@ -2478,11 +2346,14 @@
 167871 = {
 	name="Bran"
 	dynasty=100502
-	religion="orthodox"
+	religion="slavic_pagan"
 	culture="serbian"
 	father=163116
 	855.1.1={
 		birth="855.1.1"
+	}
+	870.1.1 = {
+		religion = orthodox
 	}
 	905.1.1={
 		death="905.1.1"
@@ -2495,11 +2366,14 @@
 167872 = {
 	name="Stefan"
 	dynasty=100502
-	religion="orthodox"
+	religion="slavic_pagan"
 	culture="serbian"
 	father=163116
 	855.1.1={
 		birth="855.1.1"
+	}
+	870.1.1 = {
+		religion = orthodox
 	}
 	905.1.1={
 		death="905.1.1"
@@ -2566,5 +2440,103 @@
 	}
 	917.1.1={
 		death="917.1.1"
+	}
+}
+
+#Sclaveni rulers
+
+145799 = {
+	name="Budimir"
+	dynasty=15005
+	religion="slavic_pagan"
+	culture="serbian"
+
+	740.1.1={
+		birth="740.1.1"
+	}
+	800.1.1={
+		death="800.1.1"
+	}
+}
+
+145809 = {
+	name="Mijat"
+	dynasty=15006
+	religion="slavic_pagan"
+	culture="serbian"
+
+	742.1.1={
+		birth="742.1.1"
+	}
+	804.1.1={
+		death="804.1.1"
+	}
+}
+
+145810 = {
+	name="Svetislav"
+	dynasty=15007
+	religion="slavic_pagan"
+	culture="serbian"
+
+	746.1.1={
+		birth="746.1.1"
+	}
+	802.1.1={
+		death="802.1.1"
+	}
+}
+
+145816 = {
+	name="Vuk"
+	dynasty=15008
+	religion="slavic_pagan"
+	culture="serbian"
+
+	731.1.1={
+		birth="731.1.1"
+	}
+	789.1.1={
+		death="789.1.1"
+	}
+}
+
+145119 = {
+	name="Veselin" # D.Dioclea
+	dynasty=15009
+	religion="orthodox"
+	culture="serbian"
+
+	844.1.1={
+		birth="844.1.1"
+	}
+	904.1.1={
+		death="904.1.1"
+	}
+}
+
+145180 = {
+	name="Borivoje" # D.Epirus/C.Epeiros
+	dynasty=15010
+	religion="orthodox"
+	culture="serbian"
+	840.1.1={
+		birth="840.1.1"
+	}
+	900.1.1={
+		death="900.1.1"
+	}
+}
+
+145186 = {
+	name="Predrag" # C.Thessalia
+	dynasty=15011
+	religion="orthodox"
+	culture="serbian"
+	846.1.1={
+		birth="846.1.1"
+	}
+	904.1.1={
+		death="904.1.1"
 	}
 }

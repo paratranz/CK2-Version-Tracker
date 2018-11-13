@@ -24,16 +24,16 @@ tribal_build_legend_ARMY_OF;Warriors of $CHARACTER$;Guerriers de $CHARACTER$;Kri
 tribal_build_zeal_ARMY;$RELIGION$ Zealots;Fanatiques de foi $RELIGION$;$RELIGION$e Zeloten;;$RELIGION$ fanáticos;;;;;;;;;x
 tribal_organize_raid_ARMY;Raiders;Troupe pillarde;Plünderer;;Incursores;;;;;;;;;x
 tribal_build_legend_ARMY;Warriors;Troupe guerrière;Krieger;;Guerreros;;;;;;;;;x
-expel_saint_anthony;Expel the Order of Saint Anthony;Expulser l'Ordre de saint Antoine;Vertreibt den Orden des Heiligen Antonius;;Expulsar a la Orden de San Antonio;;;;;;;;;x
-expel_saint_anthony_desc;I can drive the Order of Saint Anthony from my realm and seize their castles. However, it is a very impious thing to do...;Je peux expulser l'Ordre de saint Antoine de mon pays et m'emparer de leurs commanderies. Ce serait par contre un acte des plus impies...;Ich kann den Orden des Heiligen Antonius aus meinem Reich vertreiben und mir ihre Burgen aneignen. Das ist jedoch eine sehr unfromme Tat ...;;Puedo echar a la Orden de San Antonio de mi reino y apoderarme de sus castillos. Sin embargo, es una acción muy impía...;;;;;;;;;x
+expel_saint_anthony;Expel the Order of Saint Anthony;Expulser l'Ordre de Saint Antoine;Vertreibt den Orden des Heiligen Antonius;;Expulsar a la Orden de San Antonio;;;;;;;;;x
+expel_saint_anthony_desc;I can drive the Order of Saint Anthony from my realm and seize their castles. However, it is a very impious thing to do...;Je peux expulser l'Ordre de Saint Antoine de mon pays et m'emparer de leurs commanderies. Ce serait par contre un acte des plus impies...;Ich kann den Orden des Heiligen Antonius aus meinem Reich vertreiben und mir ihre Burgen aneignen. Das ist jedoch eine sehr unfromme Tat ...;;Puedo echar a la Orden de San Antonio de mi reino y apoderarme de sus castillos. Sin embargo, es una acción muy impía...;;;;;;;;;x
 ISNT_CROWN_LAW_TITLE;Is not a Crown Law title;Ceci n'est pas un titre du droit de la Couronne;Ist kein Titel des Kronrechts;;No es un título de Derecho de la Corona;;;;;;;;;x
 IS_CROWN_LAW_TITLE;Is a Crown Law title;Ceci est un titre du droit de la Couronne;Ist ein Titel des Kronrechts;;Es un título legal de la Corona;;;;;;;;;x
 LAW_UNLOCKS;Laws unlocked: ;Lois débloquées : ;Gesetze freigeschaltet: ;;Leyes desbloqueadas:;;;;;;;;;x
 DECISION_UNLOCKS;Decisions unlocked: ;Décisions débloquées : ;Entscheidungen freigeschaltet: ;;Decisiones desbloqueadas: ;;;;;;;;;x
 ALLOW_FREE_DUCHY_REVOKATION_ON;Revocation of duchy titles free.\n;Aucune pénalité pour la révocation des titres de duché.\n;Freie Aberkennung von Herzogstiteln.\n;;Permite revocación de títulos de ducados.;;;;;;;;;x
 ALLOW_FREE_DUCHY_REVOKATION_OFF;Revocation of duchy titles no longer free.\n;Pénalités applicables pour la révocation des titres de duché.\n;Keine weitere freie Aberkennung von Herzogstiteln.\n;;No permite la revocación de títulos de ducados.;;;;;;;;;x
-LIEGE_LEVY_DESC_VICE_ROY;\n   Viceroyalty: $VALUE$;\n   Vice-royauté : $VALUE$;\n   Vizekönigreiche: $VALUE$;;\n  Virreinato: $VALUE$;;;;;;;;;x
-TITLE_NOT_VICE_ROYALTY;Title is not a Viceroyalty;Ce titre n'est pas une vice-royauté;Titel ist kein Vizekönigstitel;;El título no es un virreinato;;;;;;;;;x
+LIEGE_LEVY_DESC_VICE_ROY;\n   Viceroyalty: $VALUE$;\n   Vice-royauté : $VALUE$;\n   Vizeherrscher: $VALUE$;;\n  Virreinato: $VALUE$;;;;;;;;;x
+TITLE_NOT_VICE_ROYALTY;Title is not a Viceroyalty;Ce titre n'est pas une vice-royauté;Titel ist kein Vizeherrschertitel;;El título no es un virreinato;;;;;;;;;x
 tribal_king_female;Queen;Reine;Königin;;Reina;;;;;;;;;x
 tribal_emperor_female;Empress;Impératrice;Kaiserin;;Emperatriz;;;;;;;;;x
 temple_duke_female_pagan_group;Archpriestess;Archiprêtresse;Erzpriesterin;;Reina sacerdotisa;;;;;;;;;x

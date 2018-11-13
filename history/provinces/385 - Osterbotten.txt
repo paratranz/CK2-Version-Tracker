@@ -6,16 +6,15 @@ title = c_osterbotten
 # Settlements
 max_settlements = 3
 
-b_oulu = tribal
+b_vaasa = tribal
 
-#b_nykarleby = city
+#b_kristinestad = city
 
-#b_kristinestad = temple 
-#b_korsholm = castle
+#b_korsholm = temple 
+#b_liminka = castle
 #b_kalajoki = castle
-#b_jakobstad = castle
+#b_kaskinen = castle
 #b_veteli = castle
-#b_liminka = city
 
 # Misc
 culture = finnish
@@ -26,6 +25,6 @@ terrain = forest
 1158.1.1 = { name = "Österbotten" }
 1250.1.1 = {
 	religion = catholic 	#Northern Crusades
-	b_oulu = castle
+	b_vaasa = castle
 }
-1337.1.1 = { b_nykarleby = city }
+1337.1.1 = { b_kristinestad = city }

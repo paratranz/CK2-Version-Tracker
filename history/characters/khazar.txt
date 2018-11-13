@@ -7,6 +7,10 @@
 
 	560.1.1={
 		birth="560.1.1"
+		create_bloodline = {
+			type = ashina
+			has_dlc = "Holy Fury"
+		}
 	}
 	611.1.1={
 		death="611.1.1"
@@ -998,5 +1002,39 @@
 		death=yes
 	}
 }
-
-
+256057 = {			#fictional, khazarian clan in 867
+	name = Hezekiah
+	dynasty = 1061037	#Hekel
+	religion = "jewish"
+	culture = "khazar"
+	850.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+256058 = {			#fictional, khazarian clan in 867
+	name = Bulçan
+	dynasty = 1061038	#Bulçir
+	religion = "jewish"
+	culture = "khazar"
+	833.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+258094 = {
+	name="Yavdi"
+	dynasty=1100016
+	religion="jewish"
+	culture="khazar"
+	1036.1.1={
+		birth=yes
+	}
+	1087.1.1={
+		death=yes
+	}
+}

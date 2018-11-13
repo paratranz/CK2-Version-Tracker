@@ -3,13 +3,9 @@ const {execSync} = require('child_process')
 const fs = require('fs-extra')
 const defaultDir = 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Crusader Kings II'
 
-const version = process.argv[2]
+const version = fs.readFileSync(path.join(__dirname, 'version.txt'))
 const gameDir = process.argv[3] || defaultDir
-
-if (!/^[.\d]+$/.test(version)) {
-  console.error('Please specify a valid version, eg. 2.8.3.2')
-  process.exit(1)
-}
+const diffDir = path.join(__dirname, 'diff')
 
 const filelist = fs.readFileSync(path.join(__dirname, 'filelist.txt')).toString().split(/\r?\n/).filter(line => line && line.trim())
 
@@ -18,5 +14,26 @@ for (const item of filelist) {
   console.log(item, 'copied')
 }
 
+fs.removeSync(path.join(__dirname, 'diff'))
+
 execSync(`git add .`)
 execSync(`git commit -am ${version}`)
+
+const changedFiles = execSync('git diff --name-only HEAD~1').toString()
+  .split(/\r?\n/).filter(file => /\//.test(file))
+
+fs.removeSync(diffDir)
+
+for (const file of changedFiles) {
+  if (!file || !fs.existsSync(file)) {
+    continue
+  }
+  if (!/\.(txt|csv)$/.test(file) || /diff/.test(file) || !/\//.test(file)) {
+    continue
+  }
+  fs.outputFileSync(path.join(diffDir, file), fs.readFileSync(file))
+  console.log(file, 'copied')
+}
+
+execSync(`git add .`)
+execSync(`git commit -a -m "diff ${version}"`)

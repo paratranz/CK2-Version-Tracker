@@ -28,9 +28,6 @@ ACCEPTED_PLOT_REQUEST;Is backing plot.;Soutient un complot.;Unterstützt Verschwö
 LOADING_TIP_52;You can make selection choose fleets exclusively using the ALT key.;Vous pouvez sélectionner uniquement vos flottes en utilisant la touche ALT.;Sie können eine Auswahl nur auf Flotten treffen, indem Sie die Alt-Taste gedrückt halten.;;Puedes hacer que la tropa seleccionada se embarque usando simplemente la tecla ALT;;;;;;;;;x
 EXIT;Exit;Sortie;Schließen;;Salir;;;;;;;;;x
 CUT;Cut!;Coupez !;Schnitt!;;¡Cortar!;;;;;;;;;x
-#CONFIRMEXPORTTITLE;Export CK2 Game to EU4;;CK2-Spiel nach EU4 exportieren;;Exportar partida a EU4;;;;;;;;;x
-#CONFIRMEXPORTTEXT;The game will be exported with the name $NAME$. This might take a couple of minutes.;;Das Spiel wird mit dem Namen $NAME$ exportiert. Es kann möglicherweise ein paar Minuten dauern.;;La partida se exportará con el nombre $NAME$. Esta operación puede tardar un par de minutos.;;;;;;;;;x
-#CONFIRMEXPORTTEXT_WARNING;The game will be exported with the name $NAME$.\n\n THIS NAME IS ALREADY IN USE!\nAre you sure you want to continue?;;Das Spiel wird mit dem Namen $NAME$ exportiert.\n\nDIESER NAME WIRD BEREITS BENUTZT!\nSind Sie sicher, dass Sie fortfahren wollen?;;La partida se exportará con el nombre $NAME$.\n\n ¡ESTE NOMBRE YA ESTÁ EN USO!\n¿Seguro que quieres continuar?;;;;;;;;;x
 STYLE;Style;Style;Stil;;Estilo;;;;;;;;;x
 CAN_PERSUADE_TO_JOIN_PLOT;Might be persuaded with a bag of gold...;Peut être convaincu par une escarcelle d'or...;Könnte von einem Sack Gold überzeugt werden.;;Puede convencersele con un saco de oro...;;;;;;;;;x
 city_job_chancellor_arabic;Grand Vizier;Grand vizir;Großwesir;;Gran Visir;;;;;;;;;x
@@ -40,7 +37,6 @@ city_job_chancellor_west_african;Grand Vizier;Grand vizir;Großwesir;;Gran Visir;
 city_job_chancellor_greek;Magistros;Magistros;Magistros;;Magistros;;;;;;;;;x
 city_job_spymaster_greek;Mystikos;Mystikos;Mystikos;;Mystikos;;;;;;;;;x
 city_job_treasurer_greek;Sakellarios;Sakellarios;Sakellarios;;Sakellarios;;;;;;;;;x
-#city_job_marshal_greek;Strategos;;Strategos;;Estratega;;;;;;;;;x
 city_job_chancellor_aztec;Cihuacoatl;Cihuacoatl;Cihuacoatl;;Cihuacoatl;;;;;;;;;x
 city_job_treasurer_aztec;Petlacalcatl;Petlacalcatl;Petlacalcatl;;Petlacalcatl;;;;;;;;;x
 city_job_spiritual_aztec;Sahagun;Sahagún;Sahagun;;Sahagun;;;;;;;;;x

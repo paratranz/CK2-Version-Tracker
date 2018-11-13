@@ -1488,58 +1488,6 @@
 	}
 }
 
-34820 = {
-	name="Atrak"
-	#placeholder
-	religion="tengri_pagan"
-	culture="cuman"
-	1180.1.1={
-		birth="1180.1.1"
-	}
-	1230.1.1={
-		death="1230.1.1"
-	}
-}
-
-34821 = {
-	name="Sokal"
-	#placeholder
-	religion="tengri_pagan"
-	culture="cuman"
-	1200.1.1={
-		birth="1200.1.1"
-	}
-	1241.1.1={
-		death="1241.1.1"
-	}
-}
-
-34822 = {
-	name="Kubasar"
-	#placeholder
-	religion="tengri_pagan"
-	culture="cuman"
-	1170.1.1={
-		birth="1170.1.1"
-	}
-	1210.1.1={
-		death="1210.1.1"
-	}
-}
-
-34823 = {
-	name="Sugr"
-	#placeholder
-	religion="tengri_pagan"
-	culture="cuman"
-	1200.1.1={
-		birth="1200.1.1"
-	}
-	1241.1.1={
-		death="1241.1.1"
-	}
-}
-
 34824 = {
 	name="Etrek"
 	#placeholder
@@ -2467,27 +2415,6 @@
 	religion="tengri_pagan"
 	culture="cuman"
 	trait="tough_soldier"
-	1150.1.1={
-		birth=yes
-	}
-	1200.1.1={
-		death="1200.1.1"
-	}
-}
-
-228029 = {
-	name="Sol"
-	dynasty=100516
-	martial=7
-	diplomacy=8
-	intrigue=5
-	stewardship=5
-	religion="tengri_pagan"
-	culture="cuman"
-	trait="slothful"
-	trait="arbitrary"
-	trait="craven"
-	trait="skilled_tactician"
 	1150.1.1={
 		birth=yes
 	}
@@ -3526,5 +3453,39 @@
 	}
 	1350.1.1 = {
 		death = yes
+	}
+}
+260094 = {
+	name = "Etrek"
+	religion = tengri_pagan
+	culture = cuman
+	1125.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+260095 = {
+	name = "Bachman"
+	religion = tengri_pagan
+	culture = cuman
+	1160.1.1 = {
+		birth = yes
+	}
+	1220.1.1 = {
+		death = yes
+	}
+}
+258106 = {
+	name="Bönek"
+	dynasty=1100028
+	religion="tengri_pagan"
+	culture="cuman"
+	740.1.1={
+		birth=yes
+	}
+	770.1.1={
+		death=yes
 	}
 }

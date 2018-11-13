@@ -1168,7 +1168,7 @@
 	}
 }
 
-145767 = { 
+145767 = {
 	name="Christophoros"
 	dynasty=1022245
 	religion="miaphysite"
@@ -1176,18 +1176,24 @@
 	828.1.1={
 		birth="828.1.1"
 	}
+	853.1.1={
+		capital = c_kassala
+	}
 	882.1.1={
 		death="882.1.1"
 	}
 }
 
-145677 = { 
+145677 = {
 	name="Gabriel"
 	dynasty=1022246
 	religion="miaphysite"
 	culture="nubian"
 	1038.1.1={
 		birth="1038.1.1"
+	}
+	1066.1.1={
+		capital = c_kassala
 	}
 	1096.1.1={
 		death="1096.1.1"

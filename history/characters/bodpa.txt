@@ -2721,18 +2721,22 @@
 	}
 	622.1.1={
 		add_spouse=247080
+		create_bloodline = {
+			type = songtsen_gampo
+			has_dlc = "Holy Fury"
+		}
 	}
 	625.1.1={
-		effect={c_247078={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247078}}
 	}
 	629.1.1={
-		effect={c_247079={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247079}}
 	}
 	634.1.1={
-		effect={c_247003={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247003}}
 	}
 	636.1.1={
-		effect={c_247343={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247343}}
 	}
 	641.1.1={
 		add_spouse=247081
@@ -2961,10 +2965,10 @@
 		add_spouse = 247093
 	}
 	685.1.1={
-		effect={c_247094={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247094}}
 	}
 	690.1.1={
-		effect={c_247095={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247095}}
 	}
 	704.6.1={
 		death=yes
@@ -3053,10 +3057,10 @@
 		add_spouse = 247099 #Princess Jincheng of Tang
 	}
 	722.1.1={
-		effect={c_247101={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247101}}
 	}
 	740.1.1={
-		effect={c_247100={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247100}}
 	}
 	742.1.1={
 		religion="bon"
@@ -3160,17 +3164,17 @@
 		add_spouse = 247106
 	}
 	760.1.1={
-		effect={c_247108={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247108}}
 		add_trait = zealous
 	}
 	762.1.1={
 		effect={c_247110={add_friend=ROOT}}
 	}
 	763.1.1={
-		effect={c_247109={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247109}}
 	}
 	767.1.1={
-		effect={c_247114={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247114}}
 	}
 	769.1.1 = {
 		# Some extra troops for Tibet
@@ -3199,7 +3203,7 @@
 		}
 	}
 	770.1.1={
-		effect={c_247107={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247107}}
 	}
 	797.1.1={
 		death=yes
@@ -3338,13 +3342,13 @@
 		add_spouse = 252020
 	}
 	807.1.1={
-		effect={c_247121={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247121}}
 	}
 	808.1.1={
-		effect={c_247122={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247122}}
 	}
 	811.1.1={
-		effect={c_247123={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247123}}
 	}
 	815.1.1={
 		death=yes
@@ -3482,7 +3486,7 @@
 		add_spouse = 247129
 	}
 	829.1.1={
-		effect={c_247130={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247130}}
 	}
 	838.11.1 = {
 		name="Langdarma"
@@ -4986,7 +4990,7 @@
 		trait="monk"
 	}
 	1075.1.1={
-		effect={c_247204={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247204}}
 	} # Tantric Consort
 	1102.1.1={
 		death=yes
@@ -5048,7 +5052,7 @@
 		trait="monk"
 	}
 	1085.1.1={
-		effect={c_247225={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247225}}
 	} # Tantric Consort
 	1111.1.1={
 		death=yes
@@ -5404,10 +5408,10 @@
 		add_spouse = 247251
 	}
 	1304.1.1={
-		effect={c_247253={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247253}}
 	} # Tantric Consort
 	1307.1.1={
-		effect={c_247260={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247260}}
 	} # Tantric Consort
 	1324.1.1={
 		death=yes

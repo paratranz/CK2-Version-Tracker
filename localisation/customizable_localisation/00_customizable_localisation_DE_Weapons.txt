@@ -267,3 +267,22 @@ defined_text = {
 		localisation_key = string_DE_WeaponAdjEnding_neutral
 	}
 }
+
+defined_text = {
+	name = GetDuelMovement1DE
+	text = {
+		localisation_key = string_DE_moved_suddenly
+	}
+	text = {
+		localisation_key = string_DE_moved_carefully
+	}
+	text = {
+		localisation_key = string_DE_moved_aggressively
+	}
+	text = {
+		localisation_key = string_DE_moved_gracefully
+	}
+	text = {
+		localisation_key = string_DE_moved_purposefully
+	}
+}

@@ -1,9 +1,11 @@
 localisation
 common/cultures
 common/dynasties
-common/landed_titles
 history/characters
 history/wars
+
+common/landed_titles/landed_titles.txt
+common/offmap_powers/00_offmap_powers.txt
 
 history/provinces/17 - Hereford.txt
 history/provinces/378 - Reval.txt

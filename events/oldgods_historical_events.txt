@@ -8,6 +8,7 @@
 # Written by Henrik Eklund
 
 namespace = TOG
+namespace = TGF
 
 # Discovery of Greenland
 narrative_event = {
@@ -20,16 +21,14 @@ narrative_event = {
 	ai = no
 	culture_group = north_germanic
 	
+	is_triggered_only = yes
+	
 	trigger = {
 		has_dlc = "The Old Gods"
 		1 = { culture_group = north_germanic }
 		year = 925
 		NOT = { has_global_flag = greenland_discovered }
 	}	
-	
-	mean_time_to_happen = {
-		months = 6
-	}
 	
 	immediate = {
 		set_global_flag = greenland_discovered
@@ -52,16 +51,14 @@ narrative_event = {
 	culture_group = north_germanic
 	has_global_flag = greenland_discovered
 	
+	is_triggered_only = yes
+	
 	trigger = {
 		has_dlc = "The Old Gods"
 		1 = { culture_group = north_germanic }
 		year = 985
 		NOT = { has_global_flag = greenland_settled }
 	}	
-	
-	mean_time_to_happen = {
-		months = 6
-	}
 	
 	immediate = {
 		set_global_flag = greenland_settled
@@ -84,16 +81,14 @@ narrative_event = {
 	culture_group = north_germanic
 	has_global_flag = greenland_settled
 	
+	is_triggered_only = yes
+	
 	trigger = {
 		has_dlc = "The Old Gods"
 		1 = { culture_group = north_germanic }
 		year = 1001
 		NOT = { has_global_flag = vinland_discovered }
 	}	
-	
-	mean_time_to_happen = {
-		months = 6
-	}
 	
 	immediate = {
 		set_global_flag = vinland_discovered
@@ -116,6 +111,8 @@ narrative_event = {
 	culture_group = north_germanic
 	has_global_flag = vinland_discovered
 	
+	is_triggered_only = yes
+	
 	trigger = {
 		has_dlc = "The Old Gods"
 		has_dlc = "Sunset Invasion"
@@ -128,10 +125,6 @@ narrative_event = {
 		year = 1010
 		NOT = { has_global_flag = aztec_explorers }
 		NOT = { has_global_flag = aztecs_encountered }
-	}	
-	
-	mean_time_to_happen = {
-		months = 6
 	}
 	
 	immediate = {
@@ -140,6 +133,31 @@ narrative_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_403
+	}
+}
+
+# Settlement of Iceland
+narrative_event = {
+	id = TGF.404
+	title = EVTNAME_TOG_404
+	desc = EVTDESC_TOG_404
+	picture = GFX_evt_longships_at_sea_oldgods
+	border = GFX_event_narrative_frame_diplomacy
+	major = yes
+	
+	ai = no
+	culture_group = north_germanic
+	
+	is_triggered_only = yes
+	
+	major_trigger = {
+		capital_scope = {
+			region = world_europe
+		}
+	}
+	
+	option = {
+		name = EVTOPTA_TOG_404
 	}
 }
 

@@ -229,16 +229,16 @@
 		add_spouse = 252004
 	}
 	754.1.1={
-		#effect={c_242405={add_consort=ROOT}}
+		#effect={ROOT={add_consort=c_242405}}
 		effect={c_247342={add_friend=ROOT}}
 	}
 	764.1.1={
-		effect={c_252003={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_252003}}
 		effect={c_247106={add_friend=ROOT}}
 		effect={c_252002={add_friend=ROOT}}
 	}
 	768.1.1={
-		effect={c_247107={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247107}}
 	}
 	769.1.1={
 		effect = {add_rival = 247105}

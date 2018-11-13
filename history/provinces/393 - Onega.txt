@@ -14,7 +14,6 @@ b_ust-onega = tribal
 #b_pudoga = castle
 #b_petrozavodsk = city
 #b_medvezhyegorsk = castle 
-#b_segezha = castle
 #b_pryazha = castle
 
 # Misc
@@ -23,7 +22,6 @@ religion = finnish_pagan
 
 # History
 1150.1.1 = { religion = orthodox }
-1150.1.1 = { name = "Onega" }
 1187.1.1 = {
 	b_aunus = city
 	b_ust-onega = castle

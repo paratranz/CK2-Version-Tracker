@@ -43,6 +43,8 @@ String_FR_GetLLle_male;_;l;;;;;;;;;;;;x
 String_FR_GetLLle_female;_;lle;;;;;;;;;;;;x
 String_FR_GetEurRice_male;_;eur;;;;;;;;;;;;x
 String_FR_GetEurRice_female;_;rice;;;;;;;;;;;;x
+String_FR_GetEurRiceOpp_male;_;rice;;;;;;;;;;;;x
+String_FR_GetEurRiceOpp_female;_;eur;;;;;;;;;;;;x
 String_FR_GetXCe_male;_;x;;;;;;;;;;;;x
 String_FR_GetXCe_female;_;ce;;;;;;;;;;;;x
 String_FR_GetNNne_male;_;n;;;;;;;;;;;;x
@@ -71,6 +73,8 @@ String_FR_GetXSse_male;_;x;;;;;;;;;;;;x
 String_FR_GetXSse_female;_;sse;;;;;;;;;;;;x
 String_FR_GetTTte_male;_;t;;;;;;;;;;;;x
 String_FR_GetTTte_female;_;tte;;;;;;;;;;;;x
+String_FR_GetAuxAles_male;_;aux;;;;;;;;;;;;x
+String_FR_GetAuxAles_female;_;ales;;;;;;;;;;;;x
 String_FR_GetLLa_male;_;l';;;;;;;;;;;;x
 String_FR_GetLLa_female;_;la ;;;;;;;;;;;;x
 String_FR_GetLLaOpp_male;_;la ;;;;;;;;;;;;x
@@ -87,16 +91,19 @@ String_FR_GetEluiElle_male;_;e lui;;;;;;;;;;;;x
 String_FR_GetEluiElle_female;_;'elle;;;;;;;;;;;;x
 String_FR_GetAuAla_male;_;au;;;;;;;;;;;;x
 String_FR_GetAuAla_female;_;à la;;;;;;;;;;;;x
+String_FR_Get_EOpp_male;_;e;;;;;;;;;;;;x
+String_FR_Get_E_female;_;e;;;;;;;;;;;;x
 String_FR_GetAuAlaCap_male;_;Au;;;;;;;;;;;;x
 String_FR_GetAuAlaCap_female;_;À la;;;;;;;;;;;;x
 String_FR_GetDuDela_male;_;du;;;;;;;;;;;;x
 String_FR_GetDuDela_female;_;de la;;;;;;;;;;;;x
 String_FR_GetParrainMarraine_male;_;parrain;;;;;;;;;;;;x
 String_FR_GetParrainMarraine_female;_;marraine;;;;;;;;;;;;x
-String_FR_GetNoneE_female;_;e;;;;;;;;;;;;x
-String_FR_GetNoneEresse_female;_;eresse;;;;;;;;;;;;x
+String_FR_Get_Eresse_female;_;eresse;;;;;;;;;;;;x
 String_FR_GetSeigneurDameCap_male;_;Seigneur;;;;;;;;;;;;x
 String_FR_GetSeigneurDameCap_female;_;Dame;;;;;;;;;;;;x
+String_FR_GetHerosHeroine_male;_;héros;;;;;;;;;;;;x
+String_FR_GetHerosHeroine_female;_;héroïne;;;;;;;;;;;;x
 ## MOT DEVANT UNE COMMANDE (PAS D'ESPACE ENTRE LES DEUX COMMANDES)
 String_FR_APOSTROPHE;_;';;;;;;;;;;;;x
 String_FR_e_;_;e ;;;;;;;;;;;;x
@@ -240,7 +247,7 @@ String_FR_GetJobTitle2_job_spiritual_norse_pagan_reformed_female;_;Voyante;;;;;;
 String_FR_GetJobTitle2_job_spiritual_norse_pagan_reformed_male;_;Voyant;;;;;;;;;;;;x
 String_FR_GetJobTitle2_job_spiritual_orthodox;_;Sacristain;;;;;;;;;;;;x
 String_FR_GetJobTitle2_job_spiritual_pagan;_;Devin;;;;;;;;;;;;x
-String_FR_GetJobTitle2_job_spiritual_pagan_group;_;Médium en chef;;;;;;;;;;;;x
+String_FR_GetJobTitle2_job_spiritual_pagan_group;_;Grand médium;;;;;;;;;;;;x
 String_FR_GetJobTitle2_job_spiritual_shiite;_;Mollah de la Cour;;;;;;;;;;;;x
 String_FR_GetJobTitle2_job_spiritual_slavic_pagan;_;Devin;;;;;;;;;;;;x
 String_FR_GetJobTitle2_job_spiritual_slavic_pagan_reformed;_;Devin;;;;;;;;;;;;x
@@ -271,6 +278,10 @@ String_FR_Culture_andalusian_arabic_Fem;_;andalouse;;;;;;;;;;;;x
 String_FR_Culture_andalusian_arabic_Masc;_;andalous;;;;;;;;;;;;x
 String_FR_Culture_andalusian_arabic_PlFem;_;andalouses;;;;;;;;;;;;x
 String_FR_Culture_andalusian_arabic_PlMasc;_;andalous;;;;;;;;;;;;x
+String_FR_Culture_arberian_Fem;_;albanaise;;;;;;;;;;;;x
+String_FR_Culture_arberian_Masc;_;albanais;;;;;;;;;;;;x
+String_FR_Culture_arberian_PlFem;_;albanaises;;;;;;;;;;;;x
+String_FR_Culture_arberian_PlMasc;_;albanais;;;;;;;;;;;;x
 String_FR_Culture_armenian_Fem;_;arménienne;;;;;;;;;;;;x
 String_FR_Culture_armenian_Masc;_;arménien;;;;;;;;;;;;x
 String_FR_Culture_armenian_PlFem;_;arméniennes;;;;;;;;;;;;x
@@ -323,6 +334,10 @@ String_FR_Culture_bolghar_Fem;_;bolgare;;;;;;;;;;;;x
 String_FR_Culture_bolghar_Masc;_;bolgar;;;;;;;;;;;;x
 String_FR_Culture_bolghar_PlFem;_;bolgares;;;;;;;;;;;;x
 String_FR_Culture_bolghar_PlMasc;_;bolgars;;;;;;;;;;;;x
+String_FR_Culture_bosnian_Fem;_;bosnienne;;;;;;;;;;;;x
+String_FR_Culture_bosnian_Masc;_;bosnien;;;;;;;;;;;;x
+String_FR_Culture_bosnian_PlFem;_;bosniennes;;;;;;;;;;;;x
+String_FR_Culture_bosnian_PlMasc;_;bosniens;;;;;;;;;;;;x
 String_FR_Culture_breton_Fem;_;bretonne;;;;;;;;;;;;x
 String_FR_Culture_breton_Masc;_;breton;;;;;;;;;;;;x
 String_FR_Culture_breton_PlFem;_;bretonnes;;;;;;;;;;;;x
@@ -331,6 +346,10 @@ String_FR_Culture_bulgarian_Fem;_;bulgare;;;;;;;;;;;;x
 String_FR_Culture_bulgarian_Masc;_;bulgare;;;;;;;;;;;;x
 String_FR_Culture_bulgarian_PlFem;_;bulgares;;;;;;;;;;;;x
 String_FR_Culture_bulgarian_PlMasc;_;bulgares;;;;;;;;;;;;x
+String_FR_Culture_carantanian_Fem;_;carantanienne;;;;;;;;;;;;x
+String_FR_Culture_carantanian_Masc;_;carantanien;;;;;;;;;;;;x
+String_FR_Culture_carantanian_PlFem;_;carantaniennes;;;;;;;;;;;;x
+String_FR_Culture_carantanian_PlMasc;_;carantaniens;;;;;;;;;;;;x
 String_FR_Culture_castillan_Fem;_;castillane;;;;;;;;;;;;x
 String_FR_Culture_castillan_Masc;_;castillan;;;;;;;;;;;;x
 String_FR_Culture_castillan_PlFem;_;castillanes;;;;;;;;;;;;x
@@ -343,6 +362,14 @@ String_FR_Culture_catalan_Fem;_;catalane;;;;;;;;;;;;x
 String_FR_Culture_catalan_Masc;_;catalan;;;;;;;;;;;;x
 String_FR_Culture_catalan_PlFem;_;catalanes;;;;;;;;;;;;x
 String_FR_Culture_catalan_PlMasc;_;catalans;;;;;;;;;;;;x
+String_FR_Culture_coptic_Fem;_;copte;;;;;;;;;;;;x
+String_FR_Culture_coptic_Masc;_;copte;;;;;;;;;;;;x
+String_FR_Culture_coptic_PlFem;_;coptes;;;;;;;;;;;;x
+String_FR_Culture_coptic_PlMasc;_;coptes;;;;;;;;;;;;x
+String_FR_Culture_crimean_gothic_Fem;_;gothe;;;;;;;;;;;;x
+String_FR_Culture_crimean_gothic_Masc;_;gothe;;;;;;;;;;;;x
+String_FR_Culture_crimean_gothic_PlFem;_;gothes;;;;;;;;;;;;x
+String_FR_Culture_crimean_gothic_PlMasc;_;gothes;;;;;;;;;;;;x
 String_FR_Culture_croatian_Fem;_;croate;;;;;;;;;;;;x
 String_FR_Culture_croatian_Masc;_;croate;;;;;;;;;;;;x
 String_FR_Culture_croatian_PlFem;_;croates;;;;;;;;;;;;x
@@ -351,10 +378,30 @@ String_FR_Culture_cuman_Fem;_;coumane;;;;;;;;;;;;x
 String_FR_Culture_cuman_Masc;_;couman;;;;;;;;;;;;x
 String_FR_Culture_cuman_PlFem;_;coumanes;;;;;;;;;;;;x
 String_FR_Culture_cuman_PlMasc;_;coumans;;;;;;;;;;;;x
+String_FR_Culture_daju_Fem;_;daju;;;;;;;;;;;;x
+String_FR_Culture_daju_Masc;_;daju;;;;;;;;;;;;x
+String_FR_Culture_daju_PlFem;_;daju;;;;;;;;;;;;x
+String_FR_Culture_daju_PlMasc;_;daju;;;;;;;;;;;;x
+String_FR_Culture_dalmatian_Fem;_;dalmate;;;;;;;;;;;;x
+String_FR_Culture_dalmatian_Masc;_;dalmate;;;;;;;;;;;;x
+String_FR_Culture_dalmatian_PlFem;_;dalmates;;;;;;;;;;;;x
+String_FR_Culture_dalmatian_PlMasc;_;dalmates;;;;;;;;;;;;x
 String_FR_Culture_danish_Fem;_;danoise;;;;;;;;;;;;x
 String_FR_Culture_danish_Masc;_;danois;;;;;;;;;;;;x
 String_FR_Culture_danish_PlFem;_;danoises;;;;;;;;;;;;x
 String_FR_Culture_danish_PlMasc;_;danois;;;;;;;;;;;;x
+String_FR_Culture_dog_culture_Fem;_;chienne;;;;;;;;;;;;x
+String_FR_Culture_dog_culture_Masc;_;chien;;;;;;;;;;;;x
+String_FR_Culture_dog_culture_PlFem;_;chiennes;;;;;;;;;;;;x
+String_FR_Culture_dog_culture_PlMasc;_;chiens;;;;;;;;;;;;x
+String_FR_Culture_dragon_culture_Fem;_;dragonne;;;;;;;;;;;;x
+String_FR_Culture_dragon_culture_Masc;_;dragon;;;;;;;;;;;;x
+String_FR_Culture_dragon_culture_PlFem;_;dragonnes;;;;;;;;;;;;x
+String_FR_Culture_dragon_culture_PlMasc;_;dragons;;;;;;;;;;;;x
+String_FR_Culture_duck_culture_Fem;_;canarde;;;;;;;;;;;;x
+String_FR_Culture_duck_culture_Masc;_;canard;;;;;;;;;;;;x
+String_FR_Culture_duck_culture_PlFem;_;canardes;;;;;;;;;;;;x
+String_FR_Culture_duck_culture_PlMasc;_;canards;;;;;;;;;;;;x
 String_FR_Culture_dutch_Fem;_;hollandaise;;;;;;;;;;;;x
 String_FR_Culture_dutch_Masc;_;hollandais;;;;;;;;;;;;x
 String_FR_Culture_dutch_PlFem;_;hollandaises;;;;;;;;;;;;x
@@ -363,6 +410,10 @@ String_FR_Culture_egyptian_arabic_Fem;_;égyptienne;;;;;;;;;;;;x
 String_FR_Culture_egyptian_arabic_Masc;_;égyptien;;;;;;;;;;;;x
 String_FR_Culture_egyptian_arabic_PlFem;_;égyptiennes;;;;;;;;;;;;x
 String_FR_Culture_egyptian_arabic_PlMasc;_;égyptiens;;;;;;;;;;;;x
+String_FR_Culture_elephant_culture_Fem;_;éléphantine;;;;;;;;;;;;x
+String_FR_Culture_elephant_culture_Masc;_;éléphantin;;;;;;;;;;;;x
+String_FR_Culture_elephant_culture_PlFem;_;éléphantines;;;;;;;;;;;;x
+String_FR_Culture_elephant_culture_PlMasc;_;éléphantins;;;;;;;;;;;;x
 String_FR_Culture_english_Fem;_;anglaise;;;;;;;;;;;;x
 String_FR_Culture_english_Masc;_;anglais;;;;;;;;;;;;x
 String_FR_Culture_english_PlFem;_;anglaises;;;;;;;;;;;;x
@@ -403,6 +454,14 @@ String_FR_Culture_han_Fem;_;han;;;;;;;;;;;;x
 String_FR_Culture_han_Masc;_;han;;;;;;;;;;;;x
 String_FR_Culture_han_PlFem;_;hans;;;;;;;;;;;;x
 String_FR_Culture_han_PlMasc;_;hans;;;;;;;;;;;;x
+String_FR_Culture_hausa_Fem;_;haoussa;;;;;;;;;;;;x
+String_FR_Culture_hausa_Masc;_;haoussa;;;;;;;;;;;;x
+String_FR_Culture_hausa_PlFem;_;haoussa;;;;;;;;;;;;x
+String_FR_Culture_hausa_PlMasc;_;haoussa;;;;;;;;;;;;x
+String_FR_Culture_hedgehog_culture_Fem;_;hérissonne;;;;;;;;;;;;x
+String_FR_Culture_hedgehog_culture_Masc;_;hérisson;;;;;;;;;;;;x
+String_FR_Culture_hedgehog_culture_PlFem;_;hérissonnes;;;;;;;;;;;;x
+String_FR_Culture_hedgehog_culture_PlMasc;_;hérissons;;;;;;;;;;;;x
 String_FR_Culture_hindustani_Fem;_;hindoustanaise;;;;;;;;;;;;x
 String_FR_Culture_hindustani_Masc;_;hindoustanais;;;;;;;;;;;;x
 String_FR_Culture_hindustani_PlFem;_;hindoustanaises;;;;;;;;;;;;x
@@ -435,6 +494,10 @@ String_FR_Culture_kannada_Fem;_;kannada;;;;;;;;;;;;x
 String_FR_Culture_kannada_Masc;_;kannada;;;;;;;;;;;;x
 String_FR_Culture_kannada_PlFem;_;kannadas;;;;;;;;;;;;x
 String_FR_Culture_kannada_PlMasc;_;kannadas;;;;;;;;;;;;x
+String_FR_Culture_kanuri_Fem;_;kanouri;;;;;;;;;;;;x
+String_FR_Culture_kanuri_Masc;_;kanouri;;;;;;;;;;;;x
+String_FR_Culture_kanuri_PlFem;_;kanouri;;;;;;;;;;;;x
+String_FR_Culture_kanuri_PlMasc;_;kanouri;;;;;;;;;;;;x
 String_FR_Culture_karluk_Fem;_;karlouke;;;;;;;;;;;;x
 String_FR_Culture_karluk_Masc;_;karlouk;;;;;;;;;;;;x
 String_FR_Culture_karluk_PlFem;_;karloukes;;;;;;;;;;;;x
@@ -495,6 +558,10 @@ String_FR_Culture_marathi_Fem;_;marathi;;;;;;;;;;;;x
 String_FR_Culture_marathi_Masc;_;marathi;;;;;;;;;;;;x
 String_FR_Culture_marathi_PlFem;_;marathis;;;;;;;;;;;;x
 String_FR_Culture_marathi_PlMasc;_;marathis;;;;;;;;;;;;x
+String_FR_Culture_meshchera_Fem;_;mechtchérienne;;;;;;;;;;;;x
+String_FR_Culture_meshchera_Masc;_;mechtchérien;;;;;;;;;;;;x
+String_FR_Culture_meshchera_PlFem;_;mechtchériennes;;;;;;;;;;;;x
+String_FR_Culture_meshchera_PlMasc;_;mechtchériens;;;;;;;;;;;;x
 String_FR_Culture_mongol_Fem;_;mongole;;;;;;;;;;;;x
 String_FR_Culture_mongol_Masc;_;mongol;;;;;;;;;;;;x
 String_FR_Culture_mongol_PlFem;_;mongoles;;;;;;;;;;;;x
@@ -543,6 +610,10 @@ String_FR_Culture_oriya_Fem;_;oriya;;;;;;;;;;;;x
 String_FR_Culture_oriya_Masc;_;oriya;;;;;;;;;;;;x
 String_FR_Culture_oriya_PlFem;_;oriyas;;;;;;;;;;;;x
 String_FR_Culture_oriya_PlMasc;_;oriyas;;;;;;;;;;;;x
+String_FR_Culture_outremer_Fem;_;outremer;;;;;;;;;;;;x
+String_FR_Culture_outremer_Masc;_;outremer;;;;;;;;;;;;x
+String_FR_Culture_outremer_PlFem;_;outremers;;;;;;;;;;;;x
+String_FR_Culture_outremer_PlMasc;_;outremers;;;;;;;;;;;;x
 String_FR_Culture_panjabi_Fem;_;pendjabi;;;;;;;;;;;;x
 String_FR_Culture_panjabi_Masc;_;pendjabi;;;;;;;;;;;;x
 String_FR_Culture_panjabi_PlFem;_;pendjabis;;;;;;;;;;;;x
@@ -635,6 +706,14 @@ String_FR_Culture_somali_Fem;_;somalienne;;;;;;;;;;;;x
 String_FR_Culture_somali_Masc;_;somalien;;;;;;;;;;;;x
 String_FR_Culture_somali_PlFem;_;somaliennes;;;;;;;;;;;;x
 String_FR_Culture_somali_PlMasc;_;somaliens;;;;;;;;;;;;x
+String_FR_Culture_songhay_Fem;_;songhaï;;;;;;;;;;;;x
+String_FR_Culture_songhay_Masc;_;songhaï;;;;;;;;;;;;x
+String_FR_Culture_songhay_PlFem;_;songhaï;;;;;;;;;;;;x
+String_FR_Culture_songhay_PlMasc;_;songhaï;;;;;;;;;;;;x
+String_FR_Culture_soninke_Fem;_;soninké;;;;;;;;;;;;x
+String_FR_Culture_soninke_Masc;_;soninké;;;;;;;;;;;;x
+String_FR_Culture_soninke_PlFem;_;soninké;;;;;;;;;;;;x
+String_FR_Culture_soninke_PlMasc;_;soninké;;;;;;;;;;;;x
 String_FR_Culture_suebi_Fem;_;suève;;;;;;;;;;;;x
 String_FR_Culture_suebi_Masc;_;suève;;;;;;;;;;;;x
 String_FR_Culture_suebi_PlFem;_;suèves;;;;;;;;;;;;x
@@ -687,6 +766,10 @@ String_FR_Culture_welsh_Fem;_;galloise;;;;;;;;;;;;x
 String_FR_Culture_welsh_Masc;_;gallois;;;;;;;;;;;;x
 String_FR_Culture_welsh_PlFem;_;galloises;;;;;;;;;;;;x
 String_FR_Culture_welsh_PlMasc;_;gallois;;;;;;;;;;;;x
+String_FR_Culture_zaghawa_Fem;_;zaghawa;;;;;;;;;;;;x
+String_FR_Culture_zaghawa_Masc;_;zaghawa;;;;;;;;;;;;x
+String_FR_Culture_zaghawa_PlFem;_;zaghawas;;;;;;;;;;;;x
+String_FR_Culture_zaghawa_PlMasc;_;zaghawas;;;;;;;;;;;;x
 String_FR_Culture_zhangzhung_Fem;_;zhangzhung;;;;;;;;;;;;x
 String_FR_Culture_zhangzhung_Masc;_;zhangzhung;;;;;;;;;;;;x
 String_FR_Culture_zhangzhung_PlFem;_;zhangzhungs;;;;;;;;;;;;x
@@ -716,6 +799,10 @@ String_FR_Religion_bon_Fem;_;bön;;;;;;;;;;;;x
 String_FR_Religion_bon_Masc;_;bön;;;;;;;;;;;;x
 String_FR_Religion_bon_PlFem;_;bön;;;;;;;;;;;;x
 String_FR_Religion_bon_PlMasc;_;bön;;;;;;;;;;;;x
+String_FR_Religion_bon_reformed_Fem;_;bön;;;;;;;;;;;;x
+String_FR_Religion_bon_reformed_Masc;_;bön;;;;;;;;;;;;x
+String_FR_Religion_bon_reformed_PlFem;_;bön;;;;;;;;;;;;x
+String_FR_Religion_bon_reformed_PlMasc;_;bön;;;;;;;;;;;;x
 String_FR_Religion_buddhist_Fem;_;bouddhiste;;;;;;;;;;;;x
 String_FR_Religion_buddhist_Masc;_;bouddhiste;;;;;;;;;;;;x
 String_FR_Religion_buddhist_PlFem;_;bouddhistes;;;;;;;;;;;;x
@@ -748,6 +835,10 @@ String_FR_Religion_hellenic_pagan_Fem;_;hellénique;;;;;;;;;;;;x
 String_FR_Religion_hellenic_pagan_Masc;_;hellénique;;;;;;;;;;;;x
 String_FR_Religion_hellenic_pagan_PlFem;_;helléniques;;;;;;;;;;;;x
 String_FR_Religion_hellenic_pagan_PlMasc;_;helléniques;;;;;;;;;;;;x
+String_FR_Religion_hellenic_pagan_reformed_Fem;_;hellénique;;;;;;;;;;;;x
+String_FR_Religion_hellenic_pagan_reformed_Masc;_;hellénique;;;;;;;;;;;;x
+String_FR_Religion_hellenic_pagan_reformed_PlFem;_;helléniques;;;;;;;;;;;;x
+String_FR_Religion_hellenic_pagan_reformed_PlMasc;_;helléniques;;;;;;;;;;;;x
 String_FR_Religion_hindu_Fem;_;hindoue;;;;;;;;;;;;x
 String_FR_Religion_hindu_Masc;_;hindou;;;;;;;;;;;;x
 String_FR_Religion_hindu_PlFem;_;hindoues;;;;;;;;;;;;x
@@ -872,14 +963,14 @@ String_FR_Religion_waldensian_Fem;_;vaudoise;;;;;;;;;;;;x
 String_FR_Religion_waldensian_Masc;_;vaudois;;;;;;;;;;;;x
 String_FR_Religion_waldensian_PlFem;_;vaudoises;;;;;;;;;;;;x
 String_FR_Religion_waldensian_PlMasc;_;vaudois;;;;;;;;;;;;x
-String_FR_Religion_west_african_pagan_Fem;_;ouest-africaine;;;;;;;;;;;;x
-String_FR_Religion_west_african_pagan_Masc;_;ouest-africain;;;;;;;;;;;;x
-String_FR_Religion_west_african_pagan_PlFem;_;ouest-africaines;;;;;;;;;;;;x
-String_FR_Religion_west_african_pagan_PlMasc;_;ouest-africains;;;;;;;;;;;;x
-String_FR_Religion_west_african_pagan_reformed_Fem;_;ouest-africaine;;;;;;;;;;;;x
-String_FR_Religion_west_african_pagan_reformed_Masc;_;ouest-africain;;;;;;;;;;;;x
-String_FR_Religion_west_african_pagan_reformed_PlFem;_;ouest-africaines;;;;;;;;;;;;x
-String_FR_Religion_west_african_pagan_reformed_PlMasc;_;ouest-africains;;;;;;;;;;;;x
+String_FR_Religion_west_african_pagan_Fem;_;africaine;;;;;;;;;;;;x
+String_FR_Religion_west_african_pagan_Masc;_;africain;;;;;;;;;;;;x
+String_FR_Religion_west_african_pagan_PlFem;_;africaines;;;;;;;;;;;;x
+String_FR_Religion_west_african_pagan_PlMasc;_;africains;;;;;;;;;;;;x
+String_FR_Religion_west_african_pagan_reformed_Fem;_;africaine;;;;;;;;;;;;x
+String_FR_Religion_west_african_pagan_reformed_Masc;_;africain;;;;;;;;;;;;x
+String_FR_Religion_west_african_pagan_reformed_PlFem;_;africaines;;;;;;;;;;;;x
+String_FR_Religion_west_african_pagan_reformed_PlMasc;_;africains;;;;;;;;;;;;x
 String_FR_Religion_yazidi_Fem;_;yézidie;;;;;;;;;;;;x
 String_FR_Religion_yazidi_Masc;_;yézidi;;;;;;;;;;;;x
 String_FR_Religion_yazidi_PlFem;_;yézidies;;;;;;;;;;;;x
@@ -901,15 +992,54 @@ String_FR_Religion_zun_pagan_reformed_Masc;_;zuniste;;;;;;;;;;;;x
 String_FR_Religion_zun_pagan_reformed_PlFem;_;zunistes;;;;;;;;;;;;x
 String_FR_Religion_zun_pagan_reformed_PlMasc;_;zunistes;;;;;;;;;;;;x
 String_FR_Religion_fidele;_;fidèle;;;;;;;;;;;;x
+String_FR_Religion_old_aztec_Fem;_;aztèque ;;;;;;;;;;;;x
+String_FR_Religion_old_aztec_Masc;_;aztèque ;;;;;;;;;;;;x
+String_FR_Religion_old_aztec_PlFem;_;aztèques ;;;;;;;;;;;;x
+String_FR_Religion_old_aztec_PlMasc;_;aztèques ;;;;;;;;;;;;x
+String_FR_Religion_old_baltic_pagan_Fem;_;romuvienne ;;;;;;;;;;;;x
+String_FR_Religion_old_baltic_pagan_Masc;_;romuvien ;;;;;;;;;;;;x
+String_FR_Religion_old_baltic_pagan_PlFem;_;romuviennes ;;;;;;;;;;;;x
+String_FR_Religion_old_baltic_pagan_PlMasc;_;romuviens ;;;;;;;;;;;;x
+String_FR_Religion_old_bon_Fem;_;bön ;;;;;;;;;;;;x
+String_FR_Religion_old_bon_Masc;_;bön ;;;;;;;;;;;;x
+String_FR_Religion_old_bon_PlFem;_;bön ;;;;;;;;;;;;x
+String_FR_Religion_old_bon_PlMasc;_;bön ;;;;;;;;;;;;x
+String_FR_Religion_old_finnish_pagan_Fem;_;suomenusko ;;;;;;;;;;;;x
+String_FR_Religion_old_finnish_pagan_Masc;_;suomenusko ;;;;;;;;;;;;x
+String_FR_Religion_old_finnish_pagan_PlFem;_;suomenuskos ;;;;;;;;;;;;x
+String_FR_Religion_old_finnish_pagan_PlMasc;_;suomenuskos ;;;;;;;;;;;;x
+String_FR_Religion_old_hellenic_pagan_Fem;_;hellénique ;;;;;;;;;;;;x
+String_FR_Religion_old_hellenic_pagan_Masc;_;hellénique ;;;;;;;;;;;;x
+String_FR_Religion_old_hellenic_pagan_PlFem;_;helléniques ;;;;;;;;;;;;x
+String_FR_Religion_old_hellenic_pagan_PlMasc;_;helléniques ;;;;;;;;;;;;x
+String_FR_Religion_old_norse_pagan_Fem;_;germanique ;;;;;;;;;;;;x
+String_FR_Religion_old_norse_pagan_Masc;_;germanique ;;;;;;;;;;;;x
+String_FR_Religion_old_norse_pagan_PlFem;_;germaniques ;;;;;;;;;;;;x
+String_FR_Religion_old_norse_pagan_PlMasc;_;germaniques ;;;;;;;;;;;;x
+String_FR_Religion_old_slavic_pagan_Fem;_;slave ;;;;;;;;;;;;x
+String_FR_Religion_old_slavic_pagan_Masc;_;slave ;;;;;;;;;;;;x
+String_FR_Religion_old_slavic_pagan_PlFem;_;slaves ;;;;;;;;;;;;x
+String_FR_Religion_old_slavic_pagan_PlMasc;_;slaves ;;;;;;;;;;;;x
+String_FR_Religion_old_tengri_pagan_Fem;_;tengriste ;;;;;;;;;;;;x
+String_FR_Religion_old_tengri_pagan_Masc;_;tengriste ;;;;;;;;;;;;x
+String_FR_Religion_old_tengri_pagan_PlFem;_;tengristes ;;;;;;;;;;;;x
+String_FR_Religion_old_tengri_pagan_PlMasc;_;tengristes ;;;;;;;;;;;;x
+String_FR_Religion_old_west_african_pagan_Fem;_;africaine ;;;;;;;;;;;;x
+String_FR_Religion_old_west_african_pagan_Masc;_;africain ;;;;;;;;;;;;x
+String_FR_Religion_old_west_african_pagan_PlFem;_;africaines ;;;;;;;;;;;;x
+String_FR_Religion_old_west_african_pagan_PlMasc;_;africains ;;;;;;;;;;;;x
+String_FR_Religion_old_zun_pagan_Fem;_;zuniste ;;;;;;;;;;;;x
+String_FR_Religion_old_zun_pagan_Masc;_;zuniste ;;;;;;;;;;;;x
+String_FR_Religion_old_zun_pagan_PlFem;_;zunistes ;;;;;;;;;;;;x
 # Strings Religion Groups
 String_FR_ReligionGroups_christian_Fem;_;chrétienne;;;;;;;;;;;;x
 String_FR_ReligionGroups_christian_Masc;_;chrétien;;;;;;;;;;;;x
 String_FR_ReligionGroups_christian_PlFem;_;chrétiennes;;;;;;;;;;;;x
 String_FR_ReligionGroups_christian_PlMasc;_;chrétiens;;;;;;;;;;;;x
-String_FR_ReligionGroups_indian_group_Fem;_;dharmique;;;;;;;;;;;;x
-String_FR_ReligionGroups_indian_group_Masc;_;dharmique;;;;;;;;;;;;x
-String_FR_ReligionGroups_indian_group_PlFem;_;dharmiques;;;;;;;;;;;;x
-String_FR_ReligionGroups_indian_group_PlMasc;_;dharmiques;;;;;;;;;;;;x
+String_FR_ReligionGroups_indian_group_Fem;_;orientale;;;;;;;;;;;;x
+String_FR_ReligionGroups_indian_group_Masc;_;oriental;;;;;;;;;;;;x
+String_FR_ReligionGroups_indian_group_PlFem;_;orientales;;;;;;;;;;;;x
+String_FR_ReligionGroups_indian_group_PlMasc;_;orientaux;;;;;;;;;;;;x
 String_FR_ReligionGroups_jewish_group_Fem;_;israélite;;;;;;;;;;;;x
 String_FR_ReligionGroups_jewish_group_Masc;_;israélite;;;;;;;;;;;;x
 String_FR_ReligionGroups_jewish_group_PlFem;_;israélites;;;;;;;;;;;;x
@@ -955,7 +1085,6 @@ String_FR_GetEvilGodDuDelaDes_IBLIS;_;d'Iblis;;;;;;;;;;;;x
 String_FR_GetEvilGodDuDelaDes_KING_YAN;_;du Roi Yan;;;;;;;;;;;;x
 String_FR_GetEvilGodDuDelaDes_LOKI;_;de Loki;;;;;;;;;;;;x
 String_FR_GetEvilGodDuDelaDes_MARA;_;de Mara;;;;;;;;;;;;x
-String_FR_GetEvilGodDuDelaDes_PLUTO;_;de Pluton;;;;;;;;;;;;x
 String_FR_GetEvilGodDuDelaDes_SATAN;_;de Satan;;;;;;;;;;;;x
 String_FR_GetEvilGodDuDelaDes_SATURN;_;de Saturne;;;;;;;;;;;;x
 String_FR_GetEvilGodDuDelaDes_THE_DARK_SPIRITS;_;des Esprits Ténèbreux;;;;;;;;;;;;x
@@ -967,8 +1096,30 @@ String_FR_GetEvilGodDuDelaDes_THE_VINAYAKAS;_;des Vinâyakas;;;;;;;;;;;;x
 String_FR_GetEvilGodDuDelaDes_TLAZOLTEOTL;_;de Tlazolteotl;;;;;;;;;;;;x
 String_FR_GetEvilGodDuDelaDes_TUONI;_;de Tuoni;;;;;;;;;;;;x
 String_FR_GetEvilGodDuDelaDes_VELNIAS;_;de Velnias;;;;;;;;;;;;x
+# Strings Evil God + AAuAux
+String_FR_GetEvilGodAAuAux_AHRIMAN;_;à Ahriman;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_ERLIK;_;à Erlik;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_GOD_VELES;_;à Vélès;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_GOD_THE_EVIL_ONES;_;aux Maléfiques;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_IBLIS;_;à Iblis;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_KING_YAN;_;au Roi Yan;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_LOKI;_;à Loki;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_MARA;_;à Mara;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_SATAN;_;à Satan;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_SATURN;_;à Saturne;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_THE_DARK_SPIRITS;_;aux Esprits Ténèbreux;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_THE_DARKNESS;_;aux Ténèbres;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_THE_DEMIURGE;_;au Démiurge;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_THE_DEVIL;_;au Diable;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_THE_PUNISHERS;_;aux Punisseurs;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_THE_VINAYAKAS;_;aux Vinâyakas;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_TLAZOLTEOTL;_;à Tlazolteotl;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_TUONI;_;à Tuoni;;;;;;;;;;;;x
+String_FR_GetEvilGodAAuAux_VELNIAS;_;à Velnias;;;;;;;;;;;;x
 # Strings GetDWDevil + DuDela
 String_FR_DevilGodDuDela_Ahriman;_;d'Ahriman;;;;;;;;;;;;x
+String_FR_DevilGodDuDela_Bacchus;_;de Bacchus;;;;;;;;;;;;x
+String_FR_DevilGodDuDela_Cagn;_;de Cagn;;;;;;;;;;;;x
 String_FR_DevilGodDuDela_Chernobog;_;de Tchernobog;;;;;;;;;;;;x
 String_FR_DevilGodDuDela_Erlik;_;d'Erlik;;;;;;;;;;;;x
 String_FR_DevilGodDuDela_Hel;_;de Hel;;;;;;;;;;;;x
@@ -982,22 +1133,86 @@ String_FR_GovernmentFem_feudal_government;_;féodale;;;;;;;;;;;;x
 String_FR_GovernmentFem_merchant_republic_government;_;républicaine marchande;;;;;;;;;;;;x
 String_FR_GovernmentFem_muslim_government;_;iqtâ;;;;;;;;;;;;x
 String_FR_GovernmentFem_nomadic_government;_;nomade;;;;;;;;;;;;x
+String_FR_GovernmentFem_order_government;_;monastique;;;;;;;;;;;;x
 String_FR_GovernmentFem_republic_government;_;républicaine;;;;;;;;;;;;x
 String_FR_GovernmentFem_theocracy_government;_;théocratique;;;;;;;;;;;;x
 String_FR_GovernmentFem_theocratic_feudal_government;_;féodale monastique;;;;;;;;;;;;x
 String_FR_GovernmentFem_tribal_government;_;tribale;;;;;;;;;;;;x
-String_FR_GovernmentLeLaCap_chinese_imperial_government;_;L'empire chinois;;;;;;;;;;;;x
-String_FR_GovernmentLeLaCap_confucian_bureaucracy;_;La bureaucratie confucéenne;;;;;;;;;;;;x
-String_FR_GovernmentLeLaCap_feudal_government;_;La féodalité;;;;;;;;;;;;x
-String_FR_GovernmentLeLaCap_merchant_republic_government;_;La république marchande;;;;;;;;;;;;x
-String_FR_GovernmentLeLaCap_muslim_government;_;L'iqtâ;;;;;;;;;;;;x
-String_FR_GovernmentLeLaCap_nomadic_government;_;Le nomadisme;;;;;;;;;;;;x
-String_FR_GovernmentLeLaCap_republic_government;_;La république;;;;;;;;;;;;x
-String_FR_GovernmentLeLaCap_theocracy_government;_;La théocratie;;;;;;;;;;;;x
-String_FR_GovernmentLeLaCap_theocratic_feudal_government;_;La féodalité monastique;;;;;;;;;;;;x
-String_FR_GovernmentLeLaCap_tribal_government;_;Le tribalisme;;;;;;;;;;;;x
+String_FR_GovernmentMasc_chinese_imperial_government;_;impérial chinois;;;;;;;;;;;;x
+String_FR_GovernmentMasc_confucian_bureaucracy;_;bureaucratique confucéen;;;;;;;;;;;;x
+String_FR_GovernmentMasc_feudal_government;_;féodal;;;;;;;;;;;;x
+String_FR_GovernmentMasc_merchant_republic_government;_;républicain marchand;;;;;;;;;;;;x
+String_FR_GovernmentMasc_muslim_government;_;iqtâ;;;;;;;;;;;;x
+String_FR_GovernmentMasc_nomadic_government;_;nomade;;;;;;;;;;;;x
+String_FR_GovernmentMasc_order_government;_;monastique;;;;;;;;;;;;x
+String_FR_GovernmentMasc_republic_government;_;républicain;;;;;;;;;;;;x
+String_FR_GovernmentMasc_theocracy_government;_;théocratique;;;;;;;;;;;;x
+String_FR_GovernmentMasc_theocratic_feudal_government;_;féodal monastique;;;;;;;;;;;;x
+String_FR_GovernmentMasc_tribal_government;_;tribal;;;;;;;;;;;;x
+# GetRandomMythologicalCreatureVariante
+String_FR_random_mythological_creature_variante_dragon;_;de Dragon;;;;;;;x
+String_FR_random_mythological_creature_variante_giant_snail;_;d'Escargot Géant;;;;;;;x
+String_FR_random_mythological_creature_variante_hydra;_;d'Hydre;;;;;;;x
+String_FR_random_mythological_creature_variante_gorgon;_;de Gorgone;;;;;;;x
+String_FR_random_mythological_creature_variante_harpy;_;de Harpie;;;;;;;x
+String_FR_random_mythological_creature_variante_siren;_;de Sirène;;;;;;;x
+String_FR_random_mythological_creature_variante_giant;_;de Géant;;;;;;;x
+String_FR_random_mythological_creature_variante_kraken;_;de Kraken;;;;;;;x
+String_FR_random_mythological_creature_variante_griffin;_;de Griffon;;;;;;;x
+String_FR_random_mythological_creature_variante_basilisk;_;de Basilic;;;;;;;x
+String_FR_random_mythological_creature_variante_manticore;_;de Manticore;;;;;;;x
+String_FR_random_mythological_creature_variante_cyclops;_;de Cyclope;;;;;;;x
+String_FR_random_mythological_creature_variante_sleipnir;_;de Sleipnir;;;;;;;x
+String_FR_random_mythological_creature_variante_fenrir;_;de Fenrir;;;;;;;x
+String_FR_random_mythological_creature_variante_jörmungandr;_;de Jörmungandr;;;;;;;x
+String_FR_random_mythological_creature_variante_nidhogg;_;de Nidhogg;;;;;;;x
+String_FR_random_mythological_creature_variante_chimera;_;de Chimère;;;;;;;x
+String_FR_random_mythological_creature_variante_dryad;_;de Dryade;;;;;;;x
+String_FR_random_mythological_creature_variante_draugr;_;de Draugr;;;;;;;x
+# Get_on_DuelWeapon
+String_Get_on_DuelWeapon_axe;_;a hache;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_bare_hands;_;es mains;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_bastard_sword;_;on épée bâtarde;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_battle_axe;_;a hache d'armes;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_dagger;_;on poignard;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_flail;_;on fléau d'armes;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_flanged_mace;_;a massue à collet;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_great_sword;_;a grande épée;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_gun;_;on pistolet;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_jewelled_sword;_;on épée incrustée de joyaux;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_jian_sword;_;on jian;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_long_sword;_;on épée longue;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_mace;_;a massue;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_maul;_;on merlin;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_morning_star;_;on étoile du matin;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_my_artifact_weapon_1;_;on [dueling_weapon_1.GetName];;;;;;;;;;;;x
+String_Get_on_DuelWeapon_my_artifact_weapon_2;_;on [dueling_weapon_2.GetName];;;;;;;;;;;;x
+String_Get_on_DuelWeapon_practice_spear;_;a lance émoussée;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_scimitar;_;on cimeterre;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_short_sword;_;on épée courte;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_spear;_;a lance;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_sword;_;on épée;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_wooden_club;_;on gourdin;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_wooden_staff;_;on bâton;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_wooden_sword;_;on épée en bois;;;;;;;;;;;;x
+# Get_on_BodyPartInjured
+String_Get_on_BodyPartInjured_body;_;on corps;;;;;;;;;;;;x
+String_Get_on_BodyPartInjured_chest;_;a poitrine;;;;;;;;;;;;x
+String_Get_on_BodyPartInjured_eye;_;on oeil;;;;;;;;;;;;x
+String_Get_on_BodyPartInjured_face;_;on visage;;;;;;;;;;;;x
+String_Get_on_BodyPartInjured_hand;_;a main;;;;;;;;;;;;x
+String_Get_on_BodyPartInjured_leg;_;a jambe;;;;;;;;;;;;x
+String_Get_on_BodyPartInjured_shoulder;_;on épaule;;;;;;;;;;;;x
+# Get_au_BodyPartInjured
+String_Get_au_BodyPartInjured_body;_;au corps;;;;;;;;;;;;x
+String_Get_au_BodyPartInjured_chest;_;à la poitrine;;;;;;;;;;;;x
+String_Get_au_BodyPartInjured_eye;_;à l'oeil;;;;;;;;;;;;x
+String_Get_au_BodyPartInjured_face;_;au visage;;;;;;;;;;;;x
+String_Get_au_BodyPartInjured_hand;_;à la main;;;;;;;;;;;;x
+String_Get_au_BodyPartInjured_leg;_;à la jambe;;;;;;;;;;;;x
+String_Get_au_BodyPartInjured_shoulder;_;à l'épaule;;;;;;;;;;;;x
 # GetDWReasonToJoinVariante
-String_FR_GetDWReasonToJoinVariante_ill_lover;_;Soigneriez-vous mon amant[This.Lover.GetNoneE];;;;;;;;;;;;x
+String_FR_GetDWReasonToJoinVariante_ill_lover;_;Soigneriez-vous mon amant[This.Lover.Get_E];;;;;;;;;;;;x
 String_FR_GetDWReasonToJoinVariante_ill_spouse;_;Soigneriez-vous mon épou[This.Spouse.GetXSe];;;;;;;;;;;;x
 String_FR_GetDWReasonToJoinVariante_ill_child;_;Soigneriez-vous mon enfant;;;;;;;;;;;;x
 String_FR_GetDWReasonToJoinVariante_money_troubles;_;Régleriez-vous mes problèmes d'argent;;;;;;;;;;;;x
@@ -1017,6 +1232,22 @@ String_FR_GetLegumeIncapable_male;_;légume;;;;;;;;;;;;x
 String_FR_GetLegumeIncapable_female;_;incapable;;;;;;;;;;;;x
 String_FR_GetLarveVermisseau_male;_;vermisseau;;;;;;;;;;;;x
 String_FR_GetLarveVermisseau_female;_;larve;;;;;;;;;;;;x
+# Mondes randomisés
+String_FR_Random_GetCultureMasc;_;[This.Culture.GetName];;;;;;;;;;;;x
+String_FR_Random_GetCultureMascFem;_;[This.Culture.GetName];;;;;;;;;;;;x
+String_FR_Random_GetCultureMascPl;_;[This.Culture.GetName]s;;;;;;;;;;;;x
+String_FR_Random_GetDWDevilDuDela;_;du [This.Religion.GetRandomEvilGodName];;;;;;;;;;;;x
+String_FR_Random_GetEvilGodAAuAux;_;au [This.Religion.GetRandomEvilGodName];;;;;;;;;;;;x
+String_FR_Random_GetEvilGodDuDelaDes;_;du [This.Religion.GetRandomEvilGodName];;;;;;;;;;;;x
+String_FR_Random_GetEvilGodLeLaLes;_;[This.Religion.GetRandomEvilGodName];;;;;;;;;;;;x
+String_FR_Random_GetReligionMasc;_;[This.Religion.GetName];;;;;;;;;;;;x
+String_FR_Random_GetReligionMascFem;_;[This.Religion.GetName];;;;;;;;;;;;x
+String_FR_Random_GetReligionMascPl;_;[This.Religion.GetName]s;;;;;;;;;;;;x
+String_FR_Random_GetReligiousGroupFem;_;[This.Religion.GetGroupName];;;;;;;;;;;;x
+String_FR_Random_GetReligiousGroupMascFem;_;[This.Religion.GetGroupName];;;;;;;;;;;;x
+String_FR_Random_GetReligiousGroupMascPl;_;[This.Religion.GetGroupName]s;;;;;;;;;;;;x
+String_FR_Get_juifs_normal;_;juifs;;;;;;;;;;;;x
+String_FR_Get_juifs_random;_;[jewish.GetName]s;;;;;;;;;;;;x
 # fallback text
 String_FR_FALLBACK_GetCapitalHoldingAuAla;_;au [This.GetCapitalHolding];;;;;;;;;;;;x
 String_FR_FALLBACK_GetCapitalHoldingDuDela;_;de [This.GetCapitalHolding];;;;;;;;;;;;x
@@ -1026,10 +1257,11 @@ String_FR_FALLBACK_GetCultureMascFem;_;[This.Culture.GetName];;;;;;;;;;;;x
 String_FR_FALLBACK_GetCultureMascPl;_;[This.Culture.GetName];;;;;;;;;;;;x
 String_FR_FALLBACK_GetDWDevilDuDela;_;de [This.GetDWDevil];;;;;;;;;;;;x
 String_FR_FALLBACK_GetDWSettlementAuAla;_;de [This.GetDWSettlement];;;;;;;;;;;;x
-String_FR_FALLBACK_GetEvilGodLeLaLes;_;[This.Religion.GetRandomEvilGodName];;;;;;;;;;;;x
+String_FR_FALLBACK_GetEvilGodAAuAux;_;à [This.Religion.GetRandomEvilGodName];;;;;;;;;;;;x
 String_FR_FALLBACK_GetEvilGodDuDelaDes;_;de [This.Religion.GetRandomEvilGodName];;;;;;;;;;;;x
+String_FR_FALLBACK_GetEvilGodLeLaLes;_;[This.Religion.GetRandomEvilGodName];;;;;;;;;;;;x
 String_FR_FALLBACK_GetGovernmentFem;_;[This.Government.GetName];;;;;;;;;;;;x
-String_FR_FALLBACK_GetGovernmentLeLaCap;_;[This.Government.GetName];;;;;;;;;;;;x
+String_FR_FALLBACK_GetGovernmentMasc;_;[This.Government.GetName];;;;;;;;;;;;x
 String_FR_FALLBACK_GetHoldingDuDela;_;de [This.GetHolding];;;;;;;;;;;;x
 String_FR_FALLBACK_GetMatterOfImportanceOnA;_;on [This.GetMatterOfImportance];;;;;;;;;;;;x
 String_FR_FALLBACK_GetReligionMasc;_;[This.Religion.GetName];;;;;;;;;;;;x
@@ -1037,4 +1269,72 @@ String_FR_FALLBACK_GetReligionMascFem;_;[This.Religion.GetName];;;;;;;;;;;;x
 String_FR_FALLBACK_GetReligionMascPl;_;[This.Religion.GetName];;;;;;;;;;;;x
 String_FR_FALLBACK_GetReligiousGroupFem;_;[This.Religion.GetGroupName];;;;;;;;;;;;x
 String_FR_FALLBACK_GetReligiousGroupMascFem;_;[This.Religion.GetGroupName];;;;;;;;;;;;x
+String_FR_FALLBACK_GetReligiousGroupMascPl;_;[This.Religion.GetGroupName]s;;;;;;;;;;;;x
 String_FR_FALLBACK_GetReligiousPersonMascFem;_;[This.GetReligiousPerson];;;;;;;;;;;;x
+# Commandes composées
+String_FR_Get_du_RealmFull;_;[This.Get_only_du_RealmFull][This.GetFullName];;;;;;;;;;;;x
+String_FR_Get_en_RealmFull;_;[This.Get_only_en_RealmFull][This.GetFullName];;;;;;;;;;;;x
+String_FR_Get_le_RealmFull;_;[This.Get_only_le_RealmFull][This.GetFullName];;;;;;;;;;;;x
+String_FR_Get_au_RealmFull;_;[This.Get_only_au_RealmFull][This.GetFullName];;;;;;;;;;;;x
+String_FR_Get_du_RealmBase;_;[This.Get_only_du_RealmBase][This.GetBaseName];;;;;;;;;;;;x
+String_FR_Get_le_Realm;_;[This.Get_only_le_Realm][This.GetName];;;;;;;;;;;;x
+String_FR_Get_du_Realm;_;[This.Get_only_du_Realm][This.GetName];;;;;;;;;;;;x
+String_FR_Get_en_Realm;_;[This.Get_only_en_Realm][This.GetName];;;;;;;;;;;;x
+String_FR_Get_du_TitledFirstName;_;[This.Get_only_du_Title][This.GetTitledFirstName];;;;;;;;;;;;x
+String_FR_Get_le_TitledFirstName;_;[This.Get_only_le_Title][This.GetTitledFirstName];;;;;;;;;;;;x
+String_FR_Get_Le_TitledFirstName;_;[This.Get_only_Le_Title][This.GetTitledFirstName];;;;;;;;;;;;x
+String_FR_Get_au_TitledFirstName;_;[This.Get_only_au_Title][This.GetTitledFirstName];;;;;;;;;;;;x
+String_FR_Get_Au_TitledFirstName;_;[This.Get_only_Au_Title][This.GetTitledFirstName];;;;;;;;;;;;x
+String_FR_Get_e_TitledFirstName;_;[This.Get_only_e_Title][This.GetTitledFirstName];;;;;;;;;;;;x
+String_FR_Get_du_TitledName;_;[This.Get_only_du_Title][This.GetTitledName];;;;;;;;;;;;x
+String_FR_Get_le_TitledName;_;[This.Get_only_le_Title][This.GetTitledName];;;;;;;;;;;;x
+String_FR_Get_Le_TitledName;_;[This.Get_only_Le_Title][This.GetTitledName];;;;;;;;;;;;x
+String_FR_Get_au_TitledName;_;[This.Get_only_au_Title][This.GetTitledName];;;;;;;;;;;;x
+String_FR_Get_Au_TitledName;_;[This.Get_only_Au_Title][This.GetTitledName];;;;;;;;;;;;x
+String_FR_Get_e_TitledName;_;[This.Get_only_e_Title][This.GetTitledName];;;;;;;;;;;;x
+String_FR_Get_du_TitledFirstNameJ;_;[This.Get_only_du_Title]§Y[This.GetTitledFirstName]§!;;;;;;;;;;;;x
+String_FR_Get_le_TitledFirstNameJ;_;[This.Get_only_le_Title]§Y[This.GetTitledFirstName]§!;;;;;;;;;;;;x
+String_FR_Get_Le_TitledFirstNameJ;_;[This.Get_only_Le_Title]§Y[This.GetTitledFirstName]§!;;;;;;;;;;;;x
+String_FR_Get_au_TitledFirstNameJ;_;[This.Get_only_au_Title]§Y[This.GetTitledFirstName]§!;;;;;;;;;;;;x
+String_FR_Get_Au_TitledFirstNameJ;_;[This.Get_only_Au_Title]§Y[This.GetTitledFirstName]§!;;;;;;;;;;;;x
+String_FR_Get_e_TitledFirstNameJ;_;[This.Get_only_e_Title]§Y[This.GetTitledFirstName]§!;;;;;;;;;;;;x
+String_FR_Get_du_TitledNameJ;_;[This.Get_only_du_Title]§Y[This.GetTitledName]§!;;;;;;;;;;;;x
+String_FR_Get_le_TitledNameJ;_;[This.Get_only_le_Title]§Y[This.GetTitledName]§!;;;;;;;;;;;;x
+String_FR_Get_Le_TitledNameJ;_;[This.Get_only_Le_Title]§Y[This.GetTitledName]§!;;;;;;;;;;;;x
+String_FR_Get_au_TitledNameJ;_;[This.Get_only_au_Title]§Y[This.GetTitledName]§!;;;;;;;;;;;;x
+String_FR_Get_Au_TitledNameJ;_;[This.Get_only_Au_Title]§Y[This.GetTitledName]§!;;;;;;;;;;;;x
+String_FR_Get_e_TitledNameJ;_;[This.Get_only_e_Title]§Y[This.GetTitledName]§!;;;;;;;;;;;;x
+String_FR_Get_du_Society;_;[This.Get_only_du_Society][This.Society.GetName];;;;;;;;;;;;x
+String_FR_Get_le_Society;_;[This.Get_only_le_Society][This.Society.GetName];;;;;;;;;;;;x
+String_FR_Get_Le_Society;_;[This.Get_only_Le_Society][This.Society.GetName];;;;;;;;;;;;x
+String_FR_Get_au_Society;_;[This.Get_only_au_Society][This.Society.GetName];;;;;;;;;;;;x
+String_FR_Get_le_SocietyRank;_;[This.Get_only_le_SocietyRank][This.GetSocietyRank];;;;;;;;;;;;x
+String_FR_Get_Le_SocietyRank;_;[This.Get_only_Le_SocietyRank][This.GetSocietyRank];;;;;;;;;;;;x
+String_FR_Get_au_SocietyRank;_;[This.Get_only_au_SocietyRank][This.GetSocietyRank];;;;;;;;;;;;x
+String_FR_Get_du_SocietyRank;_;[This.Get_only_du_SocietyRank][This.GetSocietyRank];;;;;;;;;;;;x
+String_FR_Get_e_SocietyRank;_;[This.Get_only_e_SocietyRank][This.GetSocietyRank];;;;;;;;;;;;x
+String_FR_Get_le_JobTitle;_;[This.Get_only_le_JobTitle][This.GetJobTitle];;;;;;;;;;;;x
+String_FR_Get_Le_JobTitle;_;[This.Get_only_Le_JobTitle][This.GetJobTitle];;;;;;;;;;;;x
+String_FR_Get_du_JobTitle;_;[This.Get_only_du_JobTitle][This.GetJobTitle];;;;;;;;;;;;x
+String_FR_Get_au_JobTitle;_;[This.Get_only_au_JobTitle][This.GetJobTitle];;;;;;;;;;;;x
+String_FR_Get_on_JobTitle;_;[This.Get_only_on_JobTitle][This.GetJobTitle];;;;;;;;;;;;x
+String_FR_Get_e_JobTitle;_;[This.Get_only_e_JobTitle][This.GetJobTitle];;;;;;;;;;;;x
+String_FR_Get_du_SelectedIngredient_1;_;[This.Get_only_du_SelectedIngredient_1][This.GetSelectedIngredient_1];;;;;;;;;;;;x
+String_FR_Get_du_SelectedIngredient_2;_;[This.Get_only_du_SelectedIngredient_2][This.GetSelectedIngredient_2];;;;;;;;;;;;x
+String_FR_Get_le_SelectedIngredient_1;_;[This.Get_only_le_SelectedIngredient_1][This.GetSelectedIngredient_1];;;;;;;;;;;;x
+String_FR_Get_le_SelectedIngredient_2;_;[This.Get_only_le_SelectedIngredient_2][This.GetSelectedIngredient_2];;;;;;;;;;;;x
+String_FR_Get_e_SelectedIngredient_1;_;[This.Get_only_e_SelectedIngredient_1][This.GetSelectedIngredient_1];;;;;;;;;;;;x
+String_FR_Get_e_SelectedIngredient_2;_;[This.Get_only_e_SelectedIngredient_2][This.GetSelectedIngredient_2];;;;;;;;;;;;x
+String_FR_Get_du_HighGod;_;[This.Get_only_du_HighGod][This.Religion.GetHighGodName];;;;;;;;;;;;x
+String_FR_Get_au_HighGod;_;[This.Get_only_au_HighGod][This.Religion.GetHighGodName];;;;;;;;;;;;x
+String_FR_Get_le_HighGod;_;[This.Get_only_le_HighGod][This.Religion.GetHighGodName];;;;;;;;;;;;x
+String_FR_Get_Le_HighGod;_;[This.Get_only_Le_HighGod][This.Religion.GetHighGodName];;;;;;;;;;;;x
+String_FR_Get_du_HighGodTrue;_;[This.Get_only_du_HighGodTrue][This.TrueReligion.GetHighGodName];;;;;;;;;;;;x
+String_FR_Get_au_HighGodTrue;_;[This.Get_only_au_HighGodTrue][This.TrueReligion.GetHighGodName];;;;;;;;;;;;x
+String_FR_Get_le_HighGodTrue;_;[This.Get_only_le_HighGodTrue][This.TrueReligion.GetHighGodName];;;;;;;;;;;;x
+String_FR_Get_du_HighGodSecret;_;[This.Get_only_du_HighGodSecret][This.SecretReligion.GetHighGodName];;;;;;;;;;;;x
+String_FR_Get_le_Scripture;_;[This.Get_only_le_Scripture][This.Religion.GetScriptureName];;;;;;;;;;;;x
+String_FR_Get_du_Scripture;_;[This.Get_only_du_Scripture][This.Religion.GetScriptureName];;;;;;;;;;;;x
+String_FR_Get_du_ScriptureSecret;_;[This.Get_only_du_ScriptureSecret][This.SecretReligion.GetScriptureName];;;;;;;;;;;;x
+String_FR_Get_le_ScriptureSecret;_;[This.Get_only_le_ScriptureSecret][This.SecretReligion.GetScriptureName];;;;;;;;;;;;x
+String_FR_New_Le_TitledFirstName;_;[This.Get_only_Le_Title][This.GetTitledFirstName] [This.PrimaryTitle.Get_only_du_RealmBase][This.PrimaryTitle.GetBaseName];;;;;;;;;;;;x

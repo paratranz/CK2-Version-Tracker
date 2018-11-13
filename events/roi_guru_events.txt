@@ -264,6 +264,7 @@ character_event = {
 		OR = {
 			has_dharmic_religion_trigger = yes
 			religion = bon
+			religion = bon_reformed
 		}
 		OR = {
 			has_dlc = "Rajas of India"
@@ -369,6 +370,7 @@ character_event = {
 		OR = {
 			has_dharmic_religion_trigger = yes
 			religion = bon
+			religion = bon_reformed
 		}
 		OR = {
 			has_dlc = "Rajas of India"
@@ -552,6 +554,7 @@ character_event = {
 		OR = {
 			has_dharmic_religion_trigger = yes
 			religion = bon
+			religion = bon_reformed
 		}
 		OR = {
 			has_dlc = "Rajas of India"
@@ -605,6 +608,7 @@ character_event = {
 		OR = {
 			has_dharmic_religion_trigger = yes
 			religion = bon
+			religion = bon_reformed
 		}
 		OR = {
 			has_dlc = "Rajas of India"
@@ -658,6 +662,7 @@ character_event = {
 		OR = {
 			has_dharmic_religion_trigger = yes
 			religion = bon
+			religion = bon_reformed
 		}
 		OR = {
 			has_dlc = "Rajas of India"
@@ -824,6 +829,7 @@ character_event = {
 		OR = {
 			has_dharmic_religion_trigger = yes
 			religion = bon
+			religion = bon_reformed
 		}
 		OR = {
 			has_dlc = "Rajas of India"
@@ -878,6 +884,7 @@ character_event = {
 		OR = {
 			has_dharmic_religion_trigger = yes
 			religion = bon
+			religion = bon_reformed
 		}
 		OR = {
 			has_dlc = "Rajas of India"
@@ -932,6 +939,7 @@ character_event = {
 		OR = {
 			has_dharmic_religion_trigger = yes
 			religion = bon
+			religion = bon_reformed
 		}
 		OR = {
 			has_dlc = "Rajas of India"
@@ -1085,6 +1093,7 @@ character_event = {
 		OR = {
 			has_dharmic_religion_trigger = yes
 			religion = bon
+			religion = bon_reformed
 		}
 		OR = {
 			has_dlc = "Rajas of India"

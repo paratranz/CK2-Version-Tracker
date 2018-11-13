@@ -94,7 +94,7 @@
 6858 = {
 	name="Yeçtirek"
 	religion="tengri_pagan"
-	culture=bolghar
+	culture=pecheneg
 	dynasty=1029159
 	father=160142
 	mother=160143
@@ -665,6 +665,10 @@
 	culture="bolghar"
 	600.1.2={
 		birth="600.1.2"
+		create_bloodline = {
+			type = attila
+			has_dlc = "Holy Fury"
+		}
 	}
 	665.1.2={
 		death="665.1.2"
@@ -907,7 +911,7 @@
 160142 = {
 	name="Araslan"
 	religion="tengri_pagan"
-	culture=bolghar
+	culture=pecheneg
 	dynasty=1029159
 	father=160167
 	824.1.1={
@@ -957,7 +961,7 @@
 160145 = {
 	name="Mugel"
 	religion="tengri_pagan"
-	culture=bolghar
+	culture=pecheneg
 	dynasty=1029159
 	father=160142
 	mother=160143
@@ -974,7 +978,7 @@
 160146 = {
 	name="Kordil"
 	religion="tengri_pagan"
-	culture=bolghar
+	culture=pecheneg
 	dynasty=1029159
 	father=160142
 	mother=160143
@@ -1077,7 +1081,7 @@
 160153 = {
 	name="Tähtaman"
 	religion="tengri_pagan"
-	culture=bolghar
+	culture=pecheneg
 	dynasty=1029159
 	father=6858
 	mother=160152
@@ -1091,7 +1095,7 @@
 160154 = {
 	name="Pakhtiyar"
 	religion="tengri_pagan"
-	culture=bolghar
+	culture=pecheneg
 	dynasty=1029159
 	father=6858
 	mother=160152
@@ -1105,7 +1109,7 @@
 160155 = {
 	name="Buzan"
 	religion="tengri_pagan"
-	culture=bolghar
+	culture=pecheneg
 	dynasty=1029159
 	father=6858
 	mother=160152
@@ -1287,7 +1291,7 @@
 160167 = {
 	name="Kälaç"
 	religion="tengri_pagan"
-	culture=bolghar
+	culture=pecheneg
 	dynasty=1029159
 	father=188790
 	790.1.1={
@@ -1382,7 +1386,7 @@
 	name="Çeçek"
 	female = yes
 	religion="tengri_pagan"
-	culture=bolghar
+	culture=pecheneg
 	dynasty=1029159
 	father=160167
 	824.1.1={
@@ -1786,7 +1790,7 @@
 	name="Taridin"
 	dynasty=1029159
 	religion="tengri_pagan"
-	culture="bolghar" # bashkiri
+	culture="pecheneg" # bashkiri
 	735.1.1={
 		birth=yes
 	}
@@ -1799,7 +1803,7 @@
 	name="Oshi"
 	dynasty=1029159
 	religion="tengri_pagan"
-	culture="bolghar" # bashkiri
+	culture="pecheneg" # bashkiri
 	father=188789
 	754.1.1={
 		birth=yes
@@ -1813,7 +1817,7 @@
 	female = yes
 	dynasty=1029159
 	religion="tengri_pagan"
-	culture="bolghar" # bashkiri
+	culture="pecheneg" # bashkiri
 	father=188789
 	755.1.1={
 		birth=yes
@@ -1981,5 +1985,29 @@
 	}
 	1245.7.4 = {
 		death = yes
+	}
+}
+258095 = {
+	name="Okhsi"
+	dynasty=1100017
+	religion="sunni"
+	culture="bolghar"
+	1036.1.1={
+		birth=yes
+	}
+	1087.1.1={
+		death=yes
+	}
+}
+258096 = {
+	name="Kormesiy"
+	dynasty=1100018
+	religion="sunni"
+	culture="bolghar"
+	1035.1.1={
+		birth=yes
+	}
+	1087.1.1={
+		death=yes
 	}
 }

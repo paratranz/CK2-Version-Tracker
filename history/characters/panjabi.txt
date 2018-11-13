@@ -2003,15 +2003,15 @@
 		add_spouse=247111
 	}
 	746.6.1={
-		#effect={c_247006={add_consort=ROOT}}
+		#effect={ROOT={add_consort=c_247006}}
 		effect = {add_lover = 247006}
 	}
 	750.1.1={
-		#effect={c_247112={add_consort=ROOT}}
+		#effect={ROOT={add_consort=c_247112}}
 		effect = {add_lover = 247112}
 	}
 	755.1.1={
-		#effect={c_247113={add_consort=ROOT}}
+		#effect={ROOT={add_consort=c_247113}}
 		effect = {add_lover = 247113}
 	}
 	765.1.1={
@@ -2021,7 +2021,7 @@
 		}
 	}
 	768.1.1={
-		effect={c_247114={add_consort=ROOT}}
+		effect={ROOT={add_consort=c_247114}}
 	}
 	795.1.1={
 		death=yes
@@ -3421,7 +3421,7 @@
 	trait=adventurer
 	trait=tough_soldier
 	1220.1.1 = { birth=yes }
-	1246.1.1 = { employer = 248074 }
+	1246.1.1 = { employer = 1060080 }
 	1247.1.1 = {
 		add_spouse=248074
 		culture=panjabi
