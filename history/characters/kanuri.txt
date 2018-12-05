@@ -120,12 +120,19 @@
 # Sayfawa dynasty
 248748 = {
 	name="Hummay" #Kanem 1068 - 1080 - first muslim ruler
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=1000228558
+	
+	disallow_random_traits = yes
+	
 	trait=ambitious
+	trait=brave
+	trait=zealous
+	trait=holy_warrior
 	trait=scholarly_theologian
+	
 	1050.1.1 = {
 		birth=yes
 	}
@@ -138,33 +145,33 @@
 				owner = ROOT
 				#leader = ROOT
 				troops = {
-					light_infantry = { 300 300 }
-					light_cavalry = { 100 100 }
-					archers = { 200 200 }
+					light_infantry = { 600 600 }
+					light_cavalry = { 200 200 }
+					archers = { 400 400 }
 				}
-				attrition = 1.0
+				attrition = 0.25
 			}
 			spawn_unit = {
 				province = 1735 # Bilma
 				owner = ROOT
 				#leader = ROOT
 				troops = {
-					light_infantry = { 300 300 }
-					light_cavalry = { 100 100 }
-					archers = { 200 200 }
+					light_infantry = { 600 600 }
+					light_cavalry = { 200 200 }
+					archers = { 400 400 }
 				}
-				attrition = 1.0
+				attrition = 0.25
 			}
 			spawn_unit = {
 				province = 1735 # Bilma
 				owner = ROOT
 				#leader = ROOT
 				troops = {
-					light_infantry = { 300 300 }
-					light_cavalry = { 100 100 }
-					archers = { 200 200 }
+					light_infantry = { 600 600 }
+					light_cavalry = { 200 200 }
+					archers = { 400 400 }
 				}
-				attrition = 1.0
+				attrition = 0.25
 			}
 		}
 	}
@@ -179,7 +186,7 @@
 }
 248749 = {
 	name="Dunama" #Kanem 1080 - 1133
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248748
@@ -192,7 +199,7 @@
 }
 248750 = {
 	name="Abdallah" 
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248749
@@ -205,7 +212,7 @@
 }
 248751 = {
 	name="Bir" #Kanem 1133 - 1160
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248750
@@ -218,7 +225,7 @@
 }
 248752 = {
 	name="Bikorom" #Kanem 1160 - 1176
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248751
@@ -231,7 +238,7 @@
 }
 248753 = {
 	name="Salmama" #Kanem 1176 - 1203
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248752
@@ -244,7 +251,7 @@
 }
 248754 = {
 	name="Dunama" #Kanem 1203 - 1242
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248753
@@ -257,7 +264,7 @@
 }
 248755 = {
 	name="Kaday" #Kanem 1242 - 1270
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248754
@@ -270,7 +277,7 @@
 }
 248756 = {
 	name="Kashim Biri" #Kanem 1270 - 1290
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248755
@@ -283,7 +290,7 @@
 }
 248757 = {
 	name="Ibrahim" #Kanem 1290 - 1310
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248756
@@ -296,7 +303,7 @@
 }
 248758 = {
 	name="Abdallah" #Kanem 1310 - 1328
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248757
@@ -309,7 +316,7 @@
 }
 248759 = {
 	name="Salmama" #Kanem 1328 - 1332
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248758
@@ -322,7 +329,7 @@
 }
 248760 = {
 	name="Kuri Ghana" #Kanem 1332 - 1333
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248758
@@ -335,7 +342,7 @@
 }
 248761 = {
 	name="Kuri Kura" #Kanem 1333 - 1334
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248758
@@ -348,7 +355,7 @@
 }
 248762 = {
 	name="Muhammad" #Kanem 1334 - 1335
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248758
@@ -361,7 +368,7 @@
 }
 248763 = {
 	name="Idris Nigalemi" #Kanem 1335 - 1359
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248764
@@ -374,7 +381,7 @@
 }
 248764 = {
 	name="Ibrahim Nigale" #father of Idris
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248756
@@ -387,7 +394,7 @@
 }
 248765 = {
 	name="Dawud Nigalemi" #Kanem 1359 - 1369
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248764
@@ -400,7 +407,7 @@
 }
 248766 = {
 	name="Uthman" #Kanem 1369 - 1373
-	dynasty=1059973
+	dynasty=1959974
 	religion="sunni"
 	culture="kanuri"
 	father=248765

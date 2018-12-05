@@ -104,6 +104,8 @@ String_FR_GetSeigneurDameCap_male;_;Seigneur;;;;;;;;;;;;x
 String_FR_GetSeigneurDameCap_female;_;Dame;;;;;;;;;;;;x
 String_FR_GetHerosHeroine_male;_;héros;;;;;;;;;;;;x
 String_FR_GetHerosHeroine_female;_;héroïne;;;;;;;;;;;;x
+String_FR_GetGrecGrecqueOpp_male;_;grecque;;;;;;;;;;;;x
+String_FR_GetGrecGrecqueOpp_female;_;grec;;;;;;;;;;;;x
 ## MOT DEVANT UNE COMMANDE (PAS D'ESPACE ENTRE LES DEUX COMMANDES)
 String_FR_APOSTROPHE;_;';;;;;;;;;;;;x
 String_FR_e_;_;e ;;;;;;;;;;;;x
@@ -367,9 +369,9 @@ String_FR_Culture_coptic_Masc;_;copte;;;;;;;;;;;;x
 String_FR_Culture_coptic_PlFem;_;coptes;;;;;;;;;;;;x
 String_FR_Culture_coptic_PlMasc;_;coptes;;;;;;;;;;;;x
 String_FR_Culture_crimean_gothic_Fem;_;gothe;;;;;;;;;;;;x
-String_FR_Culture_crimean_gothic_Masc;_;gothe;;;;;;;;;;;;x
+String_FR_Culture_crimean_gothic_Masc;_;goth;;;;;;;;;;;;x
 String_FR_Culture_crimean_gothic_PlFem;_;gothes;;;;;;;;;;;;x
-String_FR_Culture_crimean_gothic_PlMasc;_;gothes;;;;;;;;;;;;x
+String_FR_Culture_crimean_gothic_PlMasc;_;goths;;;;;;;;;;;;x
 String_FR_Culture_croatian_Fem;_;croate;;;;;;;;;;;;x
 String_FR_Culture_croatian_Masc;_;croate;;;;;;;;;;;;x
 String_FR_Culture_croatian_PlFem;_;croates;;;;;;;;;;;;x
@@ -390,14 +392,14 @@ String_FR_Culture_danish_Fem;_;danoise;;;;;;;;;;;;x
 String_FR_Culture_danish_Masc;_;danois;;;;;;;;;;;;x
 String_FR_Culture_danish_PlFem;_;danoises;;;;;;;;;;;;x
 String_FR_Culture_danish_PlMasc;_;danois;;;;;;;;;;;;x
-String_FR_Culture_dog_culture_Fem;_;chienne;;;;;;;;;;;;x
-String_FR_Culture_dog_culture_Masc;_;chien;;;;;;;;;;;;x
-String_FR_Culture_dog_culture_PlFem;_;chiennes;;;;;;;;;;;;x
-String_FR_Culture_dog_culture_PlMasc;_;chiens;;;;;;;;;;;;x
-String_FR_Culture_dragon_culture_Fem;_;dragonne;;;;;;;;;;;;x
-String_FR_Culture_dragon_culture_Masc;_;dragon;;;;;;;;;;;;x
-String_FR_Culture_dragon_culture_PlFem;_;dragonnes;;;;;;;;;;;;x
-String_FR_Culture_dragon_culture_PlMasc;_;dragons;;;;;;;;;;;;x
+String_FR_Culture_dog_culture_Fem;_;canine;;;;;;;;;;;;x
+String_FR_Culture_dog_culture_Masc;_;canin;;;;;;;;;;;;x
+String_FR_Culture_dog_culture_PlFem;_;canines;;;;;;;;;;;;x
+String_FR_Culture_dog_culture_PlMasc;_;canins;;;;;;;;;;;;x
+String_FR_Culture_dragon_culture_Fem;_;draconique;;;;;;;;;;;;x
+String_FR_Culture_dragon_culture_Masc;_;draconique;;;;;;;;;;;;x
+String_FR_Culture_dragon_culture_PlFem;_;draconiques;;;;;;;;;;;;x
+String_FR_Culture_dragon_culture_PlMasc;_;draconiques;;;;;;;;;;;;x
 String_FR_Culture_duck_culture_Fem;_;canarde;;;;;;;;;;;;x
 String_FR_Culture_duck_culture_Masc;_;canard;;;;;;;;;;;;x
 String_FR_Culture_duck_culture_PlFem;_;canardes;;;;;;;;;;;;x
@@ -755,9 +757,9 @@ String_FR_Culture_uyghur_Masc;_;ouïghour;;;;;;;;;;;;x
 String_FR_Culture_uyghur_PlFem;_;ouïghoures;;;;;;;;;;;;x
 String_FR_Culture_uyghur_PlMasc;_;ouïghours;;;;;;;;;;;;x
 String_FR_Culture_visigothic_Fem;_;wisigothe;;;;;;;;;;;;x
-String_FR_Culture_visigothic_Masc;_;wisigothe;;;;;;;;;;;;x
+String_FR_Culture_visigothic_Masc;_;wisigoth;;;;;;;;;;;;x
 String_FR_Culture_visigothic_PlFem;_;wisigothes;;;;;;;;;;;;x
-String_FR_Culture_visigothic_PlMasc;_;wisigothes;;;;;;;;;;;;x
+String_FR_Culture_visigothic_PlMasc;_;wisigoths;;;;;;;;;;;;x
 String_FR_Culture_volhynian_Fem;_;volhynienne;;;;;;;;;;;;x
 String_FR_Culture_volhynian_Masc;_;volhynien;;;;;;;;;;;;x
 String_FR_Culture_volhynian_PlFem;_;volhyniennes;;;;;;;;;;;;x
@@ -992,45 +994,46 @@ String_FR_Religion_zun_pagan_reformed_Masc;_;zuniste;;;;;;;;;;;;x
 String_FR_Religion_zun_pagan_reformed_PlFem;_;zunistes;;;;;;;;;;;;x
 String_FR_Religion_zun_pagan_reformed_PlMasc;_;zunistes;;;;;;;;;;;;x
 String_FR_Religion_fidele;_;fidèle;;;;;;;;;;;;x
-String_FR_Religion_old_aztec_Fem;_;aztèque ;;;;;;;;;;;;x
-String_FR_Religion_old_aztec_Masc;_;aztèque ;;;;;;;;;;;;x
-String_FR_Religion_old_aztec_PlFem;_;aztèques ;;;;;;;;;;;;x
-String_FR_Religion_old_aztec_PlMasc;_;aztèques ;;;;;;;;;;;;x
-String_FR_Religion_old_baltic_pagan_Fem;_;romuvienne ;;;;;;;;;;;;x
-String_FR_Religion_old_baltic_pagan_Masc;_;romuvien ;;;;;;;;;;;;x
-String_FR_Religion_old_baltic_pagan_PlFem;_;romuviennes ;;;;;;;;;;;;x
-String_FR_Religion_old_baltic_pagan_PlMasc;_;romuviens ;;;;;;;;;;;;x
-String_FR_Religion_old_bon_Fem;_;bön ;;;;;;;;;;;;x
-String_FR_Religion_old_bon_Masc;_;bön ;;;;;;;;;;;;x
-String_FR_Religion_old_bon_PlFem;_;bön ;;;;;;;;;;;;x
-String_FR_Religion_old_bon_PlMasc;_;bön ;;;;;;;;;;;;x
-String_FR_Religion_old_finnish_pagan_Fem;_;suomenusko ;;;;;;;;;;;;x
-String_FR_Religion_old_finnish_pagan_Masc;_;suomenusko ;;;;;;;;;;;;x
-String_FR_Religion_old_finnish_pagan_PlFem;_;suomenuskos ;;;;;;;;;;;;x
-String_FR_Religion_old_finnish_pagan_PlMasc;_;suomenuskos ;;;;;;;;;;;;x
-String_FR_Religion_old_hellenic_pagan_Fem;_;hellénique ;;;;;;;;;;;;x
-String_FR_Religion_old_hellenic_pagan_Masc;_;hellénique ;;;;;;;;;;;;x
-String_FR_Religion_old_hellenic_pagan_PlFem;_;helléniques ;;;;;;;;;;;;x
-String_FR_Religion_old_hellenic_pagan_PlMasc;_;helléniques ;;;;;;;;;;;;x
-String_FR_Religion_old_norse_pagan_Fem;_;germanique ;;;;;;;;;;;;x
-String_FR_Religion_old_norse_pagan_Masc;_;germanique ;;;;;;;;;;;;x
-String_FR_Religion_old_norse_pagan_PlFem;_;germaniques ;;;;;;;;;;;;x
-String_FR_Religion_old_norse_pagan_PlMasc;_;germaniques ;;;;;;;;;;;;x
-String_FR_Religion_old_slavic_pagan_Fem;_;slave ;;;;;;;;;;;;x
-String_FR_Religion_old_slavic_pagan_Masc;_;slave ;;;;;;;;;;;;x
-String_FR_Religion_old_slavic_pagan_PlFem;_;slaves ;;;;;;;;;;;;x
-String_FR_Religion_old_slavic_pagan_PlMasc;_;slaves ;;;;;;;;;;;;x
-String_FR_Religion_old_tengri_pagan_Fem;_;tengriste ;;;;;;;;;;;;x
-String_FR_Religion_old_tengri_pagan_Masc;_;tengriste ;;;;;;;;;;;;x
-String_FR_Religion_old_tengri_pagan_PlFem;_;tengristes ;;;;;;;;;;;;x
-String_FR_Religion_old_tengri_pagan_PlMasc;_;tengristes ;;;;;;;;;;;;x
-String_FR_Religion_old_west_african_pagan_Fem;_;africaine ;;;;;;;;;;;;x
-String_FR_Religion_old_west_african_pagan_Masc;_;africain ;;;;;;;;;;;;x
-String_FR_Religion_old_west_african_pagan_PlFem;_;africaines ;;;;;;;;;;;;x
-String_FR_Religion_old_west_african_pagan_PlMasc;_;africains ;;;;;;;;;;;;x
-String_FR_Religion_old_zun_pagan_Fem;_;zuniste ;;;;;;;;;;;;x
-String_FR_Religion_old_zun_pagan_Masc;_;zuniste ;;;;;;;;;;;;x
-String_FR_Religion_old_zun_pagan_PlFem;_;zunistes ;;;;;;;;;;;;x
+String_FR_Religion_old_aztec_Fem;_;aztèque irréformée;;;;;;;;;;;;x
+String_FR_Religion_old_aztec_Masc;_;aztèque irréformé;;;;;;;;;;;;x
+String_FR_Religion_old_aztec_PlFem;_;aztèques irréforméeses;;;;;;;;;;;;x
+String_FR_Religion_old_aztec_PlMasc;_;aztèques irréformés;;;;;;;;;;;;x
+String_FR_Religion_old_baltic_pagan_Fem;_;romuvienne irréformée;;;;;;;;;;;;x
+String_FR_Religion_old_baltic_pagan_Masc;_;romuvien irréformé;;;;;;;;;;;;x
+String_FR_Religion_old_baltic_pagan_PlFem;_;romuviennes irréformées;;;;;;;;;;;;x
+String_FR_Religion_old_baltic_pagan_PlMasc;_;romuviens irréformés;;;;;;;;;;;;x
+String_FR_Religion_old_bon_Fem;_;bön irréformée;;;;;;;;;;;;x
+String_FR_Religion_old_bon_Masc;_;bön irréformé;;;;;;;;;;;;x
+String_FR_Religion_old_bon_PlFem;_;bön irréformées;;;;;;;;;;;;x
+String_FR_Religion_old_bon_PlMasc;_;bön irréformés;;;;;;;;;;;;x
+String_FR_Religion_old_finnish_pagan_Fem;_;suomenusko irréformée;;;;;;;;;;;;x
+String_FR_Religion_old_finnish_pagan_Masc;_;suomenusko irréformé;;;;;;;;;;;;x
+String_FR_Religion_old_finnish_pagan_PlFem;_;suomenuskos irréformées;;;;;;;;;;;;x
+String_FR_Religion_old_finnish_pagan_PlMasc;_;suomenuskos irréformés;;;;;;;;;;;;x
+String_FR_Religion_old_hellenic_pagan_Fem;_;hellénique irréformée;;;;;;;;;;;;x
+String_FR_Religion_old_hellenic_pagan_Masc;_;hellénique irréformé;;;;;;;;;;;;x
+String_FR_Religion_old_hellenic_pagan_PlFem;_;helléniques irréformées;;;;;;;;;;;;x
+String_FR_Religion_old_hellenic_pagan_PlMasc;_;helléniques irréformés;;;;;;;;;;;;x
+String_FR_Religion_old_norse_pagan_Fem;_;germanique irréformée;;;;;;;;;;;;x
+String_FR_Religion_old_norse_pagan_Masc;_;germanique irréformé;;;;;;;;;;;;x
+String_FR_Religion_old_norse_pagan_PlFem;_;germaniques irréformées;;;;;;;;;;;;x
+String_FR_Religion_old_norse_pagan_PlMasc;_;germaniques irréformés;;;;;;;;;;;;x
+String_FR_Religion_old_slavic_pagan_Fem;_;slave irréformée;;;;;;;;;;;;x
+String_FR_Religion_old_slavic_pagan_Masc;_;slave irréformé;;;;;;;;;;;;x
+String_FR_Religion_old_slavic_pagan_PlFem;_;slaves irréformées;;;;;;;;;;;;x
+String_FR_Religion_old_slavic_pagan_PlMasc;_;slaves irréformés;;;;;;;;;;;;x
+String_FR_Religion_old_tengri_pagan_Fem;_;tengriste irréformée;;;;;;;;;;;;x
+String_FR_Religion_old_tengri_pagan_Masc;_;tengriste irréformé;;;;;;;;;;;;x
+String_FR_Religion_old_tengri_pagan_PlFem;_;tengristes irréformées;;;;;;;;;;;;x
+String_FR_Religion_old_tengri_pagan_PlMasc;_;tengristes irréformés;;;;;;;;;;;;x
+String_FR_Religion_old_west_african_pagan_Fem;_;africaine irréformée;;;;;;;;;;;;x
+String_FR_Religion_old_west_african_pagan_Masc;_;africain irréformé;;;;;;;;;;;;x
+String_FR_Religion_old_west_african_pagan_PlFem;_;africaines irréformées;;;;;;;;;;;;x
+String_FR_Religion_old_west_african_pagan_PlMasc;_;africains irréformés;;;;;;;;;;;;x
+String_FR_Religion_old_zun_pagan_Fem;_;zuniste irréformée;;;;;;;;;;;;x
+String_FR_Religion_old_zun_pagan_Masc;_;zuniste irréformé;;;;;;;;;;;;x
+String_FR_Religion_old_zun_pagan_PlFem;_;zunistes irréformées;;;;;;;;;;;;x
+String_FR_Religion_old_zun_pagan_PlMasc;_;zunistes irréformés;;;;;;;;;;;;x
 # Strings Religion Groups
 String_FR_ReligionGroups_christian_Fem;_;chrétienne;;;;;;;;;;;;x
 String_FR_ReligionGroups_christian_Masc;_;chrétien;;;;;;;;;;;;x
@@ -1172,7 +1175,7 @@ String_FR_random_mythological_creature_variante_draugr;_;de Draugr;;;;;;;x
 # Get_on_DuelWeapon
 String_Get_on_DuelWeapon_axe;_;a hache;;;;;;;;;;;;x
 String_Get_on_DuelWeapon_bare_hands;_;es mains;;;;;;;;;;;;x
-String_Get_on_DuelWeapon_bastard_sword;_;on épée bâtarde;;;;;;;;;;;;x
+String_Get_on_DuelWeapon_bastard_sword;_;on épée médiocre;;;;;;;;;;;;x
 String_Get_on_DuelWeapon_battle_axe;_;a hache d'armes;;;;;;;;;;;;x
 String_Get_on_DuelWeapon_dagger;_;on poignard;;;;;;;;;;;;x
 String_Get_on_DuelWeapon_flail;_;on fléau d'armes;;;;;;;;;;;;x
@@ -1276,10 +1279,9 @@ String_FR_Get_du_RealmFull;_;[This.Get_only_du_RealmFull][This.GetFullName];;;;;
 String_FR_Get_en_RealmFull;_;[This.Get_only_en_RealmFull][This.GetFullName];;;;;;;;;;;;x
 String_FR_Get_le_RealmFull;_;[This.Get_only_le_RealmFull][This.GetFullName];;;;;;;;;;;;x
 String_FR_Get_au_RealmFull;_;[This.Get_only_au_RealmFull][This.GetFullName];;;;;;;;;;;;x
-String_FR_Get_du_RealmBase;_;[This.Get_only_du_RealmBase][This.GetBaseName];;;;;;;;;;;;x
-String_FR_Get_le_Realm;_;[This.Get_only_le_Realm][This.GetName];;;;;;;;;;;;x
-String_FR_Get_du_Realm;_;[This.Get_only_du_Realm][This.GetName];;;;;;;;;;;;x
-String_FR_Get_en_Realm;_;[This.Get_only_en_Realm][This.GetName];;;;;;;;;;;;x
+String_FR_Get_le_Realm;_;[This.Get_only_le_Realm][This.GetBaseName];;;;;;;;;;;;x
+String_FR_Get_du_Realm;_;[This.Get_only_du_Realm][This.GetBaseName];;;;;;;;;;;;x
+String_FR_Get_en_Realm;_;[This.Get_only_en_Realm][This.GetBaseName];;;;;;;;;;;;x
 String_FR_Get_du_TitledFirstName;_;[This.Get_only_du_Title][This.GetTitledFirstName];;;;;;;;;;;;x
 String_FR_Get_le_TitledFirstName;_;[This.Get_only_le_Title][This.GetTitledFirstName];;;;;;;;;;;;x
 String_FR_Get_Le_TitledFirstName;_;[This.Get_only_Le_Title][This.GetTitledFirstName];;;;;;;;;;;;x
@@ -1337,4 +1339,4 @@ String_FR_Get_le_Scripture;_;[This.Get_only_le_Scripture][This.Religion.GetScrip
 String_FR_Get_du_Scripture;_;[This.Get_only_du_Scripture][This.Religion.GetScriptureName];;;;;;;;;;;;x
 String_FR_Get_du_ScriptureSecret;_;[This.Get_only_du_ScriptureSecret][This.SecretReligion.GetScriptureName];;;;;;;;;;;;x
 String_FR_Get_le_ScriptureSecret;_;[This.Get_only_le_ScriptureSecret][This.SecretReligion.GetScriptureName];;;;;;;;;;;;x
-String_FR_New_Le_TitledFirstName;_;[This.Get_only_Le_Title][This.GetTitledFirstName] [This.PrimaryTitle.Get_only_du_RealmBase][This.PrimaryTitle.GetBaseName];;;;;;;;;;;;x
+String_FR_New_Le_TitledFirstName;_;[This.Get_only_Le_Title][This.GetTitledFirstName] [This.PrimaryTitle.Get_only_du_Realm][This.PrimaryTitle.GetBaseName];;;;;;;;;;;;x

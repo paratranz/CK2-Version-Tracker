@@ -66,13 +66,13 @@
 # GetParrainMarraine
 # GetSeigneurDameCap
 # GetHerosHeroine
+# GetGrecGrecqueOpp
 
 ## COMMANDE ACCOLEE A UNE COMMANDE OU UN MOT (PAS D'ESPACE ENTRE LES DEUX)
 # Get_only_du_RealmFull (du\de la\de l'\des devant GetFullName dans un scope de titre ou GetFullBaseName) *TITLE
 # Get_only_en_RealmFull (dans le\dans la\dans l'\chez les devant GetFullName dans un scope de titre ou GetFullBaseName) *TITLE
 # Get_only_le_RealmFull (le\la\l'\les devant GetFullName dans un scope de titre ou GetFullBaseName) *TITLE
 # Get_only_au_RealmFull (AuAlaAux devant GetFullName dans un scope de titre ou GetFullBaseName) *TITLE
-# Get_only_du_RealmBase (du\de la\de l'\des devant GetBaseName) * TITLE
 # Get_only_du_Realm (du\de la\de l'\des devant GetName) *TITLE
 # Get_only_le_Realm (le\la\l'\les devant GetName) *TITLE
 # Get_only_en_Realm (en\dans le\dans la\dans l'\dans les\chez les devant GetName) *TITLE
@@ -121,7 +121,6 @@
 # Get_en_RealmFull
 # Get_le_RealmFull
 # Get_au_RealmFull
-# Get_du_RealmBase
 # Get_le_Realm
 # Get_du_Realm
 # Get_en_Realm
@@ -1147,6 +1146,22 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_GetHerosHeroine_female
+		trigger = {
+			is_female = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetGrecGrecqueOpp
+	text = {
+		localisation_key = String_FR_GetGrecGrecqueOpp_male
+		trigger = {
+			is_female = no
+		}
+	}
+	text = {
+		localisation_key = String_FR_GetGrecGrecqueOpp_female
 		trigger = {
 			is_female = yes
 		}
@@ -2561,396 +2576,6 @@ defined_text = { #2018.10.01
 	}
 }
 
-defined_text = { # outdated
-	name = Get_only_du_RealmBase
-	use_first_valid = yes
-	text = {
-		localisation_key = String_FR_de_
-		trigger = {
-			is_random_world = yes
-		}
-	}
-	text = {
-		trigger = { # Révolte. Doit être au début de la liste
-			holder_scope = {
-				in_revolt = yes
-			}
-		}
-		localisation_key = String_FR_de_la_
-	}
-	text = {
-		trigger = {
-			OR = {
-				title = e_abyssinia # Abyssinie
-				title = e_india # Inde
-				title = e_italy # Italie
-				title = e_spain # Hispanie
-				title = k_abyssinia # Abyssinie
-				title = k_africa # Ifriqiya
-				title = k_alania # Alanie
-				title = k_amalfi # Amalfi
-				title = k_anatolia # Anatolie
-				title = k_andalusia # Andalousie
-				title = k_andhra # Andhra
-				title = k_antioch # Antioche
-				title = k_aquitaine # Aquitaine
-				title = k_arabia # Arabie
-				title = k_armenia # Arménie
-				title = k_avaria # Avarie
-				title = k_aydin # Aydin
-				title = k_egypt # Égypte
-				title = k_england # Angleterre
-				title = k_eretnid # Éretnide
-				title = k_estonia # Estonie
-				title = k_iraq # Irak
-				title = k_ireland # Irlande
-				title = k_israel # Israël
-				title = k_italy # Italie
-				title = k_khotan # Hotan
-				title = k_mesopotamia # Al-Jazîra
-				title = k_orissa # Orissa
-				title = k_scotland # Écosse
-				title = d_ostrobothnia # Ostrobotnie
-				title = d_afar # Afar
-				title = d_sennar # Alodie
-				title = d_uttaranchal # Uttaranchal
-				title = d_yarlung # Yarlung
-				title = d_uppland # Uppland
-				title = d_armeniacon # Arméniakon
-				title = d_anatolia # Anatolie
-				title = d_adrianopolis # Andrinople
-				title = d_epirus # Épire
-				title = d_athens # Athènes
-				title = d_achaia # Achaïe
-				title = d_ostergotland # Ostrogothie
-				title = d_alsace # Alsace
-				title = d_esthonia # Estonie
-				title = d_hlynov # Ugra
-				title = d_itil # Itil
-				title = d_azov # Azov
-				title = d_alania # Alanie
-				title = d_esfahan # Ispahan
-				title = d_azerbaijan # Azerbaïdjan
-				title = d_armenia # Arménie
-				title = d_edessa # Édesse
-				title = d_abkhazia # Abkhazie
-				title = d_esztergom # Esztergom
-				title = d_ungvar # Ungvar
-				title = d_ancona # Ancône
-				title = d_apulia # Apulie
-				title = d_aquitaine # Aquitaine
-				title = d_auvergne # Auvergne
-				title = d_anjou # Anjou
-				title = d_orleans # Orléans
-				title = d_aragon # Aragon
-				title = d_algarve # Algarve
-				title = d_alger # Alger
-				title = d_alexandria # Alexandrie
-				title = d_aswan # Assouan
-				title = d_arabia_petrae # Arabie pétrée
-				title = d_arabia_felix # Arabie Heureuse
-				title = d_oman # Oman
-				title = d_axum # Aksoum
-				title = d_oultrejourdain # Outre-Jourdain
-				title = d_ascalon # Ascalon
-				title = d_aleppo # Alep
-				title = d_antioch # Antioche
-				title = d_york # York
-				title = d_norfolk # East Anglia
-				title = d_oxford # Oxford
-				title = d_bedford # Essex
-				title = d_albany # Alba
-				title = d_ulster # Ulster
-				title = d_iceland # Islande
-				title = d_orkney # Orcades
-				title = d_abbasid # Abbassides
-				title = d_arabs # Arabes
-				title = d_el_rif # El Rif
-				title = d_el-arish # El Arish
-				title = d_erzerum # Erzurum
-				title = d_estonia # Estoniens
-				title = d_osterreich # Autriche
-				title = d_ural # Oural
-				title = d_obotrites # Abodrites
-				title = d_jazira # Algésiras
-				title = d_amalfi # Amalfi
-				title = d_yatviags # Yatvingia
-				title = d_altay # Altaï
-				title = d_ikh_bogd # Ikh Bogd
-				title = d_oppland # Oppland
-				title = d_agder # Agder
-				title = d_yaik # Yaik
-				title = d_yugra # Yugra
-				title = d_anartta # Anartta
-				title = d_ajmer # Ajmer
-				title = d_dadhipadra # Avanti
-				title = d_akara_dasarna # Akara-Dasarna
-				title = d_anupa # Anupa
-				title = d_udayagiri # Udayagiri
-			}
-		}
-		localisation_key = String_FR_d
-	}
-	text = {
-		trigger = {
-			OR = {
-				title = e_arabia # Empire arabe
-				title = e_bengal # Empire bengalais
-				title = e_byzantium # Empire byzantin
-				title = e_deccan # Empire Deccan
-				title = e_il-khanate # Ilkhanat
-				title = e_latin_empire # Empire latin
-				title = e_mexikha # Empire aztèque
-				title = e_mongol_empire # Empire mongol
-				title = e_persia # Empire perse
-				title = e_roman_empire # Empire romain
-				title = e_seljuk_turks # Empire seldjouk
-				title = e_wendish_empire # Empire wende
-				title = d_slavic_pagan_reformed # Union slave
-				title = d_manichean # Église manichéenne
-				title = d_zoroastrian # Église zoroastrienne
-				title = d_aztec_reformed # Église aztèque
-				title = d_zun_pagan_reformed # Église de Zun
-				title = d_teutonic_order # Ordre teutonique
-				title = d_knights_templar # Ordre du Temple
-				title = d_knights_hospitaler # Ordre hospitalier
-				title = d_saint_anthony # Ordre de Saint Antoine
-				title = d_knights_santiago # Ordre de Santiago
-				title = d_knights_calatrava # Ordre de Calatrava
-				title = d_saint_addai # Ordre de saint Thaddée
-				title = d_han_massive # Armée du Dragon
-				title = d_army_light # Armée de Lumière
-			}
-		}
-		localisation_key = String_FR_de_l
-	}
-	text = {
-		trigger = {
-			OR = {
-				title = e_china_west_governor # Protectorat des Régions de l'Ouest
-				title = e_hre # Saint-Empire romain
-				title = e_mali # Mali
-				title = e_rajastan # Rajasthan
-				title = e_shiite # Califat Chiite
-				title = e_sunni # Califat Sunnite
-				title = e_tibet # Tibet
-				title = k_afghanistan # Kaboulistan
-				title = k_bengal # Bengale
-				title = k_bihar # Bihar
-				title = k_daylam # Daylam
-				title = k_denmark # Danemark
-				title = k_gondwana # Gondwana
-				title = k_guge # Gugé
-				title = k_gujarat # Gujarat
-				title = k_hellenic_pagan # Collegium Pontificum
-				title = k_kamarupa # Kamarupa
-				title = k_karnata # Karnata
-				title = k_kashmir # Kashmir
-				title = k_khorasan # Khorassan
-				title = k_kosala # Kosala
-				title = k_lanka # Lanka
-				title = k_maharastra # Maharastra
-				title = k_mali # Mali
-				title = k_malwa # Malva
-				title = k_nepal # Népal
-				title = k_orthodox # Patriarcat oecuménique
-				title = k_punjab # Pendjab
-				title = k_rajputana # Rajputana
-				title = k_sakya_trizin # Sakya Trizin
-				title = k_sindh # Sindh
-				title = k_tamilakam # Tamilakam
-				title = k_telingana # Telingana
-				title = k_turkestan # Turkestan
-				title = k_wales # Pays de Galles
-				title = k_yemen # Yémen
-				title = d_tengri_pagan_reformed # Temple du Ciel
-				title = d_huitzilopochtli # Culte de Huitzilopochtli
-				title = d_yazidi # Cheikat yézidi
-				title = d_hurufi # Cheikat hurufite
-				title = d_zabulistan # Zaboulistan
-				title = d_mazandaran # Tabaristan
-				title = d_kabul # Kaboulistan
-				title = d_bhutan # Bhoutan
-				title = d_kurdistan # Kurdistan
-				title = d_khozistan # Khouzistan
-				title = d_luristan # Loristan
-				title = d_sistan # Sistan
-				title = d_turkestan # Turkestan
-				title = d_khotan # Hotan
-				title = d_dihistan # Dihistan
-				title = d_multan # Multan
-				title = d_danes # Danemark
-				title = d_khorasan # Khorassan
-				title = d_poitou # Poitou
-				title = d_tyrol # Tyrol
-				title = d_sunni # Califat sunnite
-				title = d_shiite # Califat chiite
-				title = d_ibadi # Califat ibadite
-				title = d_kharijite # Califat kharidjite
-				title = d_nestorian # Patriarcat d'Orient
-				title = d_monothelite # Patriarcat monothélite
-				title = d_iconoclast # Patriarcat iconoclaste
-				title = d_paulician # Patriarcat paulicien
-				title = d_norse_pagan_reformed # Fylkirat
-			}
-		}
-		localisation_key = String_FR_du_
-	}
-	text = {
-		trigger = {
-			OR = {
-				title = e_golden_horde # Horde d'Or
-				title = k_papal_state # Papauté
-				title = k_switzerland # Confédération suisse
-				title = k_volga_bulgaria # Bulgarie de la Volga
-				title = d_han_low # Bande de la Grue
-				title = d_tangut_low # Bande tangoute
-				title = d_bodpa_low # Bande bödpa
-				title = d_jurchen_band # Bande jurchen
-				title = d_han_tiny_1 # Bande de la Pivoine
-				title = d_han_tiny_2 # Bande de l'Orchidée
-				title = d_sardinian_band # Bande sarde
-				title = d_victual_brothers # Bande des frères vitaliens
-				title = d_lombard_band # Bande armée lombarde
-				title = d_swiss_band # Bande armée suisse
-				title = d_breton_band # Bande armée bretonne
-				title = d_catalan_band # Bande armée catalane
-				title = d_saxon_band # Bande armée saxonne
-				title = d_cuman_band # Bande armée coumane
-				title = d_rus_band # Bande armée russe
-				title = d_pecheneg_band # Bande armée petchénègue
-				title = d_bulgarian_band # Bande armée bulgare
-				title = d_turkic_band # Bande armée turcique
-				title = d_ghilman # Bande de ghulams
-				title = d_finnish_band # Bande armée finnoise
-				title = d_lithuanian_band # Bande armée lituanienne
-				title = d_abyssinian_band # Bande armée d'Abyssinie
-				title = d_scottish_band # Bande armée écossaise
-				title = d_irish_band # Bande armée irlandaise
-				title = d_alan_band # Bande de cavaliers alains
-				title = d_nubian_band # Bande armée nubienne
-				title = d_ghanan_band # Bande armée ghanéenne
-				title = d_tamil_band # Bande armée tamoule
-				title = d_marathi_band # Bande armée marathi
-				title = d_bengal_band # Bande armée bengalaise
-				title = d_rajput_band # Bande armée rajput
-				title = d_lappish_band # Bande armée sami
-				title = d_upper_burgundy # Bourgogne transjurane
-				title = d_bon_reformed # Hiérarchie bön sacrée
-				title = d_west_african_pagan_reformed # Congrégation africaine
-				title = d_baltic_pagan_reformed # Congrégation romuvienne
-				title = d_han_large # Compagnie du Phénix
-				title = d_han_mid # Compagnie du Qilin
-				title = d_han_mid_low # Compagnie de la Tortue
-				title = d_sardinian_company # Compagnie sarde
-				title = d_sunni_cuman_company # Compagnie khazar
-				title = d_shiite_cuman_company # Compagnie des steppes
-				title = d_sunni_turkic_company # Compagnie turcmène
-				title = d_shiite_turkic_company # Compagnie turkomane
-				title = d_sunni_berber_company # Compagnie berbère
-				title = d_shiite_berber_company # Compagnie touareg
-				title = d_sunni_bedouin_company # Compagnie arabe
-				title = d_shiite_bedouin_company # Compagnie bédouine
-				title = d_cuman_company # Compagnie coumane
-				title = d_rus_company # Compagnie russe
-				title = d_pecheneg_company # Compagnie petchénègue
-				title = d_bulgarian_company # Compagnie bulgare
-				title = d_turkic_company # Compagnie turcique
-				title = d_breton_company # Compagnie bretonne
-				title = d_swiss_company # Compagnie suisse
-				title = d_navarrese_company # Compagnie navarraise
-				title = d_catalan_company # Compagnie catalane
-				title = d_rose_company # Compagnie de la Rose
-				title = d_little_hat_company # Compagnie du Chapeau
-				title = d_star_company # Compagnie de l'Étoile
-				title = d_company_of_st_george # Compagnie de Saint-Georges
-				title = d_white_company # Compagnie Blanche
-				title = d_mamluks # Compagnie mamelouk
-				title = d_marathi_company # Compagnie marathi
-				title = d_bengal_company # Compagnie du Bengale
-				title = d_rajput_company # Compagnie rajput
-				title = d_bektashi # Confrérie bektachie
-				title = d_holy_sepulchre # Confrérie du Saint-Sépulcre
-				title = d_treasure_fleet # Flotte des Trésors
-				title = d_venetian_navy # Flotte de galères de l'Adriatique
-				title = d_genoese_navy # Flotte de galères liguriennes
-				title = d_hanseatic_navy # Flotte de cogues de la Baltique
-				title = d_frisian_navy # Flotte de cogues de la mer du Nord
-				title = d_miaphysite # Papauté miaphysite
-				title = d_monophysite # Papauté monophysite
-				title = d_fraticelli # Papauté fraticelle
-				title = d_jewish # Grande Prêtrise juive
-				title = d_varangian_guard # Garde varègue
-				title = d_great_company # Grande Compagnie
-				title = d_maghreb_corsairs # Marine barbaresque
-				title = d_silk_road_sentinels # Sentinelle de la Route de la Soie
-			}
-		}
-		localisation_key = String_FR_de_la_
-	}
-	text = {
-		trigger = {
-			OR = {
-				title = e_pirates # Pirates
-				title = e_rebels # Rebelles
-				title = e_timurids # Timourides
-				title = k_al-murabitids # Al-Mourabitides
-				title = k_asturias # Asturies
-				title = k_cuman # Coumans
-				title = k_fatimids # Fatimides
-				title = k_hammadid # Hammadides
-				title = k_ottoman # Ottomans
-				title = k_pechenegs # Petchénègues
-				title = k_xixia # Xia
-				title = k_zirid # Zirides
-				title = k_ziyanids # Ziyanides
-				title = d_dralhas_children # Enfants de Dralha
-				title = d_papal_guards # Gardes papaux
-				title = d_finnish_pagan_reformed # Bois sacrés
-				title = d_sky_lords # Seigneurs du Ciel
-				title = d_spirit_guardians # Gardiens des Esprits
-				title = d_warriors_perun # Guerriers de Péroun
-				title = d_chosen_perkunas # Élus de Perkunas
-				title = d_sons_kaleva # Fils de Kaleva
-				title = d_assassin # Assassins
-				title = d_severians # Sévérianes
-				title = d_jomsvikings # Jomsvikings
-				title = d_followers_arjuna # Adeptes d'Arjuna
-				title = d_ashokas_chosen # Élus d'Ashoka
-				title = d_bulls_rishabha # Taureaux de Rishabhanatha
-				title = d_zun_warriors # Chevaliers du Soleil
-				title = d_ilmenians # Ilméniens
-				title = d_pruthenians # Pruthéniens
-				title = d_immortals # Immortels
-				title = d_aegean_islands # Îles Egées
-				title = d_cornwall # Cornouailles
-				title = d_han_junks # Jonques des Han
-				title = d_jurchen_corsairs # Corsaires jurchen
-				title = d_outlaws_of_the_marsh # Hors-la-loi des Marais
-				title = d_persian_caravan_guards # Gardes de caravane perses
-				title = d_turkic_guard # Gardes turciques
-				title = d_lettigalians # Latgaliens
-				title = d_asturias # Asturies
-				title = d_myrmidons # Myrmidons
-				title = d_zemigalians # Zemigaliens
-				title = d_ingers # Ingriens
-			}
-		}
-		localisation_key = String_FR_des_
-	}
-	text = {
-		trigger = { # Doit être à la fin de la liste. Pour les "Bande [culture]"
-			holder_scope = {
-				mercenary = yes
-			}
-		}
-		localisation_key = String_FR_de_la_
-	}
-	fallback_text = {
-		localisation_key = String_FR_de_
-	}
-}
-
 defined_text = { #2018.10.01
 	name = Get_only_du_Realm
 	use_first_valid = yes
@@ -3216,7 +2841,14 @@ defined_text = { #2018.10.01
 				title = d_oppland # Oppland
 				title = d_ostergotland # Ostrogothie
 				title = d_osterreich # Autriche
-				title = d_ostrobothnia # Ostrobotnie
+				AND = {
+					title = d_ostrobothnia # Ostrobotnie
+					NOR = {
+						culture = finnish # Pohjanmaa
+						culture = lappish # Pohjanmaa
+						culture = ugricbaltic # Pohjanmaa
+					}
+				}
 				title = d_oultrejourdain # Outre-Jourdain
 				title = d_oxford # Oxford
 				title = d_sennar # Alodie
@@ -3837,7 +3469,14 @@ defined_text = { #2018.10.01
 				title = d_oppland# Oppland
 				title = d_ostergotland# Ostrogothie
 				title = d_osterreich# Autriche
-				title = d_ostrobothnia# Ostrobotnie
+				AND = {
+					title = d_ostrobothnia # Ostrobotnie
+					NOR = {
+						culture = finnish # Pohjanmaa
+						culture = lappish # Pohjanmaa
+						culture = ugricbaltic # Pohjanmaa
+					}
+				}
 				title = d_oultrejourdain# Outre-Jourdain
 				title = d_oxford# Oxford
 				title = d_saint_addai# Ordre de saint Thaddée
@@ -4319,13 +3958,13 @@ defined_text = { #2018.10.01
 	}
 }
 
-defined_text = { # 2018.10.16
+defined_text = { # 2018.10.30
 	name = Get_only_du_Title
 	use_first_valid = yes
-	text = { # Sans titre nommé
+	text = { # Titre temporaire non nommé (en révolte, aventurier, ordre sacré)
 		localisation_key = String_FR_de_
 		trigger = { 
-			in_revolt = yes
+			primary_title = { temporary = yes }
 		}
 	}
 	text = { # titres honorifiques
@@ -4338,12 +3977,7 @@ defined_text = { # 2018.10.16
 				NOT = { 
 					higher_tier_than = DUKE
 					trait = bastard # non si bâtard
-					spouse = { # non si le conjoint a un titre non temporaire supérieur à duc
-						AND = {
-							higher_tier_than = DUKE
-							primary_title = { temporary = no }
-						}
-					}
+					spouse = { higher_real_tier_than = DUKE } # non si le conjoint a un titre non temporaire supérieur à duc
 				}
 			}
 		}
@@ -4598,10 +4232,10 @@ defined_text = { # 2018.10.16
 		}
 	}
 	text = {
-		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]"
+		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]". Le capitaine n'a pas de titre nommé
 				mercenary = yes
 		}
-		localisation_key = String_FR_de_la_
+		localisation_key = String_FR_de_
 	}
 	text = {
 		localisation_key = String_FR_de_
@@ -4616,21 +4250,21 @@ defined_text = { # 2018.10.16
 						real_tier = count
 						real_tier = baron
 					}
-            		OR = { # culture
-            			culture = bodpa
-            			culture = frisian
-            			culture = nepali
-            			culture = norse
-            			culture = old_saxon
-            			culture = sumpa
-            			culture = tangut
-            			culture = zhangzhung
-            		}
-					NOT = { spouse = { higher_real_tier_than = THIS } } # le conjoint n'a pas un titre non temporaire supérieur
+					OR = { # culture
+						culture = bodpa
+						culture = frisian
+						culture = nepali
+						culture = norse
+						culture = old_saxon
+						culture = sumpa
+						culture = tangut
+						culture = zhangzhung
+					}
+					NOT = { spouse = { higher_real_tier_than = spouse } } # le conjoint n'a pas un titre non temporaire supérieur
 				}
-				AND = { #... et n'est donc pas donné au conjoint
-					spouse = { 
-						higher_real_tier_than = THIS # le conjoint a un titre non temporaire supérieur
+				spouse = { #... et n'est donc pas donné au conjoint
+					AND = { 
+						higher_real_tier_than = spouse # le conjoint a un titre non temporaire supérieur
 						OR = { # gouvernement féodal ou tribal
 							is_feudal = yes
 							is_tribal = yes
@@ -4639,30 +4273,24 @@ defined_text = { # 2018.10.16
 							real_tier = count
 							real_tier = baron
 						}
-            			OR = { # culture
-            				culture = bodpa
-            				culture = frisian
-            				culture = nepali
-            				culture = norse
-            				culture = old_saxon
-            				culture = sumpa
-            				culture = tangut
-            				culture = zhangzhung
-            			}
+						OR = { # culture
+							culture = bodpa
+							culture = frisian
+							culture = nepali
+							culture = norse
+							culture = old_saxon
+							culture = sumpa
+							culture = tangut
+							culture = zhangzhung
+						}
 					}
 				}
-				AND = { # N'a aucun titre non temporaire et n'est ni tribal ni féodal
-					is_ruler = no
-					is_tribal = no
-					is_feudal = no
-				}
-				AND = { # N'a aucun titre non temporaire, est tribal ou féodal, et le conjoint n'a pas un titre non temporaire supérieur
-					is_ruler = no
+				AND = { # N'a aucun titre foncier et l'éventuel conjoint non plus
+					is_landed = no
 					OR = {
-						is_tribal = yes
-						is_feudal = yes
+						spouse = { is_landed = no }
+						is_married = no
 					}
-					NOT = { spouse = { higher_real_tier_than = THIS } }
 				}
 			}
 		}
@@ -4671,12 +4299,12 @@ defined_text = { # 2018.10.16
 		localisation_key = String_FR_de_l
 		trigger = { # titres qui commencent par une voyelle
 			OR = {
+				has_nickname = nick_the_elder # Ancien
 				AND = { # gouvernements féodaux
 					is_feudal = yes
 					OR = {
 						AND = {
-							tier = EMPEROR # Empereur, Impératrice
-							primary_title = { temporary = no }
+							real_tier = EMPEROR # Empereur, Impératrice
 							NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 								culture_group = tibetan_group # Tsenpo, Tsenmo
 								culture = tangut # Thu Ghu, Thu Ghu
@@ -4702,37 +4330,22 @@ defined_text = { # 2018.10.16
 							tier = KING
 							culture_group = byzantine
 							primary_title = { is_vice_royalty = yes }
-							NOT = {
-								spouse = {
-									AND = { # conjoint de rang empereur avec un titre non temporaire
-										tier = EMPEROR
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { real_tier = EMPEROR } } # conjoint de rang empereur avec un titre non temporaire
 						}
 						AND = {
-							tier = DUKE
-							primary_title = { temporary = no }
+							real_tier = DUKE
 							OR = {
+								liege = { culture_group = arabic } # Émir Émira
 								culture_group = arabic # Émir Émira
 								AND = { # Ikhshide
 									culture = sogdian
 									is_female = no
 								}
 							}
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à duc
-									AND = {
-										higher_tier_than = DUKE
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { higher_real_tier_than = DUKE } } # si le conjoint a un titre non temporaire supérieur à duc
 						}
 						AND = { # Earl
-							tier = COUNT
-							primary_title = { temporary = no }
+							real_tier = COUNT
 							is_female = no
 							OR = {
 								culture = saxon # Earl
@@ -4742,32 +4355,23 @@ defined_text = { # 2018.10.16
 								culture = pictish # Earl
 							}
 							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à comte
-									AND = {
-										higher_tier_than = COUNT
-										primary_title = { temporary = no }
+								spouse = { higher_real_tier_than = COUNT } # si le conjoint a un titre non temporaire supérieur à comte
+								liege = {
+									NOR = {
+										culture = saxon # Earl
+										culture = english # Earl
+										culture = scottish # Earl
+										culture = irish # Earl
+										culture = pictish # Earl
 									}
 								}
 							}
 						}
 						AND = {
-							tier = BARON
-							primary_title = { temporary = no }
+							real_tier = BARON
 							is_female = no
 							culture_group = iranian # Argbadh
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à baron
-									AND = {
-										higher_tier_than = BARON
-										primary_title = { temporary = no }
-									}
-								}
-								culture_group = tibetan_group
-								culture = norse
-								culture = old_saxon
-								culture = frisian
-								culture = nepali
-							}
+							NOT = { spouse = { higher_real_tier_than = BARON } } # si le conjoint a un titre non temporaire supérieur à baron
 						}
 						AND = { # conjoint féodal donne le titre (si rang inférieur)
 							OR = {
@@ -4775,8 +4379,7 @@ defined_text = { # 2018.10.16
 								lower_tier_than = EMPEROR
 							}
 							spouse = {
-								tier = EMPEROR # Empereur, Impératrice
-								primary_title = { temporary = no }
+								real_tier = EMPEROR # Empereur, Impératrice
 								NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 									culture_group = tibetan_group # Tsenpo, Tsenmo
 									culture = tangut # Thu Ghu, Thu Ghu
@@ -4799,65 +4402,99 @@ defined_text = { # 2018.10.16
 								}
 							}
 						}
-						AND = { # conjoint Exarque
+						AND = { # conjoint (Exarque)
 							OR = {
 								is_ruler = no
 								lower_tier_than = KING
 							}
 							spouse = {
 								tier = KING
-								culture_group = byzantine
 								primary_title = { is_vice_royalty = yes }
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = byzantine
+									}
+									liege = { culture_group = byzantine }
+								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Émir Émira Ikhshide)
 							OR = {
 								is_ruler = no
 								lower_tier_than = DUKE
 							}
 							spouse = {
-								tier = DUKE
-								primary_title = { temporary = no }
+								real_tier = DUKE
 								OR = {
-									culture_group = arabic # Émir Émira
+									AND = { # Émir Émira
+										independent = yes
+										culture_group = arabic
+									}
+									liege = { culture_group = arabic } # Émir Émira
 									AND = { # Ikhshide
-										culture = sogdian
 										is_female = yes
+										independent = yes
+										culture = sogdian
+									}
+									AND = { # Ikhshide
+										is_female = yes
+										liege = { culture = sogdian }
+									}
+									AND = { # Émira
+										is_female = no
+										independent = yes
+										culture_group = iranian
+									}
+									AND = { # Émira
+										is_female = no
+										liege = { culture_group = iranian }
 									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Earl)
+							is_female = no
 							OR = {
 								is_ruler = no
 								tier = BARON
 							}
 							spouse = {
-								tier = COUNT
-								primary_title = { temporary = no }
-								is_female = yes
+								real_tier = COUNT
 								OR = {
-									culture = saxon # Earl
-									culture = english # Earl
-									culture = scottish # Earl
-									culture = irish # Earl
-									culture = pictish # Earl
+									AND = {
+										independent = yes
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
+									liege = {
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Argbadh)
 							is_ruler = no
+							is_female = no
 							spouse = {
-								tier = BARON
-								primary_title = { temporary = no }
-								is_female = yes
-								culture_group = iranian # Argbadh
-								NOT = {
-									culture_group = tibetan_group
-									culture = norse
-									culture = old_saxon
-									culture = frisian
-									culture = nepali
+								real_tier = BARON
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = iranian
+									}
+									liege = { culture_group = iranian }
 								}
 							}
 						}
@@ -4889,13 +4526,8 @@ defined_text = { # 2018.10.16
 							}
 						}
 						AND = { # Ervad
-							religion_group = zoroastrian_group
+							religion = zoroastrian
 							tier = BARON
-							NOT = {
-								religion = khurmazta # Vahram
-								religion = manichean # Vahram
-								religion = mazdaki # Vahram
-							}
 						}
 					}
 				}
@@ -4916,8 +4548,7 @@ defined_text = { # 2018.10.16
 						AND = { # conjoint empereur tribal non temporaire donne son titre
 							spouse = {
 								is_female = no
-								tier = EMPEROR
-								primary_title = { temporary = no }
+								real_tier = EMPEROR
 								NOT = { # sauf quand:
 									culture_group = altaic
 									culture_group = dravidian_group
@@ -4945,13 +4576,13 @@ defined_text = { # 2018.10.16
 	}
 }
 
-defined_text = { # 2018.10.16
+defined_text = { # 2018.10.30
 	name = Get_only_le_Title
 	use_first_valid = yes
-	text = { # Sans titre nommé
+	text = { # Titre temporaire non nommé (en révolte, aventurier, ordre sacré)
 		localisation_key = ""
 		trigger = { 
-			in_revolt = yes
+			primary_title = { temporary = yes }
 		}
 	}
 	text = { # titres honorifiques
@@ -4964,12 +4595,7 @@ defined_text = { # 2018.10.16
 				NOT = { 
 					higher_tier_than = DUKE
 					trait = bastard # non si bâtard
-					spouse = { # non si le conjoint a un titre non temporaire supérieur à duc
-						AND = {
-							higher_tier_than = DUKE
-							primary_title = { temporary = no }
-						}
-					}
+					spouse = { higher_real_tier_than = DUKE } # non si le conjoint a un titre non temporaire supérieur à duc
 				}
 			}
 		}
@@ -5224,10 +4850,10 @@ defined_text = { # 2018.10.16
 		}
 	}
 	text = {
-		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]"
+		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]". Le capitaine n'a pas de titre nommé
 				mercenary = yes
 		}
-		localisation_key = String_FR_la_
+		localisation_key = ""
 	}
 	text = {
 		localisation_key = ""
@@ -5242,21 +4868,21 @@ defined_text = { # 2018.10.16
 						real_tier = count
 						real_tier = baron
 					}
-            		OR = { # culture
-            			culture = bodpa
-            			culture = frisian
-            			culture = nepali
-            			culture = norse
-            			culture = old_saxon
-            			culture = sumpa
-            			culture = tangut
-            			culture = zhangzhung
-            		}
-					NOT = { spouse = { higher_real_tier_than = THIS } } # le conjoint n'a pas un titre non temporaire supérieur
+					OR = { # culture
+						culture = bodpa
+						culture = frisian
+						culture = nepali
+						culture = norse
+						culture = old_saxon
+						culture = sumpa
+						culture = tangut
+						culture = zhangzhung
+					}
+					NOT = { spouse = { higher_real_tier_than = spouse } } # le conjoint n'a pas un titre non temporaire supérieur
 				}
-				AND = { #... et n'est donc pas donné au conjoint
-					spouse = { 
-						higher_real_tier_than = THIS # le conjoint a un titre non temporaire supérieur
+				spouse = { #... et n'est donc pas donné au conjoint
+					AND = { 
+						higher_real_tier_than = spouse # le conjoint a un titre non temporaire supérieur
 						OR = { # gouvernement féodal ou tribal
 							is_feudal = yes
 							is_tribal = yes
@@ -5265,30 +4891,24 @@ defined_text = { # 2018.10.16
 							real_tier = count
 							real_tier = baron
 						}
-            			OR = { # culture
-            				culture = bodpa
-            				culture = frisian
-            				culture = nepali
-            				culture = norse
-            				culture = old_saxon
-            				culture = sumpa
-            				culture = tangut
-            				culture = zhangzhung
-            			}
+						OR = { # culture
+							culture = bodpa
+							culture = frisian
+							culture = nepali
+							culture = norse
+							culture = old_saxon
+							culture = sumpa
+							culture = tangut
+							culture = zhangzhung
+						}
 					}
 				}
-				AND = { # N'a aucun titre non temporaire et n'est ni tribal ni féodal
-					is_ruler = no
-					is_tribal = no
-					is_feudal = no
-				}
-				AND = { # N'a aucun titre non temporaire, est tribal ou féodal, et le conjoint n'a pas un titre non temporaire supérieur
-					is_ruler = no
+				AND = { # N'a aucun titre foncier et l'éventuel conjoint non plus
+					is_landed = no
 					OR = {
-						is_tribal = yes
-						is_feudal = yes
+						spouse = { is_landed = no }
+						is_married = no
 					}
-					NOT = { spouse = { higher_real_tier_than = THIS } }
 				}
 			}
 		}
@@ -5297,12 +4917,12 @@ defined_text = { # 2018.10.16
 		localisation_key = String_FR_l
 		trigger = { # titres qui commencent par une voyelle
 			OR = {
+				has_nickname = nick_the_elder # Ancien
 				AND = { # gouvernements féodaux
 					is_feudal = yes
 					OR = {
 						AND = {
-							tier = EMPEROR # Empereur, Impératrice
-							primary_title = { temporary = no }
+							real_tier = EMPEROR # Empereur, Impératrice
 							NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 								culture_group = tibetan_group # Tsenpo, Tsenmo
 								culture = tangut # Thu Ghu, Thu Ghu
@@ -5328,37 +4948,22 @@ defined_text = { # 2018.10.16
 							tier = KING
 							culture_group = byzantine
 							primary_title = { is_vice_royalty = yes }
-							NOT = {
-								spouse = {
-									AND = { # conjoint de rang empereur avec un titre non temporaire
-										tier = EMPEROR
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { real_tier = EMPEROR } } # conjoint de rang empereur avec un titre non temporaire
 						}
 						AND = {
-							tier = DUKE
-							primary_title = { temporary = no }
+							real_tier = DUKE
 							OR = {
+								liege = { culture_group = arabic } # Émir Émira
 								culture_group = arabic # Émir Émira
 								AND = { # Ikhshide
 									culture = sogdian
 									is_female = no
 								}
 							}
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à duc
-									AND = {
-										higher_tier_than = DUKE
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { higher_real_tier_than = DUKE } } # si le conjoint a un titre non temporaire supérieur à duc
 						}
 						AND = { # Earl
-							tier = COUNT
-							primary_title = { temporary = no }
+							real_tier = COUNT
 							is_female = no
 							OR = {
 								culture = saxon # Earl
@@ -5368,32 +4973,23 @@ defined_text = { # 2018.10.16
 								culture = pictish # Earl
 							}
 							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à comte
-									AND = {
-										higher_tier_than = COUNT
-										primary_title = { temporary = no }
+								spouse = { higher_real_tier_than = COUNT } # si le conjoint a un titre non temporaire supérieur à comte
+								liege = {
+									NOR = {
+										culture = saxon # Earl
+										culture = english # Earl
+										culture = scottish # Earl
+										culture = irish # Earl
+										culture = pictish # Earl
 									}
 								}
 							}
 						}
 						AND = {
-							tier = BARON
-							primary_title = { temporary = no }
+							real_tier = BARON
 							is_female = no
 							culture_group = iranian # Argbadh
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à baron
-									AND = {
-										higher_tier_than = BARON
-										primary_title = { temporary = no }
-									}
-								}
-								culture_group = tibetan_group
-								culture = norse
-								culture = old_saxon
-								culture = frisian
-								culture = nepali
-							}
+							NOT = { spouse = { higher_real_tier_than = BARON } } # si le conjoint a un titre non temporaire supérieur à baron
 						}
 						AND = { # conjoint féodal donne le titre (si rang inférieur)
 							OR = {
@@ -5401,8 +4997,7 @@ defined_text = { # 2018.10.16
 								lower_tier_than = EMPEROR
 							}
 							spouse = {
-								tier = EMPEROR # Empereur, Impératrice
-								primary_title = { temporary = no }
+								real_tier = EMPEROR # Empereur, Impératrice
 								NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 									culture_group = tibetan_group # Tsenpo, Tsenmo
 									culture = tangut # Thu Ghu, Thu Ghu
@@ -5425,65 +5020,99 @@ defined_text = { # 2018.10.16
 								}
 							}
 						}
-						AND = { # conjoint Exarque
+						AND = { # conjoint (Exarque)
 							OR = {
 								is_ruler = no
 								lower_tier_than = KING
 							}
 							spouse = {
 								tier = KING
-								culture_group = byzantine
 								primary_title = { is_vice_royalty = yes }
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = byzantine
+									}
+									liege = { culture_group = byzantine }
+								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Émir Émira Ikhshide)
 							OR = {
 								is_ruler = no
 								lower_tier_than = DUKE
 							}
 							spouse = {
-								tier = DUKE
-								primary_title = { temporary = no }
+								real_tier = DUKE
 								OR = {
-									culture_group = arabic # Émir Émira
+									AND = { # Émir Émira
+										independent = yes
+										culture_group = arabic
+									}
+									liege = { culture_group = arabic } # Émir Émira
 									AND = { # Ikhshide
-										culture = sogdian
 										is_female = yes
+										independent = yes
+										culture = sogdian
+									}
+									AND = { # Ikhshide
+										is_female = yes
+										liege = { culture = sogdian }
+									}
+									AND = { # Émira
+										is_female = no
+										independent = yes
+										culture_group = iranian
+									}
+									AND = { # Émira
+										is_female = no
+										liege = { culture_group = iranian }
 									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Earl)
+							is_female = no
 							OR = {
 								is_ruler = no
 								tier = BARON
 							}
 							spouse = {
-								tier = COUNT
-								primary_title = { temporary = no }
-								is_female = yes
+								real_tier = COUNT
 								OR = {
-									culture = saxon # Earl
-									culture = english # Earl
-									culture = scottish # Earl
-									culture = irish # Earl
-									culture = pictish # Earl
+									AND = {
+										independent = yes
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
+									liege = {
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Argbadh)
 							is_ruler = no
+							is_female = no
 							spouse = {
-								tier = BARON
-								primary_title = { temporary = no }
-								is_female = yes
-								culture_group = iranian # Argbadh
-								NOT = {
-									culture_group = tibetan_group
-									culture = norse
-									culture = old_saxon
-									culture = frisian
-									culture = nepali
+								real_tier = BARON
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = iranian
+									}
+									liege = { culture_group = iranian }
 								}
 							}
 						}
@@ -5515,13 +5144,8 @@ defined_text = { # 2018.10.16
 							}
 						}
 						AND = { # Ervad
-							religion_group = zoroastrian_group
+							religion = zoroastrian
 							tier = BARON
-							NOT = {
-								religion = khurmazta # Vahram
-								religion = manichean # Vahram
-								religion = mazdaki # Vahram
-							}
 						}
 					}
 				}
@@ -5542,8 +5166,7 @@ defined_text = { # 2018.10.16
 						AND = { # conjoint empereur tribal non temporaire donne son titre
 							spouse = {
 								is_female = no
-								tier = EMPEROR
-								primary_title = { temporary = no }
+								real_tier = EMPEROR
 								NOT = { # sauf quand:
 									culture_group = altaic
 									culture_group = dravidian_group
@@ -5571,13 +5194,13 @@ defined_text = { # 2018.10.16
 	}
 }
 
-defined_text = { # 2018.10.16
+defined_text = { # 2018.10.30
 	name = Get_only_Le_Title
 	use_first_valid = yes
-	text = { # Sans titre nommé
+	text = { # Titre temporaire non nommé (en révolte, aventurier, ordre sacré)
 		localisation_key = ""
 		trigger = { 
-			in_revolt = yes
+			primary_title = { temporary = yes }
 		}
 	}
 	text = { # titres honorifiques
@@ -5590,12 +5213,7 @@ defined_text = { # 2018.10.16
 				NOT = { 
 					higher_tier_than = DUKE
 					trait = bastard # non si bâtard
-					spouse = { # non si le conjoint a un titre non temporaire supérieur à duc
-						AND = {
-							higher_tier_than = DUKE
-							primary_title = { temporary = no }
-						}
-					}
+					spouse = { higher_real_tier_than = DUKE } # non si le conjoint a un titre non temporaire supérieur à duc
 				}
 			}
 		}
@@ -5850,10 +5468,10 @@ defined_text = { # 2018.10.16
 		}
 	}
 	text = {
-		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]"
+		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]". Le capitaine n'a pas de titre nommé
 				mercenary = yes
 		}
-		localisation_key = String_FR_La_
+		localisation_key = ""
 	}
 	text = {
 		localisation_key = ""
@@ -5868,21 +5486,21 @@ defined_text = { # 2018.10.16
 						real_tier = count
 						real_tier = baron
 					}
-            		OR = { # culture
-            			culture = bodpa
-            			culture = frisian
-            			culture = nepali
-            			culture = norse
-            			culture = old_saxon
-            			culture = sumpa
-            			culture = tangut
-            			culture = zhangzhung
-            		}
-					NOT = { spouse = { higher_real_tier_than = THIS } } # le conjoint n'a pas un titre non temporaire supérieur
+					OR = { # culture
+						culture = bodpa
+						culture = frisian
+						culture = nepali
+						culture = norse
+						culture = old_saxon
+						culture = sumpa
+						culture = tangut
+						culture = zhangzhung
+					}
+					NOT = { spouse = { higher_real_tier_than = spouse } } # le conjoint n'a pas un titre non temporaire supérieur
 				}
-				AND = { #... et n'est donc pas donné au conjoint
-					spouse = { 
-						higher_real_tier_than = THIS # le conjoint a un titre non temporaire supérieur
+				spouse = { #... et n'est donc pas donné au conjoint
+					AND = { 
+						higher_real_tier_than = spouse # le conjoint a un titre non temporaire supérieur
 						OR = { # gouvernement féodal ou tribal
 							is_feudal = yes
 							is_tribal = yes
@@ -5891,30 +5509,24 @@ defined_text = { # 2018.10.16
 							real_tier = count
 							real_tier = baron
 						}
-            			OR = { # culture
-            				culture = bodpa
-            				culture = frisian
-            				culture = nepali
-            				culture = norse
-            				culture = old_saxon
-            				culture = sumpa
-            				culture = tangut
-            				culture = zhangzhung
-            			}
+						OR = { # culture
+							culture = bodpa
+							culture = frisian
+							culture = nepali
+							culture = norse
+							culture = old_saxon
+							culture = sumpa
+							culture = tangut
+							culture = zhangzhung
+						}
 					}
 				}
-				AND = { # N'a aucun titre non temporaire et n'est ni tribal ni féodal
-					is_ruler = no
-					is_tribal = no
-					is_feudal = no
-				}
-				AND = { # N'a aucun titre non temporaire, est tribal ou féodal, et le conjoint n'a pas un titre non temporaire supérieur
-					is_ruler = no
+				AND = { # N'a aucun titre foncier et l'éventuel conjoint non plus
+					is_landed = no
 					OR = {
-						is_tribal = yes
-						is_feudal = yes
+						spouse = { is_landed = no }
+						is_married = no
 					}
-					NOT = { spouse = { higher_real_tier_than = THIS } }
 				}
 			}
 		}
@@ -5923,12 +5535,12 @@ defined_text = { # 2018.10.16
 		localisation_key = String_FR_L
 		trigger = { # titres qui commencent par une voyelle
 			OR = {
+				has_nickname = nick_the_elder # Ancien
 				AND = { # gouvernements féodaux
 					is_feudal = yes
 					OR = {
 						AND = {
-							tier = EMPEROR # Empereur, Impératrice
-							primary_title = { temporary = no }
+							real_tier = EMPEROR # Empereur, Impératrice
 							NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 								culture_group = tibetan_group # Tsenpo, Tsenmo
 								culture = tangut # Thu Ghu, Thu Ghu
@@ -5954,37 +5566,22 @@ defined_text = { # 2018.10.16
 							tier = KING
 							culture_group = byzantine
 							primary_title = { is_vice_royalty = yes }
-							NOT = {
-								spouse = {
-									AND = { # conjoint de rang empereur avec un titre non temporaire
-										tier = EMPEROR
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { real_tier = EMPEROR } } # conjoint de rang empereur avec un titre non temporaire
 						}
 						AND = {
-							tier = DUKE
-							primary_title = { temporary = no }
+							real_tier = DUKE
 							OR = {
+								liege = { culture_group = arabic } # Émir Émira
 								culture_group = arabic # Émir Émira
 								AND = { # Ikhshide
 									culture = sogdian
 									is_female = no
 								}
 							}
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à duc
-									AND = {
-										higher_tier_than = DUKE
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { higher_real_tier_than = DUKE } } # si le conjoint a un titre non temporaire supérieur à duc
 						}
 						AND = { # Earl
-							tier = COUNT
-							primary_title = { temporary = no }
+							real_tier = COUNT
 							is_female = no
 							OR = {
 								culture = saxon # Earl
@@ -5994,32 +5591,23 @@ defined_text = { # 2018.10.16
 								culture = pictish # Earl
 							}
 							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à comte
-									AND = {
-										higher_tier_than = COUNT
-										primary_title = { temporary = no }
+								spouse = { higher_real_tier_than = COUNT } # si le conjoint a un titre non temporaire supérieur à comte
+								liege = {
+									NOR = {
+										culture = saxon # Earl
+										culture = english # Earl
+										culture = scottish # Earl
+										culture = irish # Earl
+										culture = pictish # Earl
 									}
 								}
 							}
 						}
 						AND = {
-							tier = BARON
-							primary_title = { temporary = no }
+							real_tier = BARON
 							is_female = no
 							culture_group = iranian # Argbadh
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à baron
-									AND = {
-										higher_tier_than = BARON
-										primary_title = { temporary = no }
-									}
-								}
-								culture_group = tibetan_group
-								culture = norse
-								culture = old_saxon
-								culture = frisian
-								culture = nepali
-							}
+							NOT = { spouse = { higher_real_tier_than = BARON } } # si le conjoint a un titre non temporaire supérieur à baron
 						}
 						AND = { # conjoint féodal donne le titre (si rang inférieur)
 							OR = {
@@ -6027,8 +5615,7 @@ defined_text = { # 2018.10.16
 								lower_tier_than = EMPEROR
 							}
 							spouse = {
-								tier = EMPEROR # Empereur, Impératrice
-								primary_title = { temporary = no }
+								real_tier = EMPEROR # Empereur, Impératrice
 								NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 									culture_group = tibetan_group # Tsenpo, Tsenmo
 									culture = tangut # Thu Ghu, Thu Ghu
@@ -6051,65 +5638,99 @@ defined_text = { # 2018.10.16
 								}
 							}
 						}
-						AND = { # conjoint Exarque
+						AND = { # conjoint (Exarque)
 							OR = {
 								is_ruler = no
 								lower_tier_than = KING
 							}
 							spouse = {
 								tier = KING
-								culture_group = byzantine
 								primary_title = { is_vice_royalty = yes }
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = byzantine
+									}
+									liege = { culture_group = byzantine }
+								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Émir Émira Ikhshide)
 							OR = {
 								is_ruler = no
 								lower_tier_than = DUKE
 							}
 							spouse = {
-								tier = DUKE
-								primary_title = { temporary = no }
+								real_tier = DUKE
 								OR = {
-									culture_group = arabic # Émir Émira
+									AND = { # Émir Émira
+										independent = yes
+										culture_group = arabic
+									}
+									liege = { culture_group = arabic } # Émir Émira
 									AND = { # Ikhshide
-										culture = sogdian
 										is_female = yes
+										independent = yes
+										culture = sogdian
+									}
+									AND = { # Ikhshide
+										is_female = yes
+										liege = { culture = sogdian }
+									}
+									AND = { # Émira
+										is_female = no
+										independent = yes
+										culture_group = iranian
+									}
+									AND = { # Émira
+										is_female = no
+										liege = { culture_group = iranian }
 									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Earl)
+							is_female = no
 							OR = {
 								is_ruler = no
 								tier = BARON
 							}
 							spouse = {
-								tier = COUNT
-								primary_title = { temporary = no }
-								is_female = yes
+								real_tier = COUNT
 								OR = {
-									culture = saxon # Earl
-									culture = english # Earl
-									culture = scottish # Earl
-									culture = irish # Earl
-									culture = pictish # Earl
+									AND = {
+										independent = yes
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
+									liege = {
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Argbadh)
 							is_ruler = no
+							is_female = no
 							spouse = {
-								tier = BARON
-								primary_title = { temporary = no }
-								is_female = yes
-								culture_group = iranian # Argbadh
-								NOT = {
-									culture_group = tibetan_group
-									culture = norse
-									culture = old_saxon
-									culture = frisian
-									culture = nepali
+								real_tier = BARON
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = iranian
+									}
+									liege = { culture_group = iranian }
 								}
 							}
 						}
@@ -6141,13 +5762,8 @@ defined_text = { # 2018.10.16
 							}
 						}
 						AND = { # Ervad
-							religion_group = zoroastrian_group
+							religion = zoroastrian
 							tier = BARON
-							NOT = {
-								religion = khurmazta # Vahram
-								religion = manichean # Vahram
-								religion = mazdaki # Vahram
-							}
 						}
 					}
 				}
@@ -6168,8 +5784,7 @@ defined_text = { # 2018.10.16
 						AND = { # conjoint empereur tribal non temporaire donne son titre
 							spouse = {
 								is_female = no
-								tier = EMPEROR
-								primary_title = { temporary = no }
+								real_tier = EMPEROR
 								NOT = { # sauf quand:
 									culture_group = altaic
 									culture_group = dravidian_group
@@ -6197,13 +5812,13 @@ defined_text = { # 2018.10.16
 	}
 }
 
-defined_text = { # 2018.10.16
+defined_text = { # 2018.10.30
 	name = Get_only_au_Title
 	use_first_valid = yes
-	text = { # Sans titre nommé
+	text = { # Titre temporaire non nommé (en révolte, aventurier, ordre sacré)
 		localisation_key = String_FR_a_ACCENT
 		trigger = { 
-			in_revolt = yes
+			primary_title = { temporary = yes }
 		}
 	}
 	text = { # titres honorifiques
@@ -6216,12 +5831,7 @@ defined_text = { # 2018.10.16
 				NOT = { 
 					higher_tier_than = DUKE
 					trait = bastard # non si bâtard
-					spouse = { # non si le conjoint a un titre non temporaire supérieur à duc
-						AND = {
-							higher_tier_than = DUKE
-							primary_title = { temporary = no }
-						}
-					}
+					spouse = { higher_real_tier_than = DUKE } # non si le conjoint a un titre non temporaire supérieur à duc
 				}
 			}
 		}
@@ -6476,10 +6086,10 @@ defined_text = { # 2018.10.16
 		}
 	}
 	text = {
-		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]"
+		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]". Le capitaine n'a pas de titre nommé
 				mercenary = yes
 		}
-		localisation_key = String_FR_a_la_
+		localisation_key = String_FR_a_ACCENT
 	}
 	text = {
 		localisation_key = String_FR_a_ACCENT
@@ -6494,21 +6104,21 @@ defined_text = { # 2018.10.16
 						real_tier = count
 						real_tier = baron
 					}
-            		OR = { # culture
-            			culture = bodpa
-            			culture = frisian
-            			culture = nepali
-            			culture = norse
-            			culture = old_saxon
-            			culture = sumpa
-            			culture = tangut
-            			culture = zhangzhung
-            		}
-					NOT = { spouse = { higher_real_tier_than = THIS } } # le conjoint n'a pas un titre non temporaire supérieur
+					OR = { # culture
+						culture = bodpa
+						culture = frisian
+						culture = nepali
+						culture = norse
+						culture = old_saxon
+						culture = sumpa
+						culture = tangut
+						culture = zhangzhung
+					}
+					NOT = { spouse = { higher_real_tier_than = spouse } } # le conjoint n'a pas un titre non temporaire supérieur
 				}
-				AND = { #... et n'est donc pas donné au conjoint
-					spouse = { 
-						higher_real_tier_than = THIS # le conjoint a un titre non temporaire supérieur
+				spouse = { #... et n'est donc pas donné au conjoint
+					AND = { 
+						higher_real_tier_than = spouse # le conjoint a un titre non temporaire supérieur
 						OR = { # gouvernement féodal ou tribal
 							is_feudal = yes
 							is_tribal = yes
@@ -6517,30 +6127,24 @@ defined_text = { # 2018.10.16
 							real_tier = count
 							real_tier = baron
 						}
-            			OR = { # culture
-            				culture = bodpa
-            				culture = frisian
-            				culture = nepali
-            				culture = norse
-            				culture = old_saxon
-            				culture = sumpa
-            				culture = tangut
-            				culture = zhangzhung
-            			}
+						OR = { # culture
+							culture = bodpa
+							culture = frisian
+							culture = nepali
+							culture = norse
+							culture = old_saxon
+							culture = sumpa
+							culture = tangut
+							culture = zhangzhung
+						}
 					}
 				}
-				AND = { # N'a aucun titre non temporaire et n'est ni tribal ni féodal
-					is_ruler = no
-					is_tribal = no
-					is_feudal = no
-				}
-				AND = { # N'a aucun titre non temporaire, est tribal ou féodal, et le conjoint n'a pas un titre non temporaire supérieur
-					is_ruler = no
+				AND = { # N'a aucun titre foncier et l'éventuel conjoint non plus
+					is_landed = no
 					OR = {
-						is_tribal = yes
-						is_feudal = yes
+						spouse = { is_landed = no }
+						is_married = no
 					}
-					NOT = { spouse = { higher_real_tier_than = THIS } }
 				}
 			}
 		}
@@ -6549,12 +6153,12 @@ defined_text = { # 2018.10.16
 		localisation_key = String_FR_a_l
 		trigger = { # titres qui commencent par une voyelle
 			OR = {
+				has_nickname = nick_the_elder # Ancien
 				AND = { # gouvernements féodaux
 					is_feudal = yes
 					OR = {
 						AND = {
-							tier = EMPEROR # Empereur, Impératrice
-							primary_title = { temporary = no }
+							real_tier = EMPEROR # Empereur, Impératrice
 							NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 								culture_group = tibetan_group # Tsenpo, Tsenmo
 								culture = tangut # Thu Ghu, Thu Ghu
@@ -6580,37 +6184,22 @@ defined_text = { # 2018.10.16
 							tier = KING
 							culture_group = byzantine
 							primary_title = { is_vice_royalty = yes }
-							NOT = {
-								spouse = {
-									AND = { # conjoint de rang empereur avec un titre non temporaire
-										tier = EMPEROR
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { real_tier = EMPEROR } } # conjoint de rang empereur avec un titre non temporaire
 						}
 						AND = {
-							tier = DUKE
-							primary_title = { temporary = no }
+							real_tier = DUKE
 							OR = {
+								liege = { culture_group = arabic } # Émir Émira
 								culture_group = arabic # Émir Émira
 								AND = { # Ikhshide
 									culture = sogdian
 									is_female = no
 								}
 							}
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à duc
-									AND = {
-										higher_tier_than = DUKE
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { higher_real_tier_than = DUKE } } # si le conjoint a un titre non temporaire supérieur à duc
 						}
 						AND = { # Earl
-							tier = COUNT
-							primary_title = { temporary = no }
+							real_tier = COUNT
 							is_female = no
 							OR = {
 								culture = saxon # Earl
@@ -6620,32 +6209,23 @@ defined_text = { # 2018.10.16
 								culture = pictish # Earl
 							}
 							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à comte
-									AND = {
-										higher_tier_than = COUNT
-										primary_title = { temporary = no }
+								spouse = { higher_real_tier_than = COUNT } # si le conjoint a un titre non temporaire supérieur à comte
+								liege = {
+									NOR = {
+										culture = saxon # Earl
+										culture = english # Earl
+										culture = scottish # Earl
+										culture = irish # Earl
+										culture = pictish # Earl
 									}
 								}
 							}
 						}
 						AND = {
-							tier = BARON
-							primary_title = { temporary = no }
+							real_tier = BARON
 							is_female = no
 							culture_group = iranian # Argbadh
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à baron
-									AND = {
-										higher_tier_than = BARON
-										primary_title = { temporary = no }
-									}
-								}
-								culture_group = tibetan_group
-								culture = norse
-								culture = old_saxon
-								culture = frisian
-								culture = nepali
-							}
+							NOT = { spouse = { higher_real_tier_than = BARON } } # si le conjoint a un titre non temporaire supérieur à baron
 						}
 						AND = { # conjoint féodal donne le titre (si rang inférieur)
 							OR = {
@@ -6653,8 +6233,7 @@ defined_text = { # 2018.10.16
 								lower_tier_than = EMPEROR
 							}
 							spouse = {
-								tier = EMPEROR # Empereur, Impératrice
-								primary_title = { temporary = no }
+								real_tier = EMPEROR # Empereur, Impératrice
 								NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 									culture_group = tibetan_group # Tsenpo, Tsenmo
 									culture = tangut # Thu Ghu, Thu Ghu
@@ -6677,65 +6256,99 @@ defined_text = { # 2018.10.16
 								}
 							}
 						}
-						AND = { # conjoint Exarque
+						AND = { # conjoint (Exarque)
 							OR = {
 								is_ruler = no
 								lower_tier_than = KING
 							}
 							spouse = {
 								tier = KING
-								culture_group = byzantine
 								primary_title = { is_vice_royalty = yes }
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = byzantine
+									}
+									liege = { culture_group = byzantine }
+								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Émir Émira Ikhshide)
 							OR = {
 								is_ruler = no
 								lower_tier_than = DUKE
 							}
 							spouse = {
-								tier = DUKE
-								primary_title = { temporary = no }
+								real_tier = DUKE
 								OR = {
-									culture_group = arabic # Émir Émira
+									AND = { # Émir Émira
+										independent = yes
+										culture_group = arabic
+									}
+									liege = { culture_group = arabic } # Émir Émira
 									AND = { # Ikhshide
-										culture = sogdian
 										is_female = yes
+										independent = yes
+										culture = sogdian
+									}
+									AND = { # Ikhshide
+										is_female = yes
+										liege = { culture = sogdian }
+									}
+									AND = { # Émira
+										is_female = no
+										independent = yes
+										culture_group = iranian
+									}
+									AND = { # Émira
+										is_female = no
+										liege = { culture_group = iranian }
 									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Earl)
+							is_female = no
 							OR = {
 								is_ruler = no
 								tier = BARON
 							}
 							spouse = {
-								tier = COUNT
-								primary_title = { temporary = no }
-								is_female = yes
+								real_tier = COUNT
 								OR = {
-									culture = saxon # Earl
-									culture = english # Earl
-									culture = scottish # Earl
-									culture = irish # Earl
-									culture = pictish # Earl
+									AND = {
+										independent = yes
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
+									liege = {
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Argbadh)
 							is_ruler = no
+							is_female = no
 							spouse = {
-								tier = BARON
-								primary_title = { temporary = no }
-								is_female = yes
-								culture_group = iranian # Argbadh
-								NOT = {
-									culture_group = tibetan_group
-									culture = norse
-									culture = old_saxon
-									culture = frisian
-									culture = nepali
+								real_tier = BARON
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = iranian
+									}
+									liege = { culture_group = iranian }
 								}
 							}
 						}
@@ -6767,13 +6380,8 @@ defined_text = { # 2018.10.16
 							}
 						}
 						AND = { # Ervad
-							religion_group = zoroastrian_group
+							religion = zoroastrian
 							tier = BARON
-							NOT = {
-								religion = khurmazta # Vahram
-								religion = manichean # Vahram
-								religion = mazdaki # Vahram
-							}
 						}
 					}
 				}
@@ -6794,8 +6402,7 @@ defined_text = { # 2018.10.16
 						AND = { # conjoint empereur tribal non temporaire donne son titre
 							spouse = {
 								is_female = no
-								tier = EMPEROR
-								primary_title = { temporary = no }
+								real_tier = EMPEROR
 								NOT = { # sauf quand:
 									culture_group = altaic
 									culture_group = dravidian_group
@@ -6823,13 +6430,13 @@ defined_text = { # 2018.10.16
 	}
 }
 
-defined_text = { # 2018.10.16
+defined_text = { # 2018.10.30
 	name = Get_only_Au_Title
 	use_first_valid = yes
-	text = { # Sans titre nommé
+	text = { # Titre temporaire non nommé (en révolte, aventurier, ordre sacré)
 		localisation_key = String_FR_A_ACCENT
 		trigger = { 
-			in_revolt = yes
+			primary_title = { temporary = yes }
 		}
 	}
 	text = { # titres honorifiques
@@ -6842,12 +6449,7 @@ defined_text = { # 2018.10.16
 				NOT = { 
 					higher_tier_than = DUKE
 					trait = bastard # non si bâtard
-					spouse = { # non si le conjoint a un titre non temporaire supérieur à duc
-						AND = {
-							higher_tier_than = DUKE
-							primary_title = { temporary = no }
-						}
-					}
+					spouse = { higher_real_tier_than = DUKE } # non si le conjoint a un titre non temporaire supérieur à duc
 				}
 			}
 		}
@@ -7102,10 +6704,10 @@ defined_text = { # 2018.10.16
 		}
 	}
 	text = {
-		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]"
+		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]". Le capitaine n'a pas de titre nommé
 				mercenary = yes
 		}
-		localisation_key = String_FR_A_la_
+		localisation_key = String_FR_A_ACCENT
 	}
 	text = {
 		localisation_key = String_FR_A_ACCENT
@@ -7120,21 +6722,21 @@ defined_text = { # 2018.10.16
 						real_tier = count
 						real_tier = baron
 					}
-            		OR = { # culture
-            			culture = bodpa
-            			culture = frisian
-            			culture = nepali
-            			culture = norse
-            			culture = old_saxon
-            			culture = sumpa
-            			culture = tangut
-            			culture = zhangzhung
-            		}
-					NOT = { spouse = { higher_real_tier_than = THIS } } # le conjoint n'a pas un titre non temporaire supérieur
+					OR = { # culture
+						culture = bodpa
+						culture = frisian
+						culture = nepali
+						culture = norse
+						culture = old_saxon
+						culture = sumpa
+						culture = tangut
+						culture = zhangzhung
+					}
+					NOT = { spouse = { higher_real_tier_than = spouse } } # le conjoint n'a pas un titre non temporaire supérieur
 				}
-				AND = { #... et n'est donc pas donné au conjoint
-					spouse = { 
-						higher_real_tier_than = THIS # le conjoint a un titre non temporaire supérieur
+				spouse = { #... et n'est donc pas donné au conjoint
+					AND = { 
+						higher_real_tier_than = spouse # le conjoint a un titre non temporaire supérieur
 						OR = { # gouvernement féodal ou tribal
 							is_feudal = yes
 							is_tribal = yes
@@ -7143,30 +6745,24 @@ defined_text = { # 2018.10.16
 							real_tier = count
 							real_tier = baron
 						}
-            			OR = { # culture
-            				culture = bodpa
-            				culture = frisian
-            				culture = nepali
-            				culture = norse
-            				culture = old_saxon
-            				culture = sumpa
-            				culture = tangut
-            				culture = zhangzhung
-            			}
+						OR = { # culture
+							culture = bodpa
+							culture = frisian
+							culture = nepali
+							culture = norse
+							culture = old_saxon
+							culture = sumpa
+							culture = tangut
+							culture = zhangzhung
+						}
 					}
 				}
-				AND = { # N'a aucun titre non temporaire et n'est ni tribal ni féodal
-					is_ruler = no
-					is_tribal = no
-					is_feudal = no
-				}
-				AND = { # N'a aucun titre non temporaire, est tribal ou féodal, et le conjoint n'a pas un titre non temporaire supérieur
-					is_ruler = no
+				AND = { # N'a aucun titre foncier et l'éventuel conjoint non plus
+					is_landed = no
 					OR = {
-						is_tribal = yes
-						is_feudal = yes
+						spouse = { is_landed = no }
+						is_married = no
 					}
-					NOT = { spouse = { higher_real_tier_than = THIS } }
 				}
 			}
 		}
@@ -7175,12 +6771,12 @@ defined_text = { # 2018.10.16
 		localisation_key = String_FR_A_l
 		trigger = { # titres qui commencent par une voyelle
 			OR = {
+				has_nickname = nick_the_elder # Ancien
 				AND = { # gouvernements féodaux
 					is_feudal = yes
 					OR = {
 						AND = {
-							tier = EMPEROR # Empereur, Impératrice
-							primary_title = { temporary = no }
+							real_tier = EMPEROR # Empereur, Impératrice
 							NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 								culture_group = tibetan_group # Tsenpo, Tsenmo
 								culture = tangut # Thu Ghu, Thu Ghu
@@ -7206,37 +6802,22 @@ defined_text = { # 2018.10.16
 							tier = KING
 							culture_group = byzantine
 							primary_title = { is_vice_royalty = yes }
-							NOT = {
-								spouse = {
-									AND = { # conjoint de rang empereur avec un titre non temporaire
-										tier = EMPEROR
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { real_tier = EMPEROR } } # conjoint de rang empereur avec un titre non temporaire
 						}
 						AND = {
-							tier = DUKE
-							primary_title = { temporary = no }
+							real_tier = DUKE
 							OR = {
+								liege = { culture_group = arabic } # Émir Émira
 								culture_group = arabic # Émir Émira
 								AND = { # Ikhshide
 									culture = sogdian
 									is_female = no
 								}
 							}
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à duc
-									AND = {
-										higher_tier_than = DUKE
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { higher_real_tier_than = DUKE } } # si le conjoint a un titre non temporaire supérieur à duc
 						}
 						AND = { # Earl
-							tier = COUNT
-							primary_title = { temporary = no }
+							real_tier = COUNT
 							is_female = no
 							OR = {
 								culture = saxon # Earl
@@ -7246,32 +6827,23 @@ defined_text = { # 2018.10.16
 								culture = pictish # Earl
 							}
 							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à comte
-									AND = {
-										higher_tier_than = COUNT
-										primary_title = { temporary = no }
+								spouse = { higher_real_tier_than = COUNT } # si le conjoint a un titre non temporaire supérieur à comte
+								liege = {
+									NOR = {
+										culture = saxon # Earl
+										culture = english # Earl
+										culture = scottish # Earl
+										culture = irish # Earl
+										culture = pictish # Earl
 									}
 								}
 							}
 						}
 						AND = {
-							tier = BARON
-							primary_title = { temporary = no }
+							real_tier = BARON
 							is_female = no
 							culture_group = iranian # Argbadh
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à baron
-									AND = {
-										higher_tier_than = BARON
-										primary_title = { temporary = no }
-									}
-								}
-								culture_group = tibetan_group
-								culture = norse
-								culture = old_saxon
-								culture = frisian
-								culture = nepali
-							}
+							NOT = { spouse = { higher_real_tier_than = BARON } } # si le conjoint a un titre non temporaire supérieur à baron
 						}
 						AND = { # conjoint féodal donne le titre (si rang inférieur)
 							OR = {
@@ -7279,8 +6851,7 @@ defined_text = { # 2018.10.16
 								lower_tier_than = EMPEROR
 							}
 							spouse = {
-								tier = EMPEROR # Empereur, Impératrice
-								primary_title = { temporary = no }
+								real_tier = EMPEROR # Empereur, Impératrice
 								NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 									culture_group = tibetan_group # Tsenpo, Tsenmo
 									culture = tangut # Thu Ghu, Thu Ghu
@@ -7303,65 +6874,99 @@ defined_text = { # 2018.10.16
 								}
 							}
 						}
-						AND = { # conjoint Exarque
+						AND = { # conjoint (Exarque)
 							OR = {
 								is_ruler = no
 								lower_tier_than = KING
 							}
 							spouse = {
 								tier = KING
-								culture_group = byzantine
 								primary_title = { is_vice_royalty = yes }
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = byzantine
+									}
+									liege = { culture_group = byzantine }
+								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Émir Émira Ikhshide)
 							OR = {
 								is_ruler = no
 								lower_tier_than = DUKE
 							}
 							spouse = {
-								tier = DUKE
-								primary_title = { temporary = no }
+								real_tier = DUKE
 								OR = {
-									culture_group = arabic # Émir Émira
+									AND = { # Émir Émira
+										independent = yes
+										culture_group = arabic
+									}
+									liege = { culture_group = arabic } # Émir Émira
 									AND = { # Ikhshide
-										culture = sogdian
 										is_female = yes
+										independent = yes
+										culture = sogdian
+									}
+									AND = { # Ikhshide
+										is_female = yes
+										liege = { culture = sogdian }
+									}
+									AND = { # Émira
+										is_female = no
+										independent = yes
+										culture_group = iranian
+									}
+									AND = { # Émira
+										is_female = no
+										liege = { culture_group = iranian }
 									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Earl)
+							is_female = no
 							OR = {
 								is_ruler = no
 								tier = BARON
 							}
 							spouse = {
-								tier = COUNT
-								primary_title = { temporary = no }
-								is_female = yes
+								real_tier = COUNT
 								OR = {
-									culture = saxon # Earl
-									culture = english # Earl
-									culture = scottish # Earl
-									culture = irish # Earl
-									culture = pictish # Earl
+									AND = {
+										independent = yes
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
+									liege = {
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Argbadh)
 							is_ruler = no
+							is_female = no
 							spouse = {
-								tier = BARON
-								primary_title = { temporary = no }
-								is_female = yes
-								culture_group = iranian # Argbadh
-								NOT = {
-									culture_group = tibetan_group
-									culture = norse
-									culture = old_saxon
-									culture = frisian
-									culture = nepali
+								real_tier = BARON
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = iranian
+									}
+									liege = { culture_group = iranian }
 								}
 							}
 						}
@@ -7393,13 +6998,8 @@ defined_text = { # 2018.10.16
 							}
 						}
 						AND = { # Ervad
-							religion_group = zoroastrian_group
+							religion = zoroastrian
 							tier = BARON
-							NOT = {
-								religion = khurmazta # Vahram
-								religion = manichean # Vahram
-								religion = mazdaki # Vahram
-							}
 						}
 					}
 				}
@@ -7420,8 +7020,7 @@ defined_text = { # 2018.10.16
 						AND = { # conjoint empereur tribal non temporaire donne son titre
 							spouse = {
 								is_female = no
-								tier = EMPEROR
-								primary_title = { temporary = no }
+								real_tier = EMPEROR
 								NOT = { # sauf quand:
 									culture_group = altaic
 									culture_group = dravidian_group
@@ -7449,13 +7048,13 @@ defined_text = { # 2018.10.16
 	}
 }
 
-defined_text = { # 2018.10.16
+defined_text = { # 2018.10.30
 	name = Get_only_e_Title
 	use_first_valid = yes
-	text = { # Sans titre nommé
+	text = { # Titre temporaire non nommé (en révolte, aventurier, ordre sacré)
 		localisation_key = String_FR_e_
 		trigger = { 
-			in_revolt = yes
+			primary_title = { temporary = yes }
 		}
 	}
 	text = { # titres honorifiques
@@ -7468,12 +7067,7 @@ defined_text = { # 2018.10.16
 				NOT = { 
 					higher_tier_than = DUKE
 					trait = bastard # non si bâtard
-					spouse = { # non si le conjoint a un titre non temporaire supérieur à duc
-						AND = {
-							higher_tier_than = DUKE
-							primary_title = { temporary = no }
-						}
-					}
+					spouse = { higher_real_tier_than = DUKE } # non si le conjoint a un titre non temporaire supérieur à duc
 				}
 			}
 		}
@@ -7728,7 +7322,7 @@ defined_text = { # 2018.10.16
 		}
 	}
 	text = {
-		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]"
+		trigger = { # Doit être après les titres spéciaux. Pour les "Bande [culture]". Le capitaine n'a pas de titre nommé
 				mercenary = yes
 		}
 		localisation_key = String_FR_e_
@@ -7746,21 +7340,21 @@ defined_text = { # 2018.10.16
 						real_tier = count
 						real_tier = baron
 					}
-            		OR = { # culture
-            			culture = bodpa
-            			culture = frisian
-            			culture = nepali
-            			culture = norse
-            			culture = old_saxon
-            			culture = sumpa
-            			culture = tangut
-            			culture = zhangzhung
-            		}
-					NOT = { spouse = { higher_real_tier_than = THIS } } # le conjoint n'a pas un titre non temporaire supérieur
+					OR = { # culture
+						culture = bodpa
+						culture = frisian
+						culture = nepali
+						culture = norse
+						culture = old_saxon
+						culture = sumpa
+						culture = tangut
+						culture = zhangzhung
+					}
+					NOT = { spouse = { higher_real_tier_than = spouse } } # le conjoint n'a pas un titre non temporaire supérieur
 				}
-				AND = { #... et n'est donc pas donné au conjoint
-					spouse = { 
-						higher_real_tier_than = THIS # le conjoint a un titre non temporaire supérieur
+				spouse = { #... et n'est donc pas donné au conjoint
+					AND = { 
+						higher_real_tier_than = spouse # le conjoint a un titre non temporaire supérieur
 						OR = { # gouvernement féodal ou tribal
 							is_feudal = yes
 							is_tribal = yes
@@ -7769,30 +7363,24 @@ defined_text = { # 2018.10.16
 							real_tier = count
 							real_tier = baron
 						}
-            			OR = { # culture
-            				culture = bodpa
-            				culture = frisian
-            				culture = nepali
-            				culture = norse
-            				culture = old_saxon
-            				culture = sumpa
-            				culture = tangut
-            				culture = zhangzhung
-            			}
+						OR = { # culture
+							culture = bodpa
+							culture = frisian
+							culture = nepali
+							culture = norse
+							culture = old_saxon
+							culture = sumpa
+							culture = tangut
+							culture = zhangzhung
+						}
 					}
 				}
-				AND = { # N'a aucun titre non temporaire et n'est ni tribal ni féodal
-					is_ruler = no
-					is_tribal = no
-					is_feudal = no
-				}
-				AND = { # N'a aucun titre non temporaire, est tribal ou féodal, et le conjoint n'a pas un titre non temporaire supérieur
-					is_ruler = no
+				AND = { # N'a aucun titre foncier et l'éventuel conjoint non plus
+					is_landed = no
 					OR = {
-						is_tribal = yes
-						is_feudal = yes
+						spouse = { is_landed = no }
+						is_married = no
 					}
-					NOT = { spouse = { higher_real_tier_than = THIS } }
 				}
 			}
 		}
@@ -7801,12 +7389,12 @@ defined_text = { # 2018.10.16
 		localisation_key = String_FR_APOSTROPHE
 		trigger = { # titres qui commencent par une voyelle
 			OR = {
+				has_nickname = nick_the_elder # Ancien
 				AND = { # gouvernements féodaux
 					is_feudal = yes
 					OR = {
 						AND = {
-							tier = EMPEROR # Empereur, Impératrice
-							primary_title = { temporary = no }
+							real_tier = EMPEROR # Empereur, Impératrice
 							NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 								culture_group = tibetan_group # Tsenpo, Tsenmo
 								culture = tangut # Thu Ghu, Thu Ghu
@@ -7832,37 +7420,22 @@ defined_text = { # 2018.10.16
 							tier = KING
 							culture_group = byzantine
 							primary_title = { is_vice_royalty = yes }
-							NOT = {
-								spouse = {
-									AND = { # conjoint de rang empereur avec un titre non temporaire
-										tier = EMPEROR
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { real_tier = EMPEROR } } # conjoint de rang empereur avec un titre non temporaire
 						}
 						AND = {
-							tier = DUKE
-							primary_title = { temporary = no }
+							real_tier = DUKE
 							OR = {
+								liege = { culture_group = arabic } # Émir Émira
 								culture_group = arabic # Émir Émira
 								AND = { # Ikhshide
 									culture = sogdian
 									is_female = no
 								}
 							}
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à duc
-									AND = {
-										higher_tier_than = DUKE
-										primary_title = { temporary = no }
-									}
-								}
-							}
+							NOT = { spouse = { higher_real_tier_than = DUKE } } # si le conjoint a un titre non temporaire supérieur à duc
 						}
 						AND = { # Earl
-							tier = COUNT
-							primary_title = { temporary = no }
+							real_tier = COUNT
 							is_female = no
 							OR = {
 								culture = saxon # Earl
@@ -7872,32 +7445,23 @@ defined_text = { # 2018.10.16
 								culture = pictish # Earl
 							}
 							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à comte
-									AND = {
-										higher_tier_than = COUNT
-										primary_title = { temporary = no }
+								spouse = { higher_real_tier_than = COUNT } # si le conjoint a un titre non temporaire supérieur à comte
+								liege = {
+									NOR = {
+										culture = saxon # Earl
+										culture = english # Earl
+										culture = scottish # Earl
+										culture = irish # Earl
+										culture = pictish # Earl
 									}
 								}
 							}
 						}
 						AND = {
-							tier = BARON
-							primary_title = { temporary = no }
+							real_tier = BARON
 							is_female = no
 							culture_group = iranian # Argbadh
-							NOT = {
-								spouse = { # si le conjoint a un titre non temporaire supérieur à baron
-									AND = {
-										higher_tier_than = BARON
-										primary_title = { temporary = no }
-									}
-								}
-								culture_group = tibetan_group
-								culture = norse
-								culture = old_saxon
-								culture = frisian
-								culture = nepali
-							}
+							NOT = { spouse = { higher_real_tier_than = BARON } } # si le conjoint a un titre non temporaire supérieur à baron
 						}
 						AND = { # conjoint féodal donne le titre (si rang inférieur)
 							OR = {
@@ -7905,8 +7469,7 @@ defined_text = { # 2018.10.16
 								lower_tier_than = EMPEROR
 							}
 							spouse = {
-								tier = EMPEROR # Empereur, Impératrice
-								primary_title = { temporary = no }
+								real_tier = EMPEROR # Empereur, Impératrice
 								NOT = { # Titres d'empereurs et d'impératrices féodaux commençant par une consonne
 									culture_group = tibetan_group # Tsenpo, Tsenmo
 									culture = tangut # Thu Ghu, Thu Ghu
@@ -7929,65 +7492,99 @@ defined_text = { # 2018.10.16
 								}
 							}
 						}
-						AND = { # conjoint Exarque
+						AND = { # conjoint (Exarque)
 							OR = {
 								is_ruler = no
 								lower_tier_than = KING
 							}
 							spouse = {
 								tier = KING
-								culture_group = byzantine
 								primary_title = { is_vice_royalty = yes }
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = byzantine
+									}
+									liege = { culture_group = byzantine }
+								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Émir Émira Ikhshide)
 							OR = {
 								is_ruler = no
 								lower_tier_than = DUKE
 							}
 							spouse = {
-								tier = DUKE
-								primary_title = { temporary = no }
+								real_tier = DUKE
 								OR = {
-									culture_group = arabic # Émir Émira
+									AND = { # Émir Émira
+										independent = yes
+										culture_group = arabic
+									}
+									liege = { culture_group = arabic } # Émir Émira
 									AND = { # Ikhshide
-										culture = sogdian
 										is_female = yes
+										independent = yes
+										culture = sogdian
+									}
+									AND = { # Ikhshide
+										is_female = yes
+										liege = { culture = sogdian }
+									}
+									AND = { # Émira
+										is_female = no
+										independent = yes
+										culture_group = iranian
+									}
+									AND = { # Émira
+										is_female = no
+										liege = { culture_group = iranian }
 									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Earl)
+							is_female = no
 							OR = {
 								is_ruler = no
 								tier = BARON
 							}
 							spouse = {
-								tier = COUNT
-								primary_title = { temporary = no }
-								is_female = yes
+								real_tier = COUNT
 								OR = {
-									culture = saxon # Earl
-									culture = english # Earl
-									culture = scottish # Earl
-									culture = irish # Earl
-									culture = pictish # Earl
+									AND = {
+										independent = yes
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
+									liege = {
+										OR = {
+											culture = saxon
+											culture = english
+											culture = scottish
+											culture = irish
+											culture = pictish
+										}
+									}
 								}
 							}
 						}
-						AND = { # conjoint
+						AND = { # conjoint (Argbadh)
 							is_ruler = no
+							is_female = no
 							spouse = {
-								tier = BARON
-								primary_title = { temporary = no }
-								is_female = yes
-								culture_group = iranian # Argbadh
-								NOT = {
-									culture_group = tibetan_group
-									culture = norse
-									culture = old_saxon
-									culture = frisian
-									culture = nepali
+								real_tier = BARON
+								OR = {
+									AND = {
+										independent = yes
+										culture_group = iranian
+									}
+									liege = { culture_group = iranian }
 								}
 							}
 						}
@@ -8019,13 +7616,8 @@ defined_text = { # 2018.10.16
 							}
 						}
 						AND = { # Ervad
-							religion_group = zoroastrian_group
+							religion = zoroastrian
 							tier = BARON
-							NOT = {
-								religion = khurmazta # Vahram
-								religion = manichean # Vahram
-								religion = mazdaki # Vahram
-							}
 						}
 					}
 				}
@@ -8046,8 +7638,7 @@ defined_text = { # 2018.10.16
 						AND = { # conjoint empereur tribal non temporaire donne son titre
 							spouse = {
 								is_female = no
-								tier = EMPEROR
-								primary_title = { temporary = no }
+								real_tier = EMPEROR
 								NOT = { # sauf quand:
 									culture_group = altaic
 									culture_group = dravidian_group
@@ -15748,7 +15339,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_aztec_Masc
-		trigger = { is_female = no religion = aztec }
+		trigger = { is_female = no religion = aztec NOT = { has_global_flag = aztec_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_aztec_Masc
+		trigger = { is_female = no religion = aztec has_global_flag = aztec_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_aztec_reformed_Masc
@@ -15756,7 +15351,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_baltic_pagan_Masc
-		trigger = { is_female = no religion = baltic_pagan }
+		trigger = { is_female = no religion = baltic_pagan NOT = { has_global_flag = baltic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_baltic_pagan_Masc
+		trigger = { is_female = no religion = baltic_pagan has_global_flag = baltic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_baltic_pagan_reformed_Masc
@@ -15768,7 +15367,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_bon_Masc
-		trigger = { is_female = no religion = bon }
+		trigger = { is_female = no religion = bon NOT = { has_global_flag = bon_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_bon_Masc
+		trigger = { is_female = no religion = bon has_global_flag = bon_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_bon_reformed_Masc
@@ -15792,7 +15395,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_finnish_pagan_Masc
-		trigger = { is_female = no religion = finnish_pagan }
+		trigger = { is_female = no religion = finnish_pagan NOT = { has_global_flag = finnish_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_finnish_pagan_Masc
+		trigger = { is_female = no religion = finnish_pagan has_global_flag = finnish_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_finnish_pagan_reformed_Masc
@@ -15804,7 +15411,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_hellenic_pagan_Masc
-		trigger = { is_female = no religion = hellenic_pagan }
+		trigger = { is_female = no religion = hellenic_pagan NOT = { has_global_flag = hellenic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_hellenic_pagan_Masc
+		trigger = { is_female = no religion = hellenic_pagan has_global_flag = hellenic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_hellenic_pagan_reformed_Masc
@@ -15880,7 +15491,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_norse_pagan_Masc
-		trigger = { is_female = no religion = norse_pagan }
+		trigger = { is_female = no religion = norse_pagan NOT = { has_global_flag = norse_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_norse_pagan_Masc
+		trigger = { is_female = no religion = norse_pagan has_global_flag = norse_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_norse_pagan_reformed_Masc
@@ -15908,7 +15523,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_slavic_pagan_Masc
-		trigger = { is_female = no religion = slavic_pagan }
+		trigger = { is_female = no religion = slavic_pagan NOT = { has_global_flag = slavic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_slavic_pagan_Masc
+		trigger = { is_female = no religion = slavic_pagan has_global_flag = slavic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_slavic_pagan_reformed_Masc
@@ -15924,7 +15543,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_tengri_pagan_Masc
-		trigger = { is_female = no religion = tengri_pagan }
+		trigger = { is_female = no religion = tengri_pagan NOT = { has_global_flag = tengri_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_tengri_pagan_Masc
+		trigger = { is_female = no religion = tengri_pagan has_global_flag = tengri_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_tengri_pagan_reformed_Masc
@@ -15936,7 +15559,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_west_african_pagan_Masc
-		trigger = { is_female = no religion = west_african_pagan }
+		trigger = { is_female = no religion = west_african_pagan NOT = { has_global_flag = west_african_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_west_african_pagan_Masc
+		trigger = { is_female = no religion = west_african_pagan has_global_flag = west_african_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_west_african_pagan_reformed_Masc
@@ -15956,7 +15583,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_zun_pagan_Masc
-		trigger = { is_female = no religion = zun_pagan }
+		trigger = { is_female = no religion = zun_pagan NOT = { has_global_flag = zun_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_zun_pagan_Masc
+		trigger = { is_female = no religion = zun_pagan has_global_flag = zun_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_zun_pagan_reformed_Masc
@@ -15964,7 +15595,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_aztec_Fem
-		trigger = { is_female = yes religion = aztec }
+		trigger = { is_female = yes religion = aztec NOT = { has_global_flag = aztec_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_aztec_Fem
+		trigger = { is_female = yes religion = aztec has_global_flag = aztec_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_aztec_reformed_Fem
@@ -15972,7 +15607,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_baltic_pagan_Fem
-		trigger = { is_female = yes religion = baltic_pagan }
+		trigger = { is_female = yes religion = baltic_pagan NOT = { has_global_flag = baltic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_baltic_pagan_Fem
+		trigger = { is_female = yes religion = baltic_pagan has_global_flag = baltic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_baltic_pagan_reformed_Fem
@@ -15984,7 +15623,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_bon_Fem
-		trigger = { is_female = yes religion = bon }
+		trigger = { is_female = yes religion = bon NOT = { has_global_flag = bon_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_bon_Fem
+		trigger = { is_female = yes religion = bon has_global_flag = bon_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_bon_reformed_Fem
@@ -16008,7 +15651,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_finnish_pagan_Fem
-		trigger = { is_female = yes religion = finnish_pagan }
+		trigger = { is_female = yes religion = finnish_pagan NOT = { has_global_flag = finnish_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_finnish_pagan_Fem
+		trigger = { is_female = yes religion = finnish_pagan has_global_flag = finnish_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_finnish_pagan_reformed_Fem
@@ -16020,7 +15667,15 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_hellenic_pagan_Fem
-		trigger = { is_female = yes religion = hellenic_pagan }
+		trigger = { is_female = yes religion = hellenic_pagan NOT = { has_global_flag = hellenic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_hellenic_pagan_Fem
+		trigger = { is_female = yes religion = hellenic_pagan has_global_flag = hellenic_reformation }
+	}
+	text = {
+		localisation_key = String_FR_Religion_hellenic_pagan_reformed_Fem
+		trigger = { is_female = yes religion = hellenic_pagan_reformed }
 	}
 	text = {
 		localisation_key = String_FR_Religion_hindu_Fem
@@ -16092,7 +15747,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_norse_pagan_Fem
-		trigger = { is_female = yes religion = norse_pagan }
+		trigger = { is_female = yes religion = norse_pagan NOT = { has_global_flag = norse_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_norse_pagan_Fem
+		trigger = { is_female = yes religion = norse_pagan has_global_flag = norse_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_norse_pagan_reformed_Fem
@@ -16120,7 +15779,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_slavic_pagan_Fem
-		trigger = { is_female = yes religion = slavic_pagan }
+		trigger = { is_female = yes religion = slavic_pagan NOT = { has_global_flag = slavic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_slavic_pagan_Fem
+		trigger = { is_female = yes religion = slavic_pagan has_global_flag = slavic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_slavic_pagan_reformed_Fem
@@ -16136,7 +15799,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_tengri_pagan_Fem
-		trigger = { is_female = yes religion = tengri_pagan }
+		trigger = { is_female = yes religion = tengri_pagan NOT = { has_global_flag = tengri_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_tengri_pagan_Fem
+		trigger = { is_female = yes religion = tengri_pagan has_global_flag = tengri_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_tengri_pagan_reformed_Fem
@@ -16148,7 +15815,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_west_african_pagan_Fem
-		trigger = { is_female = yes religion = west_african_pagan }
+		trigger = { is_female = yes religion = west_african_pagan NOT = { has_global_flag = west_african_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_west_african_pagan_Fem
+		trigger = { is_female = yes religion = west_african_pagan has_global_flag = west_african_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_west_african_pagan_reformed_Fem
@@ -16168,7 +15839,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_zun_pagan_Fem
-		trigger = { is_female = yes religion = zun_pagan }
+		trigger = { is_female = yes religion = zun_pagan NOT = { has_global_flag = zun_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_zun_pagan_Fem
+		trigger = { is_female = yes religion = zun_pagan has_global_flag = zun_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_zun_pagan_reformed_Fem
@@ -16407,7 +16082,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_aztec_PlMasc
-		trigger = { religion = aztec }
+		trigger = { religion = aztec NOT = { has_global_flag = aztec_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_aztec_PlMasc
+		trigger = { religion = aztec has_global_flag = aztec_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_aztec_reformed_PlMasc
@@ -16415,7 +16094,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_baltic_pagan_PlMasc
-		trigger = { religion = baltic_pagan }
+		trigger = { religion = baltic_pagan NOT = { has_global_flag = baltic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_baltic_pagan_PlMasc
+		trigger = { religion = baltic_pagan has_global_flag = baltic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_baltic_pagan_reformed_PlMasc
@@ -16427,7 +16110,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_bon_PlMasc
-		trigger = { religion = bon }
+		trigger = { religion = bon NOT = { has_global_flag = bon_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_bon_PlMasc
+		trigger = { religion = bon has_global_flag = bon_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_bon_reformed_PlMasc
@@ -16451,7 +16138,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_finnish_pagan_PlMasc
-		trigger = { religion = finnish_pagan }
+		trigger = { religion = finnish_pagan NOT = { has_global_flag = finnish_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_finnish_pagan_PlMasc
+		trigger = { religion = finnish_pagan has_global_flag = finnish_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_finnish_pagan_reformed_PlMasc
@@ -16463,7 +16154,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_hellenic_pagan_PlMasc
-		trigger = { religion = hellenic_pagan }
+		trigger = { religion = hellenic_pagan NOT = { has_global_flag = hellenic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_hellenic_pagan_PlMasc
+		trigger = { religion = hellenic_pagan has_global_flag = hellenic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_hellenic_pagan_reformed_PlMasc
@@ -16539,7 +16234,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_norse_pagan_PlMasc
-		trigger = { religion = norse_pagan }
+		trigger = { religion = norse_pagan NOT = { has_global_flag = norse_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_norse_pagan_PlMasc
+		trigger = { religion = norse_pagan has_global_flag = norse_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_norse_pagan_reformed_PlMasc
@@ -16567,7 +16266,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_slavic_pagan_PlMasc
-		trigger = { religion = slavic_pagan }
+		trigger = { religion = slavic_pagan NOT = { has_global_flag = slavic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_slavic_pagan_PlMasc
+		trigger = { religion = slavic_pagan has_global_flag = slavic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_slavic_pagan_reformed_PlMasc
@@ -16583,7 +16286,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_tengri_pagan_PlMasc
-		trigger = { religion = tengri_pagan }
+		trigger = { religion = tengri_pagan NOT = { has_global_flag = tengri_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_tengri_pagan_PlMasc
+		trigger = { religion = tengri_pagan has_global_flag = tengri_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_tengri_pagan_reformed_PlMasc
@@ -16595,7 +16302,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_west_african_pagan_PlMasc
-		trigger = { religion = west_african_pagan }
+		trigger = { religion = west_african_pagan NOT = { has_global_flag = west_african_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_west_african_pagan_PlMasc
+		trigger = { religion = west_african_pagan has_global_flag = west_african_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_west_african_pagan_reformed_PlMasc
@@ -16615,7 +16326,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_zun_pagan_PlMasc
-		trigger = { religion = zun_pagan }
+		trigger = { religion = zun_pagan NOT = { has_global_flag = zun_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_zun_pagan_PlMasc
+		trigger = { religion = zun_pagan has_global_flag = zun_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_zun_pagan_reformed_PlMasc
@@ -16854,7 +16569,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_aztec_Masc
-		trigger = { religion = aztec }
+		trigger = { religion = aztec NOT = { has_global_flag = aztec_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_aztec_Masc
+		trigger = { religion = aztec has_global_flag = aztec_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_aztec_reformed_Masc
@@ -16862,7 +16581,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_baltic_pagan_Masc
-		trigger = { religion = baltic_pagan }
+		trigger = { religion = baltic_pagan NOT = { has_global_flag = baltic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_baltic_pagan_Masc
+		trigger = { religion = baltic_pagan has_global_flag = baltic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_baltic_pagan_reformed_Masc
@@ -16874,7 +16597,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_bon_Masc
-		trigger = { religion = bon }
+		trigger = { religion = bon NOT = { has_global_flag = bon_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_bon_Masc
+		trigger = { religion = bon has_global_flag = bon_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_bon_reformed_Masc
@@ -16898,7 +16625,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_finnish_pagan_Masc
-		trigger = { religion = finnish_pagan }
+		trigger = { religion = finnish_pagan NOT = { has_global_flag = finnish_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_finnish_pagan_Masc
+		trigger = { religion = finnish_pagan has_global_flag = finnish_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_finnish_pagan_reformed_Masc
@@ -16910,7 +16641,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_hellenic_pagan_Masc
-		trigger = { religion = hellenic_pagan }
+		trigger = { religion = hellenic_pagan NOT = { has_global_flag = hellenic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_hellenic_pagan_Masc
+		trigger = { religion = hellenic_pagan has_global_flag = hellenic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_hellenic_pagan_reformed_Masc
@@ -16986,7 +16721,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_norse_pagan_Masc
-		trigger = { religion = norse_pagan }
+		trigger = { religion = norse_pagan NOT = { has_global_flag = norse_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_norse_pagan_Masc
+		trigger = { religion = norse_pagan has_global_flag = norse_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_norse_pagan_reformed_Masc
@@ -17014,7 +16753,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_slavic_pagan_Masc
-		trigger = { religion = slavic_pagan }
+		trigger = { religion = slavic_pagan NOT = { has_global_flag = slavic_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_slavic_pagan_Masc
+		trigger = { religion = slavic_pagan has_global_flag = slavic_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_slavic_pagan_reformed_Masc
@@ -17030,7 +16773,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_tengri_pagan_Masc
-		trigger = { religion = tengri_pagan }
+		trigger = { religion = tengri_pagan NOT = { has_global_flag = tengri_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_tengri_pagan_Masc
+		trigger = { religion = tengri_pagan has_global_flag = tengri_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_tengri_pagan_reformed_Masc
@@ -17042,7 +16789,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_west_african_pagan_Masc
-		trigger = { religion = west_african_pagan }
+		trigger = { religion = west_african_pagan NOT = { has_global_flag = west_african_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_west_african_pagan_Masc
+		trigger = { religion = west_african_pagan has_global_flag = west_african_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_west_african_pagan_reformed_Masc
@@ -17062,7 +16813,11 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_FR_Religion_zun_pagan_Masc
-		trigger = { religion = zun_pagan }
+		trigger = { religion = zun_pagan NOT = { has_global_flag = zun_reformation } }
+	}
+	text = {
+		localisation_key = String_FR_Religion_old_zun_pagan_Masc
+		trigger = { religion = zun_pagan has_global_flag = zun_reformation }
 	}
 	text = {
 		localisation_key = String_FR_Religion_zun_pagan_reformed_Masc
@@ -23634,12 +23389,6 @@ defined_text = {
 	name = Get_au_RealmFull
 	text = {
 		localisation_key = String_FR_Get_au_RealmFull
-	}
-}
-defined_text = {
-	name = Get_du_RealmBase
-	text = {
-		localisation_key = String_FR_Get_du_RealmBase
 	}
 }
 defined_text = {
