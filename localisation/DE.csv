@@ -475,3 +475,20 @@ string_DE_moved_carefully;;;bewegt sich bedacht;;;;;;;;;;;x
 string_DE_moved_aggressively;;;bewegt sich aggressiv;;;;;;;;;;x
 string_DE_moved_gracefully;;;bewegt sich elegant;;;;;;;;;;;x
 string_DE_moved_purposefully;;;bewegt sich zielstrebig;;;;;;;;;;;x
+
+####GetWonderTypeShort_derdiedas####
+string_DE_Wonder_die;;;die;;;;;;;;;;;x
+string_DE_Wonder_das;;;die;;;;;;;;;;;x
+string_DE_Wonder_der;;;die;;;;;;;;;;;x
+
+####GetTerrainWonderDE####
+string_DE_forest_Wonder;forest;;den Wäldern;;;;;;;;;;;x
+string_DE_hills_Wonder;hills;les collines;den Hügeln;;colinas;;;;;;;;;x
+string_DE_mountains_Wonder;mountains;les montagnes;den Bergen;;montañas;;;;;;;;;x
+string_DE_plains_Wonder;plains;les plaines;den Ebenen;;llanuras;;;;;;;;;x
+string_DE_farmlands_Wonder;farmlands;les terres arables;dem Ackerland;;tierras de cultivo;;;;;;;;;x
+string_DE_steppe_Wonder;steppe;la steppe;der Steppe;;estepa;;;;;;;;;x
+string_DE_desert_Wonder;desert;le désert;der Wüste;;Desierto;;;;;;;;;x
+string_DE_jungle_Wonder;jungle;la jungle;den Dschungeln;;selva;;;;;;;;;x
+string_DE_arctict_Wonder;arctic;l'arctique;der Arktis;;ártico;;;;;;;;;x
+string_DE_terraint_Wonder;terrain;le terrain;dem Terrain;;terreno;;;;;;;;;x

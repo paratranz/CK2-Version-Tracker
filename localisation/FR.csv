@@ -652,6 +652,10 @@ String_FR_Culture_rajput_Fem;_;rajput;;;;;;;;;;;;x
 String_FR_Culture_rajput_Masc;_;rajput;;;;;;;;;;;;x
 String_FR_Culture_rajput_PlFem;_;rajputs;;;;;;;;;;;;x
 String_FR_Culture_rajput_PlMasc;_;rajputs;;;;;;;;;;;;x
+String_FR_Culture_red_panda_Fem;_;pandaïenne;;;;;;;;;;;;x
+String_FR_Culture_red_panda_Masc;_;pandaïen;;;;;;;;;;;;x
+String_FR_Culture_red_panda_PlFem;_;pandaïennes;;;;;;;;;;;;x
+String_FR_Culture_red_panda_PlMasc;_;pandaïens;;;;;;;;;;;;x
 String_FR_Culture_roman_Fem;_;romaine;;;;;;;;;;;;x
 String_FR_Culture_roman_Masc;_;romain;;;;;;;;;;;;x
 String_FR_Culture_roman_PlFem;_;romaines;;;;;;;;;;;;x
@@ -841,10 +845,10 @@ String_FR_Religion_hellenic_pagan_reformed_Fem;_;hellénique;;;;;;;;;;;;x
 String_FR_Religion_hellenic_pagan_reformed_Masc;_;hellénique;;;;;;;;;;;;x
 String_FR_Religion_hellenic_pagan_reformed_PlFem;_;helléniques;;;;;;;;;;;;x
 String_FR_Religion_hellenic_pagan_reformed_PlMasc;_;helléniques;;;;;;;;;;;;x
-String_FR_Religion_hindu_Fem;_;hindoue;;;;;;;;;;;;x
-String_FR_Religion_hindu_Masc;_;hindou;;;;;;;;;;;;x
-String_FR_Religion_hindu_PlFem;_;hindoues;;;;;;;;;;;;x
-String_FR_Religion_hindu_PlMasc;_;hindous;;;;;;;;;;;;x
+String_FR_Religion_hindu_Fem;_;hindouiste;;;;;;;;;;;;x
+String_FR_Religion_hindu_Masc;_;hindouiste;;;;;;;;;;;;x
+String_FR_Religion_hindu_PlFem;_;hindouistes;;;;;;;;;;;;x
+String_FR_Religion_hindu_PlMasc;_;hindouistes;;;;;;;;;;;;x
 String_FR_Religion_hurufi_Fem;_;hurufite;;;;;;;;;;;;x
 String_FR_Religion_hurufi_Masc;_;hurufite;;;;;;;;;;;;x
 String_FR_Religion_hurufi_PlFem;_;hurufites;;;;;;;;;;;;x

@@ -1,4 +1,5 @@
 ### FRENCH
+### By Xavier Zimmermann
 
 # Principes :
 # L'écriture de la commande: Get + chaîne au masculin avec majuscule + chaîne au féminin avec majuscule
@@ -3333,7 +3334,6 @@ defined_text = { #2018.10.01
 				title = e_france# France
 				title = e_germany# Germanie
 				title = e_golden_horde# Horde d'Or
-				title = e_russia# Russie
 				title = e_scandinavia# Scandinavie
 				title = e_tartaria# Tartarie
 				title = k_bavaria# Bavière
@@ -3515,6 +3515,7 @@ defined_text = { #2018.10.01
 				title = e_outremer# Outremer
 				title = e_persia# Empire perse
 				title = e_roman_empire# Empire romain
+				title = e_russia# Empire de Rus
 				title = e_seljuk_turks# Empire seldjouk
 				title = e_spain# Hispanie
 				title = e_wendish_empire# Empire wende
@@ -18561,6 +18562,10 @@ defined_text = {
 					rajput = { is_name_randomized = yes }	
 				}
 				AND = {
+					culture = red_panda
+					rajput = { is_name_randomized = yes }	
+				}
+				AND = {
 					culture = roman
 					roman = { is_name_randomized = yes }	
 				}
@@ -19070,6 +19075,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_rajput_Masc
 		trigger = { culture = rajput }
+	}
+	text = {
+		localisation_key = String_FR_Culture_red_panda_Masc
+		trigger = { culture = red_panda }
 	}
 	text = {
 		localisation_key = String_FR_Culture_roman_Masc
@@ -19592,6 +19601,10 @@ defined_text = {
 					rajput = { is_name_randomized = yes }	
 				}
 				AND = {
+					culture = red_panda
+					rajput = { is_name_randomized = yes }	
+				}
+				AND = {
 					culture = roman
 					roman = { is_name_randomized = yes }	
 				}
@@ -20103,6 +20116,10 @@ defined_text = {
 		trigger = { is_female = no culture = rajput }
 	}
 	text = {
+		localisation_key = String_FR_Culture_red_panda_Masc
+		trigger = { is_female = no culture = red_panda }
+	}
+	text = {
 		localisation_key = String_FR_Culture_roman_Masc
 		trigger = { is_female = no culture = roman }
 	}
@@ -20609,6 +20626,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_rajput_Fem
 		trigger = { is_female = yes culture = rajput }
+	}
+	text = {
+		localisation_key = String_FR_Culture_red_panda_Fem
+		trigger = { is_female = yes culture = red_panda }
 	}
 	text = {
 		localisation_key = String_FR_Culture_roman_Fem
@@ -21131,6 +21152,10 @@ defined_text = {
 					rajput = { is_name_randomized = yes }	
 				}
 				AND = {
+					culture = red_panda
+					rajput = { is_name_randomized = yes }	
+				}
+				AND = {
 					culture = roman
 					roman = { is_name_randomized = yes }	
 				}
@@ -21640,6 +21665,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_rajput_PlMasc
 		trigger = { culture = rajput }
+	}
+	text = {
+		localisation_key = String_FR_Culture_red_panda_PlMasc
+		trigger = { culture = red_panda }
 	}
 	text = {
 		localisation_key = String_FR_Culture_roman_PlMasc

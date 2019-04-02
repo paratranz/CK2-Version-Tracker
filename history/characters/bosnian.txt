@@ -78,7 +78,7 @@
 }
 
 468800 = {
-	name="Stjepan"
+	name="Stjepan"   #  Stephen II, Ban of Bosnia.
 	dynasty=34
 	martial=4
 	diplomacy=6
@@ -92,7 +92,7 @@
 	1290.1.1={
 		birth="1290.1.1"
 	}
-	1306.1.1={
+	1324.1.1={
 		add_spouse = 471538
 	}
 	1353.1.1={

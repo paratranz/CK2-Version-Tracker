@@ -800,8 +800,8 @@
 	religion="catholic"
 	culture="occitan"
 	father=40232
-	900.1.1 = {
-		birth="900.1.1"
+	890.1.1 = {
+		birth=yes
 	}
 	#920 married Guillaume de Fézensac 70152
 	962.5.14 = {
@@ -4242,7 +4242,7 @@
 	965.1.1 = {
 		birth="965.1.1"
 	}
-	973.1.1 = {
+	1000.1.1 = {
 		add_spouse=40279 #Beatrix de Normandie
 	}
 	1030.1.1 = {
@@ -10206,8 +10206,8 @@
 	culture="occitan"
 	father=72440
 	mother=138153
-	1273.1.1={
-		birth="1273.1.1"
+	1265.1.1={
+		birth=yes
 	}
 	1338.1.1={
 		death="1338.1.1"
