@@ -41,7 +41,7 @@
 # GetEurEresse
 # GetOuOlle (fou\folle, mou\molle)
 # GetOuOlleOpp
-# GetEauElle
+# GetEauElle (beau\belle)
 # GetSSse (gros\grosse, las\lasse)
 # GetEEsse (traître\traîtresse)
 # GetIeuxIeille (vieux\vieille)
