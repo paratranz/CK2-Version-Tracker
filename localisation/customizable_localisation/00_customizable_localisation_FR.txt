@@ -11398,6 +11398,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -11515,6 +11519,7 @@ defined_text = {
 				religion = zoroastrian # Ahura Mazda
 				religion = druze # Allah
 				religion = hurufi # Allah
+				religion = qarmatian # Allah
 				religion = ibadi # Allah
 				religion = kharijite # Allah
 				religion = shiite # Allah
@@ -11710,6 +11715,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -11827,6 +11836,7 @@ defined_text = {
 				religion = zoroastrian # Ahura Mazda
 				religion = druze # Allah
 				religion = hurufi # Allah
+				religion = qarmatian # Allah
 				religion = ibadi # Allah
 				religion = kharijite # Allah
 				religion = shiite # Allah
@@ -12022,6 +12032,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -12139,6 +12153,7 @@ defined_text = {
 				religion = zoroastrian # Ahura Mazda
 				religion = druze # Allah
 				religion = hurufi # Allah
+				religion = qarmatian # Allah
 				religion = ibadi # Allah
 				religion = kharijite # Allah
 				religion = shiite # Allah
@@ -12334,6 +12349,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -12451,6 +12470,7 @@ defined_text = {
 				religion = zoroastrian # Ahura Mazda
 				religion = druze # Allah
 				religion = hurufi # Allah
+				religion = qarmatian # Allah
 				religion = ibadi # Allah
 				religion = kharijite # Allah
 				religion = shiite # Allah
@@ -12646,6 +12666,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					true_religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					true_religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -12763,6 +12787,7 @@ defined_text = {
 				true_religion = zoroastrian # Ahura Mazda
 				true_religion = druze # Allah
 				true_religion = hurufi # Allah
+				true_religion = qarmatian # Allah
 				true_religion = ibadi # Allah
 				true_religion = kharijite # Allah
 				true_religion = shiite # Allah
@@ -12958,6 +12983,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					true_religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					true_religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -13075,6 +13104,7 @@ defined_text = {
 				true_religion = zoroastrian # Ahura Mazda
 				true_religion = druze # Allah
 				true_religion = hurufi # Allah
+				true_religion = qarmatian # Allah
 				true_religion = ibadi # Allah
 				true_religion = kharijite # Allah
 				true_religion = shiite # Allah
@@ -13270,6 +13300,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					true_religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					true_religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -13387,6 +13421,7 @@ defined_text = {
 				true_religion = zoroastrian # Ahura Mazda
 				true_religion = druze # Allah
 				true_religion = hurufi # Allah
+				true_religion = qarmatian # Allah
 				true_religion = ibadi # Allah
 				true_religion = kharijite # Allah
 				true_religion = shiite # Allah
@@ -13582,6 +13617,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					secret_religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					secret_religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -13699,6 +13738,7 @@ defined_text = {
 				secret_religion = zoroastrian # Ahura Mazda
 				secret_religion = druze # Allah
 				secret_religion = hurufi # Allah
+				secret_religion = qarmatian # Allah
 				secret_religion = ibadi # Allah
 				secret_religion = kharijite # Allah
 				secret_religion = shiite # Allah
@@ -13894,6 +13934,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -13969,6 +14013,7 @@ defined_text = {
 				religion = buddhist # Buddhacavana
 				religion = hindu # Mahabharata
 				religion = hurufi # Coran
+				religion = qarmatian # Coran
 				religion = ibadi # Coran
 				religion = kharijite # Coran
 				religion = mazdaki # Grand Secret
@@ -14205,6 +14250,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -14280,6 +14329,7 @@ defined_text = {
 				religion = buddhist # Buddhacavana
 				religion = hindu # Mahabharata
 				religion = hurufi # Coran
+				religion = qarmatian # Coran
 				religion = ibadi # Coran
 				religion = kharijite # Coran
 				religion = mazdaki # Grand Secret
@@ -14516,6 +14566,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					secret_religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					secret_religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -14591,6 +14645,7 @@ defined_text = {
 				secret_religion = buddhist # Buddhacavana
 				secret_religion = hindu # Mahabharata
 				secret_religion = hurufi # Coran
+				secret_religion = qarmatian # Coran
 				secret_religion = ibadi # Coran
 				secret_religion = kharijite # Coran
 				secret_religion = mazdaki # Grand Secret
@@ -14827,6 +14882,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					secret_religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					secret_religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -14906,6 +14965,7 @@ defined_text = {
 				secret_religion = kharijite # Coran
 				secret_religion = mazdaki # Grand Secret
 				secret_religion = shiite # Coran
+				secret_religion = qarmatian # Coran
 				secret_religion = sunni # Coran
 				secret_religion = taoist # Dao de jing
 				secret_religion = yazidi # Livre de l'Illumination
@@ -15272,6 +15332,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -15513,6 +15577,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Religion_paulician_Masc
 		trigger = { is_female = no religion = paulician }
+	}
+	text = {
+		localisation_key = String_FR_Religion_qarmatian_Masc
+		trigger = { is_female = no religion = qarmatian }
 	}
 	text = {
 		localisation_key = String_FR_Religion_samaritan_Masc
@@ -15771,6 +15839,10 @@ defined_text = {
 		trigger = { is_female = yes religion = paulician }
 	}
 	text = {
+		localisation_key = String_FR_Religion_qarmatian_Fem
+		trigger = { is_female = yes religion = qarmatian }
+	}
+	text = {
 		localisation_key = String_FR_Religion_samaritan_Fem
 		trigger = { is_female = yes religion = samaritan }
 	}
@@ -16015,6 +16087,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -16256,6 +16332,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Religion_paulician_PlMasc
 		trigger = { religion = paulician }
+	}
+	text = {
+		localisation_key = String_FR_Religion_qarmatian_PlMasc
+		trigger = { religion = qarmatian }
 	}
 	text = {
 		localisation_key = String_FR_Religion_samaritan_PlMasc
@@ -16502,6 +16582,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -16743,6 +16827,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Religion_paulician_Masc
 		trigger = { religion = paulician }
+	}
+	text = {
+		localisation_key = String_FR_Religion_qarmatian_Masc
+		trigger = { religion = qarmatian }
 	}
 	text = {
 		localisation_key = String_FR_Religion_samaritan_Masc
@@ -16989,6 +17077,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -17206,6 +17298,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_GetEvilGodLeLaLes_THE_DEVIL
 		trigger = { religion = paulician }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodLeLaLes_IBLIS
+		trigger = { religion = qarmatian }
 	}
 	text = {
 		localisation_key = String_FR_GetEvilGodLeLaLes_SATAN
@@ -17436,6 +17532,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -17653,6 +17753,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_GetEvilGodDuDelaDes_THE_DEVIL
 		trigger = { religion = paulician }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodDuDelaDes_IBLIS
+		trigger = { religion = qarmatian }
 	}
 	text = {
 		localisation_key = String_FR_GetEvilGodDuDelaDes_SATAN
@@ -17883,6 +17987,10 @@ defined_text = {
 					paulician = { is_name_randomized = yes }	
 				}
 				AND = {
+					religion = qarmatian
+					qarmatian = { is_name_randomized = yes }	
+				}
+				AND = {
 					religion = samaritan
 					samaritan = { is_name_randomized = yes }	
 				}
@@ -18100,6 +18208,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_GetEvilGodAAuAux_THE_DEVIL
 		trigger = { religion = paulician }
+	}
+	text = {
+		localisation_key = String_FR_GetEvilGodAAuAux_IBLIS
+		trigger = { religion = qarmatian }
 	}
 	text = {
 		localisation_key = String_FR_GetEvilGodAAuAux_SATAN
@@ -18586,6 +18698,10 @@ defined_text = {
 					samoyed = { is_name_randomized = yes }	
 				}
 				AND = {
+					culture = sardinian
+					sardinian = { is_name_randomized = yes }	
+				}
+				AND = {
 					culture = saxon
 					saxon = { is_name_randomized = yes }	
 				}
@@ -18612,6 +18728,10 @@ defined_text = {
 				AND = {
 					culture = sinhala
 					sinhala = { is_name_randomized = yes }	
+				}
+				AND = {
+					culture = slovieni
+					slovieni = { is_name_randomized = yes }	
 				}
 				AND = {
 					culture = sogdian
@@ -19101,6 +19221,10 @@ defined_text = {
 		trigger = { culture = samoyed }
 	}
 	text = {
+		localisation_key = String_FR_Culture_sardinian_Masc
+		trigger = { culture = sardinian }
+	}
+	text = {
 		localisation_key = String_FR_Culture_saxon_Masc
 		trigger = { culture = saxon }
 	}
@@ -19127,6 +19251,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_sinhala_Masc
 		trigger = { culture = sinhala }
+	}
+	text = {
+		localisation_key = String_FR_Culture_slovieni_Masc
+		trigger = { culture = slovieni }
 	}
 	text = {
 		localisation_key = String_FR_Culture_sogdian_Masc
@@ -19625,6 +19753,10 @@ defined_text = {
 					samoyed = { is_name_randomized = yes }	
 				}
 				AND = {
+					culture = sardinian
+					sardinian = { is_name_randomized = yes }	
+				}
+				AND = {
 					culture = saxon
 					saxon = { is_name_randomized = yes }	
 				}
@@ -19651,6 +19783,10 @@ defined_text = {
 				AND = {
 					culture = sinhala
 					sinhala = { is_name_randomized = yes }	
+				}
+				AND = {
+					culture = slovieni
+					slovieni = { is_name_randomized = yes }	
 				}
 				AND = {
 					culture = sogdian
@@ -20140,6 +20276,10 @@ defined_text = {
 		trigger = { is_female = no culture = samoyed }
 	}
 	text = {
+		localisation_key = String_FR_Culture_sardinian_Masc
+		trigger = { is_female = no culture = sardinian }
+	}
+	text = {
 		localisation_key = String_FR_Culture_saxon_Masc
 		trigger = { is_female = no culture = saxon }
 	}
@@ -20166,6 +20306,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_sinhala_Masc
 		trigger = { is_female = no culture = sinhala }
+	}
+	text = {
+		localisation_key = String_FR_Culture_slovieni_Masc
+		trigger = { is_female = no culture = slovieni }
 	}
 	text = {
 		localisation_key = String_FR_Culture_sogdian_Masc
@@ -20652,6 +20796,10 @@ defined_text = {
 		trigger = { is_female = yes culture = samoyed }
 	}
 	text = {
+		localisation_key = String_FR_Culture_sardinian_Fem
+		trigger = { is_female = yes culture = sardinian }
+	}
+	text = {
 		localisation_key = String_FR_Culture_saxon_Fem
 		trigger = { is_female = yes culture = saxon }
 	}
@@ -20678,6 +20826,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_sinhala_Fem
 		trigger = { is_female = yes culture = sinhala }
+	}
+	text = {
+		localisation_key = String_FR_Culture_slovieni_Fem
+		trigger = { is_female = yes culture = slovieni }
 	}
 	text = {
 		localisation_key = String_FR_Culture_sogdian_Fem
@@ -21176,6 +21328,10 @@ defined_text = {
 					samoyed = { is_name_randomized = yes }	
 				}
 				AND = {
+					culture = sardinian
+					sardinian = { is_name_randomized = yes }	
+				}
+				AND = {
 					culture = saxon
 					saxon = { is_name_randomized = yes }	
 				}
@@ -21202,6 +21358,10 @@ defined_text = {
 				AND = {
 					culture = sinhala
 					sinhala = { is_name_randomized = yes }	
+				}
+				AND = {
+					culture = slovieni
+					slovieni = { is_name_randomized = yes }	
 				}
 				AND = {
 					culture = sogdian
@@ -21691,6 +21851,10 @@ defined_text = {
 		trigger = { culture = samoyed }
 	}
 	text = {
+		localisation_key = String_FR_Culture_sardinian_PlMasc
+		trigger = { culture = sardinian }
+	}
+	text = {
 		localisation_key = String_FR_Culture_saxon_PlMasc
 		trigger = { culture = saxon }
 	}
@@ -21717,6 +21881,10 @@ defined_text = {
 	text = {
 		localisation_key = String_FR_Culture_sinhala_PlMasc
 		trigger = { culture = sinhala }
+	}
+	text = {
+		localisation_key = String_FR_Culture_slovieni_PlMasc
+		trigger = { culture = slovieni }
 	}
 	text = {
 		localisation_key = String_FR_Culture_sogdian_PlMasc

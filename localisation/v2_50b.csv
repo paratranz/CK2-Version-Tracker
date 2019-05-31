@@ -921,10 +921,10 @@ EVTOPTC_ZE_13611_CARP;Suggest a secluded cuddle inside the barn.;Suggérer un câl
 EVTOPTC_ZE_13611_FERR;Suggest a secluded cuddle inside the barn.;Suggérer un câlin en cachette dans la grange.;Ich schlage vor, uns demnächst zum Kuscheln im Schuppen zu treffen.;;Sugerir unos arrumacos a escondidas dentro del granero.;;;;;;;;;x
 revoke_title_law;Revoke Title;Révocation de titres;Titel aberkennen;;Revocar título;;;;;;;;;x
 revoke_title_law_desc;Laws governing the right of a ruler to revoke titles from its subjects.;Les lois relatives au droit d'un dirigeant de révoquer les titres de ses sujets.;Gesetze zur Regelung der Aberkennung von Titeln durch den Herrscher.;;Leyes que rigen el derecho de un gobernante a revocar los títulos de sus súbditos.;;;;;;;;;x
-revoke_title_law_0;Title Revocation Disallowed;Révocation de titres non autorisée;Aberkennung von Titeln verboten;;Revocación de títulos no permitida;;;;;;;;;x
+revoke_title_law_0;Title Revocation Disallowed;Révocation de titres non permise;Aberkennung von Titeln verboten;;Revocación de títulos no permitida;;;;;;;;;x
 revoke_title_law_0_desc;The ruler is not under any circumstances allowed to interfere in the ownership of hereditary titles.;Quelles que soient les circonstances, le dirigeant n'est pas autorisé à interférer dans la propriété de titres héréditaires.;Dem Herrscher ist es unter allen Umständen verboten, Einfluss auf die Vergabe erblicher Titel zu nehmen.;;El gobernante no puede interferir en ningún caso en la propiedad de títulos hereditarios.;;;;;;;;;x
 revoke_title_law_0_option;None;Aucune;Keine;;Ninguno;;;;;;;;;x
-revoke_title_law_1;Title Revocation Allowed;Révocation de titre autorisée;Aberkennung von Titeln erlaubt;;Revocación de título permitida;;;;;;;;;x
+revoke_title_law_1;Title Revocation Allowed;Révocation de titre permise;Aberkennung von Titeln erlaubt;;Revocación de título permitida;;;;;;;;;x
 revoke_title_law_1_desc;The ruler is allowed to legally seize hereditary titles from traitors and unlawful subjects.;Le dirigeant peut légalement s'emparer des titres héréditaires des traîtres et des sujets enfreignant la loi.;Dem Herrscher ist es von Rechts wegen erlaubt, erbliche Titel abzuerkennen, wenn es sich um Verräter oder Straffällige handelt.;;El gobernante puede legalmente apoderarse de los títulos hereditarios de súbditos traidores e inmorales.;;;;;;;;;x
 revoke_title_law_1_option;Allowed;Autorisée;Erlaubt;;Permitido;;;;;;;;;x
 revoke_title_law_2;Religious Control Mandate;Mandat de contrôle religieux;Religiöse Handhabe;;Mandato de control religioso;;;;;;;;;x

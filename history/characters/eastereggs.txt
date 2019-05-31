@@ -2139,7 +2139,7 @@
 		birth = yes
 	}
 	769.1.1 = {
-		employer = 34002 # Al-Mansur
+		employer = 188575
 	}
 	769.1.2 = {
 		death = yes
@@ -2899,8 +2899,8 @@
 }
 
 220899 = {
-	name = Linnéa
-	dynasty = 1051899 #Thimrén
+	name = Linnï¿½a
+	dynasty = 1051899 #Thimrï¿½n
 	easter_egg=yes
 	religion = catholic
 	culture = swedish
@@ -2930,7 +2930,7 @@
 
 220900 = {
 	name = Deric
-	dynasty = 1053020 #Norð
+	dynasty = 1053020 #Norï¿½
 	easter_egg=yes
 	religion = catholic
 	culture = swedish

@@ -868,3 +868,84 @@
 		death=yes
 	}
 }
+260688 = {
+	name = "Vlad"
+	dynasty = 1062314 
+	religion = orthodox
+	culture = romanian
+	903.1.1 = {
+		birth = yes
+	}
+	951.1.1 = {
+		death = yes
+	}
+}
+260691 = {
+	name = "Franjo"
+	dynasty = 1062317
+	religion = orthodox
+	culture = romanian
+	913.1.1 = {
+		birth = yes
+	}
+	946.1.1 = {
+		death = yes
+	}
+}
+260692 = {
+	name = "Marin"
+	dynasty = 1062318
+	religion = orthodox
+	culture = romanian
+	902.1.1 = {
+		birth = yes
+	}
+	938.1.1 = {
+		death = yes
+	}
+}
+261395 = {
+	name=Glad # semi-historical
+	dynasty=1069077
+	religion=orthodox
+	culture=romanian
+	trait=brave
+	trait=tough_soldier
+	trait=ambitious
+	870.1.1={
+		birth=yes # maybe
+	}
+	937.1.1={
+		death=yes # maybe
+	}
+}
+
+261396 = {
+	name=Vlad # possible unknown descendant
+	dynasty=1069077
+	religion=orthodox
+	culture=romanian
+	trait=patient
+	trait=tough_soldier
+	father=261395
+	910.1.1={
+		birth=yes # maybe
+	}
+	980.1.1={
+		death=yes # maybe
+	}
+}
+
+261397 = {
+	name=Ahtum # rumoured descendant
+	dynasty=1069077
+	religion=orthodox
+	culture=romanian
+	father=261396
+	945.1.1={
+		birth=yes # maybe
+	}
+	1011.1.1={
+		death=yes # maybe
+	}
+}

@@ -1,6 +1,7 @@
 localisation
 common/cultures
 common/dynasties
+common/religions
 history/characters
 history/wars
 

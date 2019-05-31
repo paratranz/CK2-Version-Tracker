@@ -1840,3 +1840,27 @@ father=93263
 		death=yes
 	}
 }
+261078 = {
+	name = "Chala"
+	dynasty = 1062516
+	religion = tengri_pagan
+	culture = khitan
+	905.1.1 = {
+		birth = yes
+	}
+	949.1.1 = {
+		death = yes
+	}
+}
+261079 = {
+	name = "Keling"
+	dynasty = 1062517
+	religion = tengri_pagan
+	culture = khitan
+	896.1.1 = {
+		birth = yes
+	}
+	967.1.1 = {
+		death = yes
+	}
+}

@@ -4223,3 +4223,29 @@
 		death=yes
 	}
 }
+
+261124 = {
+	name = "Mahendrapala"
+	dynasty = 1062555
+	religion = buddhist
+	culture = bengali
+	904.1.1 = {
+		birth = yes
+	}
+	945.1.1 = {
+		death = yes
+	}
+}
+
+261126 = {
+	name = "Eappen"
+	dynasty = 1062557
+	religion = buddhist
+	culture = bengali
+	908.1.1 = {
+		birth = yes
+	}
+	951.1.1 = {
+		death = yes
+	}
+}

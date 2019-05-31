@@ -1250,3 +1250,15 @@
 		death=yes
 	}
 }
+261130 = {
+	name = "Ratnapala"
+	dynasty = 1062560
+	religion = buddhist
+	culture = assamese
+	906.1.1 = {
+		birth = yes
+	}
+	967.1.1 = {
+		death = yes
+	}
+}

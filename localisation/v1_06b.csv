@@ -14,7 +14,7 @@ job_chancellor_west_african;Grand Vizier;Grand vizir;Großwesir;;Gran Visir;;;;;;
 emperor_arabic;Badshah;Badshah;Badshah;;Badshah;;;;;;;;;x
 CALIPHA;Calipha;Califa;Kalifa;;Califa;;;;;;;;;x
 PIETY_LAW_PASSED_SETUP;Muslim Law Instituted;Loi musulmane instituée;Muslimisches Gesetz eingeführt;;Ley Musulmana Aprobada;;;;;;;;;x
-PIETY_LAW_PASSED_LOG;§Y$RULER$§! has instituted the §Y$LAW$§! Law in §Y$TITLE$§!.;§Y$RULER$§! a institué la loi §Y$LAW$§! en §Y$TITLE$§!.;§Y$RULER$§! hat das Gesetz "§Y$LAW$§!" in §Y$TITLE$§! eingeführt.;;§Y$RULER$§! ha instituido la  ley §Y$LAW$§! en §Y$TITLE$§!.;;;;;;;;;x
+PIETY_LAW_PASSED_LOG;§Y$RULER$§! has instituted the §Y$LAW$§! Law in §Y$TITLE$§!.;§Y$RULER$§! a institué la loi « §Y$LAW$§! » en §Y$TITLE$§!.;§Y$RULER$§! hat das Gesetz "§Y$LAW$§!" in §Y$TITLE$§! eingeführt.;;§Y$RULER$§! ha instituido la  ley §Y$LAW$§! en §Y$TITLE$§!.;;;;;;;;;x
 DISBAND_EVENT_FORCES;Event spawned troops disband;Démobiliser les troupes créées par un évènement;Durch Ereignis erschienene Truppen werden aufgelöst;;Disolver las tropas creadas por evento;;;;;;;;;x
 iqta_contract;Iqta Levies;Levée (iqtâ);Iqta-Wehrpflichtige;;Leva Iqtá;;;;;;;;;x
 iqta_contract_desc;Iqta Levy Laws control the proportion of their levies that Muslim vassal lords nominally have to provide their liege.;En gouvernement de type iqtâ les lois de conscription déterminent le pourcentage de troupes que les vassaux doivent fournir à leur seigneur lige.;Das Iqta-Wehrpflichtigenrecht regelt, welchen Anteil ihrer Wehrpflichtigen muslimische Vasallen nominell ihren Herren zur Verfügung stellen müssen.;;La ley de levas Iqtá determina la proporción de leva con la que los vasallos Musulmanes tienen que proveer a sus señores.;;;;;;;;;x
