@@ -26,6 +26,7 @@ decisions/jd_decisions.txt
 
 events/byzantine_events.txt
 events/cm_charlemagne_story_events.txt
+events/emperor_ticket_easter_eggs.txt
 events/hashshashin_order_events.txt
 events/hippodrome_events.txt
 events/interesting_muslims.txt
@@ -35,7 +36,6 @@ events/mongol_events.txt
 events/oldgods_historical_events.txt
 events/polygamy_events.txt
 events/rip_eternal_life_events.txt
-events/rip_physician_events.txt
 events/roi_guru_events.txt
 events/soa_misc_religious_events.txt
 events/soa_various_events.txt
