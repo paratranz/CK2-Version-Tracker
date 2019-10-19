@@ -1,4 +1,5 @@
 *.sh
 *.zip
+game.folder.txt
 node_modules
 

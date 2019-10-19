@@ -1,16 +1,20 @@
 const path = require('path')
 const {execSync} = require('child_process')
 const fs = require('fs-extra')
-const defaultDir = 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Crusader Kings II'
+const gameFolder = fs.readFileSync('./game.folder.txt').toString()
+
+if (!gameFolder) {
+  console.error('No game folder provided')
+  process.exit(1)
+}
 
 const version = fs.readFileSync(path.join(__dirname, 'version.txt'))
-const gameDir = process.argv[3] || defaultDir
 const diffDir = path.join(__dirname, 'diff')
 
 const filelist = fs.readFileSync(path.join(__dirname, 'filelist.txt')).toString().split(/\r?\n/).filter(line => line && line.trim())
 
 for (const item of filelist) {
-  fs.copySync(path.join(gameDir, item), path.join(__dirname, item))
+  fs.copySync(path.join(gameFolder, item), path.join(__dirname, item))
   console.log(item, 'copied')
 }
 

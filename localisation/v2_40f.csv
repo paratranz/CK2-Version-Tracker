@@ -85,7 +85,7 @@ HORDE_RETTYPE_CAV5;Light Vanguard;Première ligne légère;Leichte Vorhut;;Vanguard
 HORDE_RETTYPE_CAV6;Heavy Vanguard;Première ligne lourde;Schwere Vorhut;;Vanguardia pesada;;;;;;;;;x
 HORDE_RETTYPE_CAV7;Horse Archer;Archers à cheval;Berittene Bogenschützen;;Arquero a caballo;;;;;;;;;x
 HORDE_RETTYPE_EUROPE;Lancer;Lanciers;Lanzenreiter;;Lancero;;;;;;;;;x
-RELIGION_ALLOWS_FEMALE_TEMPLE_HOLDERS;The religion of §Y$CHAR$§! allows female temple holders and female spiritual councillors;La religion de §Y$CHAR$§! autorise les prêtresses;Die Religion von §Y$CHAR$§! erlaubt weibliche Tempelverwalter.;;La religión de §Y$CHAR$§! permite que las mujeres posean templos;;;;;;;;;x
+RELIGION_ALLOWS_FEMALE_TEMPLE_HOLDERS;The religion of §Y$CHAR$§! allows female temple holders and female spiritual councilors;La religion de §Y$CHAR$§! autorise les prêtresses;Die Religion von §Y$CHAR$§! erlaubt weibliche Tempelverwalter.;;La religión de §Y$CHAR$§! permite que las mujeres posean templos;;;;;;;;;x
 HAS_LOWER_POPULATION_AND_MANPOWER_THAN;Have lower Population and Manpower than ;Avoir une population et des effectifs inférieurs à ;Niedrigere Bevölkerung und Mannstärke als ;;Tiene menor población y mano de obra que;;;;;;;;;x
 HAS_HIGHER_POPULATION_AND_MANPOWER_THAN;Have higher Population and Manpower than ;Avoir une population et des effectifs supérieurs à ;Höhere Bevölkerung und Mannstärke als ;;Tiene mayor población y mano de obra que;;;;;;;;;x
 HAS_LOWER_POPULATION_AND_MANPOWER_GROWTH_THAN;Have lower Civilian Population Growth than ;Avoir une croissance de population civile inférieure à ;Niedrigeres Zivilbevölkerungswachstum als ;;Tiene menor crecimiento de la población que;;;;;;;;;x
